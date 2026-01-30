@@ -1,0 +1,1998 @@
+Season,Week,Name,Judge_Raw_Score,Judge_Percent,Est_Fan_Percent_Mean,Est_Fan_Percent_Std,Acceptance_Rate,Actual_Result
+3,1,Harry Hamlin,17.0,8.02,10.04,8.64,32.58,Safe
+3,1,Vivica A. Fox,22.0,10.38,9.58,8.69,32.58,Safe
+3,1,Monique Coleman,19.0,8.96,9.73,8.61,32.58,Safe
+3,1,Joey Lawrence,21.0,9.91,9.64,8.67,32.58,Safe
+3,1,Mario Lopez,26.0,12.26,9.55,8.64,32.58,Safe
+3,1,Emmitt Smith,24.0,11.32,9.49,8.6,32.58,Safe
+3,1,Shanna Moakler,18.0,8.49,9.88,8.62,32.58,Safe
+3,1,Willa Ford,22.0,10.38,9.55,8.62,32.58,Safe
+3,1,Sara Evans,15.0,7.08,10.37,8.71,32.58,Safe
+3,1,Jerry Springer,16.0,7.55,10.17,8.62,32.58,Safe
+3,1,Tucker Carlson,12.0,5.66,2.01,1.45,32.58,Eliminated
+3,2,Harry Hamlin,21.0,9.13,11.09,3.97,11.15,Safe
+3,2,Vivica A. Fox,24.0,10.43,10.22,3.95,11.15,Safe
+3,2,Monique Coleman,26.0,11.3,10.11,4.05,11.15,Safe
+3,2,Joey Lawrence,29.0,12.61,9.9,4.14,11.15,Safe
+3,2,Mario Lopez,21.0,9.13,10.67,3.77,11.15,Safe
+3,2,Emmitt Smith,24.0,10.43,10.17,3.95,11.15,Safe
+3,2,Shanna Moakler,22.0,9.57,4.56,1.32,11.15,Eliminated
+3,2,Willa Ford,23.0,10.0,10.41,3.96,11.15,Safe
+3,2,Sara Evans,21.0,9.13,11.32,3.98,11.15,Safe
+3,2,Jerry Springer,19.0,8.26,11.55,3.89,11.15,Safe
+3,3,Harry Hamlin,22.0,10.63,5.56,1.47,10.22,Eliminated
+3,3,Vivica A. Fox,27.0,13.04,10.96,4.12,10.22,Safe
+3,3,Monique Coleman,27.0,13.04,10.8,4.21,10.22,Safe
+3,3,Joey Lawrence,22.0,10.63,11.4,3.91,10.22,Safe
+3,3,Mario Lopez,22.0,10.63,12.06,4.07,10.22,Safe
+3,3,Emmitt Smith,19.0,9.18,12.35,3.87,10.22,Safe
+3,3,Willa Ford,22.0,10.63,11.77,4.02,10.22,Safe
+3,3,Sara Evans,25.0,12.08,12.12,4.32,10.22,Safe
+3,3,Jerry Springer,21.0,10.14,12.97,4.25,10.22,Safe
+3,4,Vivica A. Fox,24.0,12.12,6.34,1.73,17.68,Eliminated
+3,4,Monique Coleman,24.0,12.12,12.56,4.07,17.68,Safe
+3,4,Joey Lawrence,27.0,13.64,12.56,4.32,17.68,Safe
+3,4,Mario Lopez,29.0,14.65,12.95,4.53,17.68,Safe
+3,4,Emmitt Smith,24.0,12.12,13.78,4.37,17.68,Safe
+3,4,Willa Ford,28.0,14.14,12.75,4.4,17.68,Safe
+3,4,Sara Evans,20.0,10.1,14.43,4.11,17.68,Safe
+3,4,Jerry Springer,22.0,11.11,14.64,4.37,17.68,Safe
+3,5,Monique Coleman,27.0,14.92,14.5,4.35,13.64,Safe
+3,5,Joey Lawrence,25.0,13.81,14.87,4.18,13.64,Safe
+3,5,Mario Lopez,27.0,14.92,14.71,4.35,13.64,Safe
+3,5,Emmitt Smith,27.0,14.92,15.42,4.53,13.64,Safe
+3,5,Willa Ford,27.0,14.92,7.43,1.81,13.64,Eliminated
+3,5,Sara Evans,24.0,13.26,16.45,4.5,13.64,Safe
+3,5,Jerry Springer,24.0,13.26,16.62,4.49,13.64,Safe
+3,6,Monique Coleman,23.0,19.49,19.03,5.48,100.0,Safe
+3,6,Joey Lawrence,24.0,20.34,19.53,5.57,100.0,Safe
+3,6,Mario Lopez,28.0,23.73,19.34,5.54,100.0,Safe
+3,6,Emmitt Smith,25.0,21.19,20.27,5.63,100.0,Safe
+3,6,Jerry Springer,18.0,15.25,21.83,5.78,100.0,Safe
+3,7,Monique Coleman,27.0,20.0,21.02,4.85,27.06,Safe
+3,7,Joey Lawrence,28.5,21.11,20.98,5.01,27.06,Safe
+3,7,Mario Lopez,28.0,20.74,20.92,4.94,27.06,Safe
+3,7,Emmitt Smith,28.5,21.11,21.53,5.16,27.06,Safe
+3,7,Jerry Springer,23.0,17.04,15.56,2.78,27.06,Eliminated
+3,8,Monique Coleman,26.5,24.31,18.56,3.07,29.21,Eliminated
+3,8,Joey Lawrence,27.0,24.77,27.18,5.06,29.21,Safe
+3,8,Mario Lopez,28.5,26.15,26.61,5.17,29.21,Safe
+3,8,Emmitt Smith,27.0,24.77,27.65,5.13,29.21,Safe
+3,9,Joey Lawrence,29.5,33.33,33.37,6.6,100.0,Safe
+3,9,Mario Lopez,29.5,33.33,32.64,6.56,100.0,Safe
+3,9,Emmitt Smith,29.5,33.33,33.99,6.63,100.0,Safe
+3,10,Mario Lopez,29.666600000000003,50.0,48.97,6.99,100.0,Safe
+3,10,Emmitt Smith,29.666600000000003,50.0,51.03,6.99,100.0,Safe
+4,1,John Ratzenberger,17.0,8.25,9.07,8.3,100.0,Safe
+4,1,Ian Ziering,21.0,10.19,9.08,8.3,100.0,Safe
+4,1,Clyde Drexler,16.0,7.77,9.09,8.34,100.0,Safe
+4,1,Laila Ali,23.0,11.17,9.05,8.25,100.0,Safe
+4,1,Apolo Anton Ohno,21.0,10.19,9.08,8.28,100.0,Safe
+4,1,Shandi Finnessey,19.0,9.22,9.12,8.31,100.0,Safe
+4,1,Paulina Porizkova,19.0,9.22,9.09,8.32,100.0,Safe
+4,1,Heather Mills,18.0,8.74,9.11,8.3,100.0,Safe
+4,1,Billy Ray Cyrus,13.0,6.31,9.11,8.32,100.0,Safe
+4,1,Joey Fatone,24.0,11.65,9.11,8.34,100.0,Safe
+4,1,Leeza Gibbons,15.0,7.28,9.08,8.29,100.0,Safe
+4,2,John Ratzenberger,21.0,8.57,9.74,3.8,10.79,Safe
+4,2,Ian Ziering,22.0,8.98,9.56,3.82,10.79,Safe
+4,2,Clyde Drexler,18.0,7.35,10.29,3.64,10.79,Safe
+4,2,Laila Ali,27.0,11.02,9.16,3.96,10.79,Safe
+4,2,Apolo Anton Ohno,26.0,10.61,9.23,3.96,10.79,Safe
+4,2,Shandi Finnessey,20.0,8.16,9.95,3.77,10.79,Safe
+4,2,Paulina Porizkova,21.0,8.57,3.92,1.21,10.79,Eliminated
+4,2,Heather Mills,24.0,9.8,9.33,3.85,10.79,Safe
+4,2,Billy Ray Cyrus,21.0,8.57,9.72,3.75,10.79,Safe
+4,2,Joey Fatone,24.0,9.8,9.35,3.87,10.79,Safe
+4,2,Leeza Gibbons,21.0,8.57,9.75,3.79,10.79,Safe
+4,3,John Ratzenberger,20.0,9.17,10.89,3.83,9.62,Safe
+4,3,Ian Ziering,24.0,11.01,10.27,4.08,9.62,Safe
+4,3,Clyde Drexler,16.0,7.34,12.32,3.85,9.62,Safe
+4,3,Laila Ali,21.0,9.63,10.37,3.82,9.62,Safe
+4,3,Apolo Anton Ohno,23.0,10.55,10.1,3.85,9.62,Safe
+4,3,Shandi Finnessey,21.0,9.63,4.6,1.31,9.62,Eliminated
+4,3,Heather Mills,24.0,11.01,10.03,3.98,9.62,Safe
+4,3,Billy Ray Cyrus,21.0,9.63,10.86,3.89,9.62,Safe
+4,3,Joey Fatone,24.0,11.01,10.08,3.98,9.62,Safe
+4,3,Leeza Gibbons,24.0,11.01,10.48,4.14,9.62,Safe
+4,4,John Ratzenberger,16.0,8.42,12.72,4.08,27.91,Safe
+4,4,Ian Ziering,24.0,12.63,11.02,4.28,27.91,Safe
+4,4,Clyde Drexler,15.0,7.89,14.08,4.32,27.91,Safe
+4,4,Laila Ali,21.0,11.05,11.42,4.17,27.91,Safe
+4,4,Apolo Anton Ohno,26.0,13.68,10.74,4.27,27.91,Safe
+4,4,Heather Mills,23.0,12.11,10.87,4.19,27.91,Safe
+4,4,Billy Ray Cyrus,21.0,11.05,11.88,4.33,27.91,Safe
+4,4,Joey Fatone,28.0,14.74,10.67,4.32,27.91,Safe
+4,4,Leeza Gibbons,16.0,8.42,6.6,1.85,27.91,Eliminated
+4,5,John Ratzenberger,18.0,10.23,14.76,4.53,27.15,Safe
+4,5,Ian Ziering,24.0,13.64,12.39,4.43,27.15,Safe
+4,5,Clyde Drexler,13.0,7.39,9.79,2.22,27.15,Eliminated
+4,5,Laila Ali,28.0,15.91,12.5,4.57,27.15,Safe
+4,5,Apolo Anton Ohno,30.0,17.05,11.73,4.53,27.15,Safe
+4,5,Heather Mills,21.0,11.93,12.62,4.31,27.15,Safe
+4,5,Billy Ray Cyrus,17.0,9.66,14.29,4.32,27.15,Safe
+4,5,Joey Fatone,25.0,14.2,11.92,4.39,27.15,Safe
+4,6,John Ratzenberger,19.0,11.18,17.99,4.54,19.85,Safe
+4,6,Ian Ziering,24.0,14.12,14.84,4.33,19.85,Safe
+4,6,Laila Ali,28.0,16.47,14.33,4.6,19.85,Safe
+4,6,Apolo Anton Ohno,28.0,16.47,13.58,4.44,19.85,Safe
+4,6,Heather Mills,23.0,13.53,8.31,1.97,19.85,Eliminated
+4,6,Billy Ray Cyrus,21.0,12.35,17.08,4.59,19.85,Safe
+4,6,Joey Fatone,27.0,15.88,13.86,4.4,19.85,Safe
+4,7,John Ratzenberger,22.5,14.56,12.12,2.26,13.58,Eliminated
+4,7,Ian Ziering,27.0,17.48,17.48,4.68,13.58,Safe
+4,7,Laila Ali,29.5,19.09,16.48,4.71,13.58,Safe
+4,7,Apolo Anton Ohno,27.0,17.48,16.43,4.43,13.58,Safe
+4,7,Billy Ray Cyrus,19.0,12.3,21.41,4.54,13.58,Safe
+4,7,Joey Fatone,29.5,19.09,16.07,4.67,13.58,Safe
+4,8,Ian Ziering,23.5,18.73,22.33,4.92,24.4,Safe
+4,8,Laila Ali,26.5,21.12,20.48,4.95,24.4,Safe
+4,8,Apolo Anton Ohno,29.0,23.11,19.9,5.13,24.4,Safe
+4,8,Billy Ray Cyrus,19.0,15.14,17.43,2.84,24.4,Eliminated
+4,8,Joey Fatone,27.5,21.91,19.86,4.94,24.4,Safe
+4,9,Ian Ziering,29.0,24.47,19.07,2.84,17.92,Eliminated
+4,9,Laila Ali,30.0,25.32,27.24,4.99,17.92,Safe
+4,9,Apolo Anton Ohno,29.5,24.89,26.94,4.83,17.92,Safe
+4,9,Joey Fatone,30.0,25.32,26.75,4.85,17.92,Safe
+4,10,Laila Ali,28.333200000000005,32.82,33.68,6.61,100.0,Safe
+4,10,Apolo Anton Ohno,29.3332,33.98,33.31,6.59,100.0,Safe
+4,10,Joey Fatone,28.6665,33.2,33.01,6.6,100.0,Safe
+5,1,Cameron Mathison,21.0,8.17,8.95,8.0,25.95,Safe
+5,1,Jane Seymour,24.0,9.34,8.77,7.97,25.95,Safe
+5,1,Sabrina Bryan,26.0,10.12,8.73,7.93,25.95,Safe
+5,1,Jennie Garth,21.0,8.17,8.87,7.86,25.95,Safe
+5,1,Floyd Mayweather Jr. ,18.0,7.0,9.51,7.99,25.95,Safe
+5,1,Josie Maran,16.0,6.23,1.45,1.04,25.95,Eliminated
+5,1,Albert Reed,21.0,8.17,8.97,8.03,25.95,Safe
+5,1,Helio Castroneves,25.0,9.73,8.71,8.01,25.95,Safe
+5,1,Mel B,24.0,9.34,8.8,8.06,25.95,Safe
+5,1,Wayne Newton,19.0,7.39,9.31,8.02,25.95,Safe
+5,1,Marie Osmond,21.0,8.17,9.03,8.06,25.95,Safe
+5,1,Mark Cuban,21.0,8.17,8.89,7.92,25.95,Safe
+5,2,Cameron Mathison,21.0,8.82,9.63,3.76,8.77,Safe
+5,2,Jane Seymour,21.0,8.82,9.48,3.72,8.77,Safe
+5,2,Sabrina Bryan,26.0,10.92,8.92,3.89,8.77,Safe
+5,2,Jennie Garth,21.0,8.82,9.57,3.77,8.77,Safe
+5,2,Floyd Mayweather Jr. ,21.0,8.82,10.05,3.93,8.77,Safe
+5,2,Albert Reed,21.0,8.82,3.71,1.17,8.77,Eliminated
+5,2,Helio Castroneves,27.0,11.34,8.89,3.93,8.77,Safe
+5,2,Mel B,23.0,9.66,9.21,3.82,8.77,Safe
+5,2,Wayne Newton,15.0,6.3,11.12,3.58,8.77,Safe
+5,2,Marie Osmond,24.0,10.08,9.3,3.87,8.77,Safe
+5,2,Mark Cuban,18.0,7.56,10.11,3.59,8.77,Safe
+5,3,Cameron Mathison,23.0,9.62,10.73,4.02,17.44,Safe
+5,3,Jane Seymour,27.0,11.3,10.2,4.14,17.44,Safe
+5,3,Sabrina Bryan,27.0,11.3,9.65,4.02,17.44,Safe
+5,3,Jennie Garth,26.0,10.88,10.37,4.16,17.44,Safe
+5,3,Floyd Mayweather Jr. ,21.0,8.79,11.38,4.07,17.44,Safe
+5,3,Helio Castroneves,24.0,10.04,9.93,3.92,17.44,Safe
+5,3,Mel B,27.0,11.3,9.98,4.09,17.44,Safe
+5,3,Wayne Newton,18.0,7.53,6.11,1.57,17.44,Eliminated
+5,3,Marie Osmond,26.0,10.88,10.07,4.06,17.44,Safe
+5,3,Mark Cuban,20.0,8.37,11.59,4.03,17.44,Safe
+5,4,Cameron Mathison,27.0,11.54,11.97,4.27,13.74,Safe
+5,4,Jane Seymour,26.0,11.11,11.62,4.09,13.74,Safe
+5,4,Sabrina Bryan,30.0,12.82,10.71,4.1,13.74,Safe
+5,4,Jennie Garth,27.0,11.54,11.63,4.22,13.74,Safe
+5,4,Floyd Mayweather Jr. ,23.0,9.83,6.21,1.58,13.74,Eliminated
+5,4,Helio Castroneves,27.0,11.54,11.27,4.06,13.74,Safe
+5,4,Mel B,26.0,11.11,11.56,4.12,13.74,Safe
+5,4,Marie Osmond,26.0,11.11,11.58,4.09,13.74,Safe
+5,4,Mark Cuban,22.0,9.4,13.45,4.27,13.74,Safe
+5,5,Cameron Mathison,26.0,13.07,13.44,4.47,14.0,Safe
+5,5,Jane Seymour,26.0,13.07,13.12,4.41,14.0,Safe
+5,5,Sabrina Bryan,28.0,14.07,12.08,4.27,14.0,Safe
+5,5,Jennie Garth,25.0,12.56,13.21,4.33,14.0,Safe
+5,5,Helio Castroneves,23.0,11.56,13.38,4.14,14.0,Safe
+5,5,Mel B,29.0,14.57,12.78,4.52,14.0,Safe
+5,5,Marie Osmond,21.0,10.55,14.04,4.1,14.0,Safe
+5,5,Mark Cuban,21.0,10.55,7.93,1.78,14.0,Eliminated
+5,6,Cameron Mathison,25.0,13.89,15.53,4.5,21.69,Safe
+5,6,Jane Seymour,22.0,12.22,15.95,4.26,21.69,Safe
+5,6,Sabrina Bryan,25.0,13.89,7.84,1.96,21.69,Eliminated
+5,6,Jennie Garth,27.0,15.0,15.01,4.57,21.69,Safe
+5,6,Helio Castroneves,28.0,15.56,15.03,4.67,21.69,Safe
+5,6,Mel B,30.0,16.67,14.23,4.61,21.69,Safe
+5,6,Marie Osmond,23.0,12.78,16.41,4.5,21.69,Safe
+5,7,Cameron Mathison,25.5,16.35,18.26,4.68,16.97,Safe
+5,7,Jane Seymour,25.0,16.03,10.66,2.17,16.97,Eliminated
+5,7,Jennie Garth,26.5,16.99,17.59,4.65,16.97,Safe
+5,7,Helio Castroneves,26.0,16.67,17.75,4.66,16.97,Safe
+5,7,Mel B,27.0,17.31,16.82,4.51,16.97,Safe
+5,7,Marie Osmond,26.0,16.67,18.92,4.89,16.97,Safe
+5,8,Cameron Mathison,25.5,19.39,13.71,2.55,20.99,Eliminated
+5,8,Jennie Garth,25.0,19.01,21.86,4.67,20.99,Safe
+5,8,Helio Castroneves,28.5,21.67,20.96,5.03,20.99,Safe
+5,8,Mel B,28.0,21.29,20.36,4.84,20.99,Safe
+5,8,Marie Osmond,24.5,18.63,23.11,4.94,20.99,Safe
+5,9,Jennie Garth,29.0,24.79,18.39,2.92,24.26,Eliminated
+5,9,Helio Castroneves,30.0,25.64,26.58,5.02,24.26,Safe
+5,9,Mel B,30.0,25.64,26.07,4.89,24.26,Safe
+5,9,Marie Osmond,28.0,23.93,28.96,5.19,24.26,Safe
+5,10,Helio Castroneves,27.999900000000004,35.29,32.59,6.56,100.0,Safe
+5,10,Mel B,28.333199999999998,35.71,31.93,6.54,100.0,Safe
+5,10,Marie Osmond,23.0,28.99,35.48,6.7,100.0,Safe
+6,1,Cristian de la Fuente,21.0,8.64,8.34,7.68,100.0,Safe
+6,1,Steve Guttenberg,18.0,7.41,8.33,7.67,100.0,Safe
+6,1,Priscilla Presley,24.0,9.88,8.31,7.62,100.0,Safe
+6,1,Marlee Matlin,22.0,9.05,8.36,7.66,100.0,Safe
+6,1,Shannon Elizabeth,21.0,8.64,8.33,7.67,100.0,Safe
+6,1,Marissa Jaret Winokur,18.0,7.41,8.31,7.66,100.0,Safe
+6,1,Jason Taylor,22.0,9.05,8.34,7.65,100.0,Safe
+6,1,Kristi Yamaguchi,27.0,11.11,8.35,7.67,100.0,Safe
+6,1,Monica Seles,15.0,6.17,8.32,7.65,100.0,Safe
+6,1,Penn Jillette,16.0,6.58,8.34,7.7,100.0,Safe
+6,1,Adam Carolla,15.0,6.17,8.34,7.66,100.0,Safe
+6,1,Mario,24.0,9.88,8.33,7.68,100.0,Safe
+6,2,Cristian de la Fuente,20.0,7.78,8.69,3.72,24.99,Safe
+6,2,Steve Guttenberg,16.0,6.23,9.3,3.71,24.99,Safe
+6,2,Priscilla Presley,21.0,8.17,8.66,3.81,24.99,Safe
+6,2,Marlee Matlin,24.0,9.34,8.56,3.89,24.99,Safe
+6,2,Shannon Elizabeth,24.0,9.34,8.52,3.89,24.99,Safe
+6,2,Marissa Jaret Winokur,21.0,8.17,8.64,3.79,24.99,Safe
+6,2,Jason Taylor,27.0,10.51,8.48,3.91,24.99,Safe
+6,2,Kristi Yamaguchi,27.0,10.51,8.45,3.92,24.99,Safe
+6,2,Monica Seles,15.0,5.84,4.3,1.4,24.99,Eliminated
+6,2,Penn Jillette,17.0,6.61,9.09,3.69,24.99,Safe
+6,2,Adam Carolla,19.0,7.39,8.83,3.75,24.99,Safe
+6,2,Mario,26.0,10.12,8.5,3.93,24.99,Safe
+6,3,Cristian de la Fuente,25.0,10.96,10.32,4.09,10.43,Safe
+6,3,Steve Guttenberg,21.0,9.21,4.91,1.35,10.43,Eliminated
+6,3,Priscilla Presley,26.0,11.4,10.2,4.09,10.43,Safe
+6,3,Marlee Matlin,21.0,9.21,10.82,3.87,10.43,Safe
+6,3,Shannon Elizabeth,24.0,10.53,10.34,3.97,10.43,Safe
+6,3,Marissa Jaret Winokur,19.0,8.33,11.29,3.81,10.43,Safe
+6,3,Jason Taylor,23.0,10.09,10.4,3.93,10.43,Safe
+6,3,Kristi Yamaguchi,27.0,11.84,10.01,4.08,10.43,Safe
+6,3,Adam Carolla,21.0,9.21,10.99,3.93,10.43,Safe
+6,3,Mario,21.0,9.21,10.7,3.82,10.43,Safe
+6,4,Cristian de la Fuente,26.0,11.56,11.4,4.23,26.46,Safe
+6,4,Priscilla Presley,22.0,9.78,11.86,4.06,26.46,Safe
+6,4,Marlee Matlin,24.0,10.67,12.07,4.26,26.46,Safe
+6,4,Shannon Elizabeth,28.0,12.44,11.25,4.31,26.46,Safe
+6,4,Marissa Jaret Winokur,24.0,10.67,12.5,4.41,26.46,Safe
+6,4,Jason Taylor,29.0,12.89,11.23,4.32,26.46,Safe
+6,4,Kristi Yamaguchi,29.0,12.89,10.86,4.24,26.46,Safe
+6,4,Adam Carolla,19.0,8.44,6.83,1.81,26.46,Eliminated
+6,4,Mario,24.0,10.67,11.99,4.26,26.46,Safe
+6,5,Cristian de la Fuente,23.0,11.73,13.3,4.26,21.77,Safe
+6,5,Priscilla Presley,21.0,10.71,7.43,1.87,21.77,Eliminated
+6,5,Marlee Matlin,22.0,11.22,14.08,4.36,21.77,Safe
+6,5,Shannon Elizabeth,23.0,11.73,13.2,4.22,21.77,Safe
+6,5,Marissa Jaret Winokur,24.0,12.24,14.16,4.57,21.77,Safe
+6,5,Jason Taylor,27.0,13.78,12.56,4.38,21.77,Safe
+6,5,Kristi Yamaguchi,29.0,14.8,11.98,4.38,21.77,Safe
+6,5,Mario,27.0,13.78,13.29,4.55,21.77,Safe
+6,6,Cristian de la Fuente,27.0,15.0,15.1,4.64,24.59,Safe
+6,6,Marlee Matlin,21.0,11.67,9.71,2.17,24.59,Eliminated
+6,6,Shannon Elizabeth,24.0,13.33,15.51,4.45,24.59,Safe
+6,6,Marissa Jaret Winokur,26.0,14.44,16.05,4.79,24.59,Safe
+6,6,Jason Taylor,24.0,13.33,15.05,4.37,24.59,Safe
+6,6,Kristi Yamaguchi,30.0,16.67,13.53,4.55,24.59,Safe
+6,6,Mario,28.0,15.56,15.04,4.73,24.59,Safe
+6,7,Cristian de la Fuente,23.0,14.89,18.79,4.44,14.72,Safe
+6,7,Shannon Elizabeth,25.5,16.5,10.31,2.13,14.72,Eliminated
+6,7,Marissa Jaret Winokur,26.0,16.83,18.75,4.85,14.72,Safe
+6,7,Jason Taylor,27.5,17.8,17.69,4.8,14.72,Safe
+6,7,Kristi Yamaguchi,27.0,17.48,16.5,4.44,14.72,Safe
+6,7,Mario,25.5,16.5,17.96,4.55,14.72,Safe
+6,8,Cristian de la Fuente,28.5,21.35,21.9,5.17,19.91,Safe
+6,8,Marissa Jaret Winokur,25.0,18.73,22.81,4.92,19.91,Safe
+6,8,Jason Taylor,26.0,19.48,21.68,4.76,19.91,Safe
+6,8,Kristi Yamaguchi,27.5,20.6,20.32,4.68,19.91,Safe
+6,8,Mario,26.5,19.85,13.29,2.5,19.91,Eliminated
+6,9,Cristian de la Fuente,28.0,25.45,27.38,5.17,25.98,Safe
+6,9,Marissa Jaret Winokur,26.0,23.64,19.38,3.05,25.98,Eliminated
+6,9,Jason Taylor,27.5,25.0,27.38,5.08,25.98,Safe
+6,9,Kristi Yamaguchi,28.5,25.91,25.86,4.91,25.98,Safe
+6,10,Cristian de la Fuente,26.0,30.77,33.98,6.62,100.0,Safe
+6,10,Jason Taylor,28.5,33.73,33.94,6.61,100.0,Safe
+6,10,Kristi Yamaguchi,30.0,35.5,32.08,6.52,100.0,Safe
+7,1,Ted McGinley,18.5,7.34,0.77,0.63,7.7,Eliminated
+7,1,Cloris Leachman,16.0,6.35,9.25,6.91,7.7,Safe
+7,1,Susan Lucci,18.5,7.34,8.35,7.04,7.7,Safe
+7,1,Cody Linley,20.5,8.13,7.62,6.83,7.7,Safe
+7,1,Misty May-Treanor,21.0,8.33,7.72,6.88,7.7,Safe
+7,1,Maurice Greene,19.5,7.74,8.0,6.93,7.7,Safe
+7,1,Warren Sapp,21.5,8.53,7.67,7.0,7.7,Safe
+7,1,Jeffrey Ross,12.0,4.76,10.97,7.09,7.7,Safe
+7,1,Toni Braxton,22.5,8.93,7.48,6.82,7.7,Safe
+7,1,Lance Bass,21.5,8.53,7.73,7.07,7.7,Safe
+7,1,Kim Kardashian,18.5,7.34,8.28,6.81,7.7,Safe
+7,1,Rocco DiSpirito,17.5,6.94,8.68,6.89,7.7,Safe
+7,1,Brooke Burke,24.5,9.72,7.48,6.81,7.7,Safe
+7,2,Cloris Leachman,15.0,6.79,11.46,4.01,16.49,Safe
+7,2,Susan Lucci,21.0,9.5,9.75,3.97,16.49,Safe
+7,2,Cody Linley,21.0,9.5,9.02,3.83,16.49,Safe
+7,2,Misty May-Treanor,21.0,9.5,9.16,3.85,16.49,Safe
+7,2,Maurice Greene,19.0,8.6,9.76,3.87,16.49,Safe
+7,2,Warren Sapp,24.0,10.86,8.9,3.9,16.49,Safe
+7,2,Toni Braxton,23.0,10.41,8.7,3.86,16.49,Safe
+7,2,Lance Bass,20.0,9.05,9.28,3.83,16.49,Safe
+7,2,Kim Kardashian,17.0,7.69,4.46,1.33,16.49,Eliminated
+7,2,Rocco DiSpirito,16.0,7.24,10.8,3.87,16.49,Safe
+7,2,Brooke Burke,24.0,10.86,8.71,3.85,16.49,Safe
+7,3,Cloris Leachman,16.0,8.04,13.24,4.75,100.0,Safe
+7,3,Susan Lucci,21.0,10.55,11.32,4.46,100.0,Safe
+7,3,Cody Linley,21.0,10.55,10.46,4.29,100.0,Safe
+7,3,Maurice Greene,24.0,12.06,11.31,4.43,100.0,Safe
+7,3,Warren Sapp,25.0,12.56,10.28,4.26,100.0,Safe
+7,3,Toni Braxton,22.0,11.06,10.06,4.23,100.0,Safe
+7,3,Lance Bass,22.0,11.06,10.75,4.35,100.0,Safe
+7,3,Rocco DiSpirito,20.0,10.05,12.51,4.63,100.0,Safe
+7,3,Brooke Burke,28.0,14.07,10.07,4.21,100.0,Safe
+7,4,Cloris Leachman,22.0,10.84,13.75,4.66,17.09,Safe
+7,4,Susan Lucci,24.0,11.82,11.84,4.35,17.09,Safe
+7,4,Cody Linley,23.0,11.33,11.22,4.07,17.09,Safe
+7,4,Maurice Greene,20.0,9.85,12.4,4.14,17.09,Safe
+7,4,Warren Sapp,22.0,10.84,11.22,4.04,17.09,Safe
+7,4,Toni Braxton,22.0,10.84,11.07,3.97,17.09,Safe
+7,4,Lance Bass,26.0,12.81,11.12,4.29,17.09,Safe
+7,4,Rocco DiSpirito,18.0,8.87,6.82,1.68,17.09,Eliminated
+7,4,Brooke Burke,26.0,12.81,10.57,4.16,17.09,Safe
+7,5,Cloris Leachman,21.0,10.77,15.57,4.66,22.08,Safe
+7,5,Susan Lucci,22.0,11.28,13.8,4.29,22.08,Safe
+7,5,Cody Linley,28.0,14.36,12.33,4.4,22.08,Safe
+7,5,Maurice Greene,27.0,13.85,13.59,4.61,22.08,Safe
+7,5,Warren Sapp,25.0,12.82,12.73,4.28,22.08,Safe
+7,5,Toni Braxton,22.0,11.28,6.87,1.82,22.08,Eliminated
+7,5,Lance Bass,21.0,10.77,13.45,4.1,22.08,Safe
+7,5,Brooke Burke,29.0,14.87,11.66,4.32,22.08,Safe
+7,6,Cloris Leachman,15.0,9.38,11.46,2.42,31.31,Eliminated
+7,6,Susan Lucci,23.0,14.37,15.71,4.82,31.31,Safe
+7,6,Cody Linley,23.0,14.37,14.35,4.47,31.31,Safe
+7,6,Maurice Greene,21.0,13.12,15.82,4.58,31.31,Safe
+7,6,Warren Sapp,25.0,15.62,14.43,4.66,31.31,Safe
+7,6,Lance Bass,27.0,16.88,14.95,4.88,31.31,Safe
+7,6,Brooke Burke,26.0,16.25,13.27,4.48,31.31,Safe
+7,7,Susan Lucci,24.0,16.33,10.5,2.1,12.09,Eliminated
+7,7,Cody Linley,22.0,14.97,18.49,4.39,12.09,Safe
+7,7,Maurice Greene,25.0,17.01,18.72,4.81,12.09,Safe
+7,7,Warren Sapp,21.0,14.29,18.8,4.29,12.09,Safe
+7,7,Lance Bass,25.0,17.01,18.06,4.72,12.09,Safe
+7,7,Brooke Burke,30.0,20.41,15.43,4.61,12.09,Safe
+7,8,Cody Linley,24.0,18.82,22.69,4.99,21.36,Safe
+7,8,Maurice Greene,24.0,18.82,14.17,2.58,21.36,Eliminated
+7,8,Warren Sapp,27.0,21.18,22.0,5.18,21.36,Safe
+7,8,Lance Bass,25.0,19.61,21.99,4.92,21.36,Safe
+7,8,Brooke Burke,27.5,21.57,19.15,4.64,21.36,Safe
+7,9,Cody Linley,23.0,22.89,19.69,3.12,26.41,Eliminated
+7,9,Warren Sapp,24.5,24.38,27.88,5.18,26.41,Safe
+7,9,Lance Bass,28.5,28.36,26.63,5.56,26.41,Safe
+7,9,Brooke Burke,24.5,24.38,25.8,4.69,26.41,Safe
+7,10,Warren Sapp,27.5,32.35,34.69,6.68,100.0,Safe
+7,10,Lance Bass,27.5,32.35,33.18,6.6,100.0,Safe
+7,10,Brooke Burke,30.0,35.29,32.13,6.56,100.0,Safe
+8,1,Gilles Marini,24.0,9.88,7.7,7.12,100.0,Safe
+8,1,Denise Richards,18.0,7.41,7.71,7.17,100.0,Safe
+8,1,David Alan Grier,19.0,7.82,7.67,7.09,100.0,Safe
+8,1,Lawrence Taylor,16.0,6.58,7.67,7.12,100.0,Safe
+8,1,Ty Murray,14.0,5.76,7.67,7.11,100.0,Safe
+8,1,Shawn Johnson,23.0,9.47,7.7,7.13,100.0,Safe
+8,1,Steve Wozniak,13.0,5.35,7.69,7.12,100.0,Safe
+8,1,Belinda Carlisle,17.0,7.0,7.7,7.12,100.0,Safe
+8,1,Chuck Wicks,20.0,8.23,7.71,7.14,100.0,Safe
+8,1,Lil' Kim,21.0,8.64,7.66,7.12,100.0,Safe
+8,1,Steve-O,17.0,7.0,7.69,7.14,100.0,Safe
+8,1,Holly Madison,18.0,7.41,7.73,7.14,100.0,Safe
+8,1,Melissa Rycroft,23.0,9.47,7.7,7.14,100.0,Safe
+8,2,Gilles Marini,27.0,10.19,7.77,3.66,10.66,Safe
+8,2,Denise Richards,21.0,7.92,7.96,3.65,10.66,Safe
+8,2,David Alan Grier,17.0,6.42,8.34,3.43,10.66,Safe
+8,2,Lawrence Taylor,20.0,7.55,7.99,3.56,10.66,Safe
+8,2,Ty Murray,20.0,7.55,8.03,3.63,10.66,Safe
+8,2,Shawn Johnson,24.0,9.06,7.72,3.69,10.66,Safe
+8,2,Steve Wozniak,17.0,6.42,8.37,3.49,10.66,Safe
+8,2,Belinda Carlisle,18.0,6.79,3.0,1.03,10.66,Eliminated
+8,2,Chuck Wicks,20.0,7.55,8.04,3.56,10.66,Safe
+8,2,Lil' Kim,23.0,8.68,7.72,3.67,10.66,Safe
+8,2,Steve-O,14.0,5.28,9.01,3.4,10.66,Safe
+8,2,Holly Madison,18.0,6.79,8.32,3.49,10.66,Safe
+8,2,Melissa Rycroft,26.0,9.81,7.74,3.72,10.66,Safe
+8,3,Gilles Marini,27.0,10.63,8.05,3.82,17.74,Safe
+8,3,Denise Richards,16.0,6.3,3.96,1.34,17.74,Eliminated
+8,3,David Alan Grier,24.0,9.45,8.66,3.89,17.74,Safe
+8,3,Lawrence Taylor,20.0,7.87,8.57,3.74,17.74,Safe
+8,3,Ty Murray,23.0,9.06,8.44,3.82,17.74,Safe
+8,3,Shawn Johnson,27.0,10.63,7.97,3.8,17.74,Safe
+8,3,Steve Wozniak,10.0,3.94,10.69,3.47,17.74,Safe
+8,3,Chuck Wicks,23.0,9.06,8.4,3.81,17.74,Safe
+8,3,Lil' Kim,25.0,9.84,8.01,3.77,17.74,Safe
+8,3,Steve-O,15.0,5.91,10.06,3.79,17.74,Safe
+8,3,Holly Madison,17.0,6.69,9.2,3.71,17.74,Safe
+8,3,Melissa Rycroft,27.0,10.63,8.0,3.8,17.74,Safe
+8,4,Gilles Marini,30.0,12.4,8.56,3.95,23.59,Safe
+8,4,David Alan Grier,22.0,9.09,9.38,3.95,23.59,Safe
+8,4,Lawrence Taylor,19.0,7.85,9.67,3.85,23.59,Safe
+8,4,Ty Murray,25.0,10.33,9.08,3.98,23.59,Safe
+8,4,Shawn Johnson,25.0,10.33,8.55,3.86,23.59,Safe
+8,4,Steve Wozniak,12.0,4.96,6.31,1.69,23.59,Eliminated
+8,4,Chuck Wicks,22.0,9.09,9.22,3.91,23.59,Safe
+8,4,Lil' Kim,27.0,11.16,8.58,3.89,23.59,Safe
+8,4,Steve-O,15.0,6.2,11.53,4.07,23.59,Safe
+8,4,Holly Madison,16.0,6.61,10.64,3.9,23.59,Safe
+8,4,Melissa Rycroft,29.0,11.98,8.49,3.91,23.59,Safe
+8,5,Gilles Marini,29.0,13.81,10.46,4.1,13.29,Safe
+8,5,David Alan Grier,22.0,10.48,5.66,1.51,13.29,Eliminated
+8,5,Lawrence Taylor,20.0,9.52,12.79,4.04,13.29,Safe
+8,5,Ty Murray,21.0,10.0,12.12,3.97,13.29,Safe
+8,5,Shawn Johnson,26.0,12.38,10.72,4.08,13.29,Safe
+8,5,Chuck Wicks,23.0,10.95,11.83,4.08,13.29,Safe
+8,5,Lil' Kim,26.0,12.38,10.77,4.04,13.29,Safe
+8,5,Steve-O,18.0,8.57,14.81,4.44,13.29,Safe
+8,5,Melissa Rycroft,25.0,11.9,10.84,3.99,13.29,Safe
+8,6,Gilles Marini,26.0,13.98,11.78,4.27,18.53,Safe
+8,6,Lawrence Taylor,22.0,11.83,14.46,4.55,18.53,Safe
+8,6,Ty Murray,18.0,9.68,14.82,4.27,18.53,Safe
+8,6,Shawn Johnson,26.0,13.98,12.1,4.36,18.53,Safe
+8,6,Chuck Wicks,23.0,12.37,13.49,4.45,18.53,Safe
+8,6,Lil' Kim,28.0,15.05,11.87,4.41,18.53,Safe
+8,6,Steve-O,16.0,8.6,9.47,2.02,18.53,Eliminated
+8,6,Melissa Rycroft,27.0,14.52,12.01,4.39,18.53,Safe
+8,7,Gilles Marini,27.0,14.84,14.17,4.41,21.92,Safe
+8,7,Lawrence Taylor,21.0,11.54,9.99,2.14,21.92,Eliminated
+8,7,Ty Murray,24.0,13.19,17.35,4.89,21.92,Safe
+8,7,Shawn Johnson,28.0,15.38,14.22,4.5,21.92,Safe
+8,7,Chuck Wicks,27.0,14.84,15.76,4.79,21.92,Safe
+8,7,Lil' Kim,26.0,14.29,14.42,4.36,21.92,Safe
+8,7,Melissa Rycroft,29.0,15.93,14.08,4.54,21.92,Safe
+8,8,Gilles Marini,27.5,17.63,16.99,4.59,13.03,Safe
+8,8,Ty Murray,26.0,16.67,20.0,5.11,13.03,Safe
+8,8,Shawn Johnson,26.0,16.67,17.31,4.49,13.03,Safe
+8,8,Chuck Wicks,25.5,16.35,10.42,2.14,13.03,Eliminated
+8,8,Lil' Kim,28.0,17.95,17.05,4.7,13.03,Safe
+8,8,Melissa Rycroft,23.0,14.74,18.22,4.19,13.03,Safe
+8,9,Gilles Marini,28.0,20.97,20.45,4.9,28.07,Safe
+8,9,Ty Murray,23.0,17.23,24.31,5.04,28.07,Safe
+8,9,Shawn Johnson,28.0,20.97,20.66,4.91,28.07,Safe
+8,9,Lil' Kim,26.0,19.48,13.27,2.63,28.07,Eliminated
+8,9,Melissa Rycroft,28.5,21.35,21.32,5.09,28.07,Safe
+8,10,Gilles Marini,30.0,27.4,25.54,5.19,26.34,Safe
+8,10,Ty Murray,24.0,21.92,20.97,3.11,26.34,Eliminated
+8,10,Shawn Johnson,28.0,25.57,26.37,5.0,26.34,Safe
+8,10,Melissa Rycroft,27.5,25.11,27.12,5.08,26.34,Safe
+8,11,Gilles Marini,29.0,33.14,32.34,6.57,100.0,Safe
+8,11,Shawn Johnson,30.0,34.29,33.34,6.61,100.0,Safe
+8,11,Melissa Rycroft,28.5,32.57,34.32,6.65,100.0,Safe
+9,1,Ashley Hamiliton,18.9999,4.68,0.83,0.67,16.94,Eliminated
+9,1,Debi Mazar,22.0,5.42,6.64,5.92,16.94,Safe
+9,1,Melissa Joan Hart,24.0,5.91,6.49,6.0,16.94,Safe
+9,1,Mark Dacascos,28.9998,7.14,6.42,6.05,16.94,Safe
+9,1,Chuck Liddell,22.0,5.42,6.6,5.87,16.94,Safe
+9,1,Natalie Coughlin,26.9998,6.65,6.4,6.01,16.94,Safe
+9,1,Louie Vito,26.9998,6.65,6.43,6.0,16.94,Safe
+9,1,Michael Irvin,19.0,4.68,7.17,5.97,16.94,Safe
+9,1,Joanna Krupa,33.9999,8.37,6.39,6.03,16.94,Safe
+9,1,Kathy Ireland,19.9999,4.93,7.03,6.04,16.94,Safe
+9,1,Tom DeLay,19.9999,4.93,6.99,5.88,16.94,Safe
+9,1,Macy Gray,18.9999,4.68,7.19,5.98,16.94,Safe
+9,1,Aaron Carter,31.999899999999997,7.88,6.34,6.0,16.94,Safe
+9,1,Mya,30.999899999999997,7.64,6.36,5.97,16.94,Safe
+9,1,Donny Osmond,29.999899999999997,7.39,6.4,5.99,16.94,Safe
+9,1,Kelly Osbourne,30.9998,7.64,6.32,5.87,16.94,Safe
+9,2,Debi Mazar,21.0,7.14,7.48,3.5,10.31,Safe
+9,2,Melissa Joan Hart,19.0,6.46,7.59,3.45,10.31,Safe
+9,2,Mark Dacascos,21.0,7.14,7.37,3.42,10.31,Safe
+9,2,Chuck Liddell,19.0,6.46,7.71,3.49,10.31,Safe
+9,2,Natalie Coughlin,21.0,7.14,7.27,3.52,10.31,Safe
+9,2,Louie Vito,19.0,6.46,7.6,3.47,10.31,Safe
+9,2,Michael Irvin,20.0,6.8,8.08,3.64,10.31,Safe
+9,2,Joanna Krupa,20.0,6.8,7.4,3.42,10.31,Safe
+9,2,Kathy Ireland,18.0,6.12,2.85,0.97,10.31,Eliminated
+9,2,Tom DeLay,18.0,6.12,8.15,3.54,10.31,Safe
+9,2,Aaron Carter,27.0,9.18,6.96,3.58,10.31,Safe
+9,2,Mya,27.0,9.18,7.02,3.56,10.31,Safe
+9,2,Donny Osmond,25.0,8.5,7.11,3.6,10.31,Safe
+9,2,Kelly Osbourne,19.0,6.46,7.43,3.37,10.31,Safe
+9,3,Debi Mazar,17.0,6.59,3.15,1.08,13.15,Eliminated
+9,3,Melissa Joan Hart,19.0,7.36,8.19,3.65,13.15,Safe
+9,3,Mark Dacascos,18.0,6.98,8.04,3.48,13.15,Safe
+9,3,Chuck Liddell,17.0,6.59,8.52,3.6,13.15,Safe
+9,3,Natalie Coughlin,26.0,10.08,7.52,3.7,13.15,Safe
+9,3,Louie Vito,20.0,7.75,8.11,3.68,13.15,Safe
+9,3,Michael Irvin,14.0,5.43,9.33,3.53,13.15,Safe
+9,3,Joanna Krupa,23.0,8.91,7.68,3.65,13.15,Safe
+9,3,Tom DeLay,15.0,5.81,9.17,3.62,13.15,Safe
+9,3,Aaron Carter,21.0,8.14,7.49,3.55,13.15,Safe
+9,3,Mya,27.0,10.47,7.29,3.67,13.15,Safe
+9,3,Donny Osmond,21.0,8.14,7.55,3.56,13.15,Safe
+9,3,Kelly Osbourne,20.0,7.75,7.96,3.63,13.15,Safe
+9,4,Melissa Joan Hart,28.0,11.57,9.47,4.11,16.49,Safe
+9,4,Mark Dacascos,22.0,9.09,9.56,3.95,16.49,Safe
+9,4,Chuck Liddell,17.0,7.02,4.81,1.42,16.49,Eliminated
+9,4,Natalie Coughlin,24.0,9.92,8.81,3.81,16.49,Safe
+9,4,Louie Vito,16.0,6.61,10.55,3.73,16.49,Safe
+9,4,Michael Irvin,16.0,6.61,11.58,4.06,16.49,Safe
+9,4,Joanna Krupa,26.0,10.74,8.89,3.89,16.49,Safe
+9,4,Aaron Carter,18.0,7.44,9.58,3.6,16.49,Safe
+9,4,Mya,28.0,11.57,8.38,3.85,16.49,Safe
+9,4,Donny Osmond,24.0,9.92,8.96,3.94,16.49,Safe
+9,4,Kelly Osbourne,23.0,9.5,9.41,3.96,16.49,Safe
+9,5,Melissa Joan Hart,23.0,9.5,10.64,3.94,20.54,Safe
+9,5,Mark Dacascos,26.0,10.74,10.41,4.1,20.54,Safe
+9,5,Natalie Coughlin,22.0,9.09,4.68,1.43,20.54,Eliminated
+9,5,Louie Vito,22.0,9.09,11.7,4.15,20.54,Safe
+9,5,Michael Irvin,21.0,8.68,12.68,4.38,20.54,Safe
+9,5,Joanna Krupa,24.0,9.92,9.97,3.81,20.54,Safe
+9,5,Aaron Carter,24.0,9.92,10.6,4.04,20.54,Safe
+9,5,Mya,27.0,11.16,9.21,3.82,20.54,Safe
+9,5,Donny Osmond,29.0,11.98,9.64,4.04,20.54,Safe
+9,5,Kelly Osbourne,24.0,9.92,10.47,4.03,20.54,Safe
+9,6,Melissa Joan Hart,23.9999,9.23,6.27,1.71,22.24,Eliminated
+9,6,Mark Dacascos,32.0,12.31,11.26,4.25,22.24,Safe
+9,6,Louie Vito,24.0,9.23,13.22,4.31,22.24,Safe
+9,6,Michael Irvin,21.9998,8.46,14.3,4.45,22.24,Safe
+9,6,Joanna Krupa,35.9999,13.85,10.7,4.24,22.24,Safe
+9,6,Aaron Carter,32.9998,12.69,11.37,4.33,22.24,Safe
+9,6,Mya,33.0,12.69,10.08,4.02,22.24,Safe
+9,6,Donny Osmond,30.999899999999997,11.92,10.66,4.04,22.24,Safe
+9,6,Kelly Osbourne,24.9998,9.62,12.14,4.06,22.24,Safe
+9,7,Mark Dacascos,21.5,12.25,8.98,2.18,28.38,Eliminated
+9,7,Michael Irvin,23.5,13.39,18.38,5.2,28.38,Safe
+9,7,Joanna Krupa,27.5,15.67,14.01,4.52,28.38,Safe
+9,7,Aaron Carter,26.5,15.1,14.82,4.65,28.38,Safe
+9,7,Mya,24.5,13.96,13.92,4.24,28.38,Safe
+9,7,Donny Osmond,26.0,14.81,14.18,4.46,28.38,Safe
+9,7,Kelly Osbourne,26.0,14.81,15.73,4.79,28.38,Safe
+9,8,Joanna Krupa,26.0,19.85,21.21,4.75,22.38,Safe
+9,8,Aaron Carter,25.0,19.08,13.85,2.59,22.38,Eliminated
+9,8,Mya,29.5,22.52,20.15,5.0,22.38,Safe
+9,8,Donny Osmond,25.0,19.08,21.71,4.78,22.38,Safe
+9,8,Kelly Osbourne,25.5,19.47,23.09,5.16,22.38,Safe
+9,9,Joanna Krupa,27.0,25.31,17.82,2.94,24.69,Eliminated
+9,9,Mya,28.9999,27.19,25.18,4.98,24.69,Safe
+9,9,Donny Osmond,24.666600000000003,23.13,28.25,4.85,24.69,Safe
+9,9,Kelly Osbourne,25.9998,24.37,28.75,5.21,24.69,Safe
+9,10,Mya,28.333199999999998,34.32,30.64,6.46,100.0,Safe
+9,10,Donny Osmond,28.9998,35.13,34.36,6.65,100.0,Safe
+9,10,Kelly Osbourne,25.2222,30.55,34.99,6.69,100.0,Safe
+10,1,Aiden Turner,15.0,7.18,9.13,8.35,100.0,Safe
+10,1,Shannen Doherty,18.0,8.61,9.06,8.25,100.0,Safe
+10,1,Niecy Nash,18.0,8.61,9.06,8.24,100.0,Safe
+10,1,Buzz Aldrin,14.0,6.7,9.1,8.29,100.0,Safe
+10,1,Chad Ochocinco,18.0,8.61,9.14,8.34,100.0,Safe
+10,1,Evan Lysacek,23.0,11.0,9.12,8.3,100.0,Safe
+10,1,Pamela Anderson,21.0,10.05,9.07,8.27,100.0,Safe
+10,1,Nicole Scherzinger,25.0,11.96,9.1,8.28,100.0,Safe
+10,1,Erin Andrews,21.0,10.05,9.05,8.28,100.0,Safe
+10,1,Kate Gosselin,16.0,7.66,9.08,8.32,100.0,Safe
+10,1,Jake Pavelka,20.0,9.57,9.1,8.28,100.0,Safe
+10,2,Aiden Turner,19.0,8.64,9.63,3.68,5.48,Safe
+10,2,Shannen Doherty,20.0,9.09,3.48,1.13,5.48,Eliminated
+10,2,Niecy Nash,21.0,9.55,9.22,3.82,5.48,Safe
+10,2,Buzz Aldrin,12.0,5.45,11.33,3.34,5.48,Safe
+10,2,Chad Ochocinco,16.0,7.27,10.17,3.53,5.48,Safe
+10,2,Evan Lysacek,24.0,10.91,9.07,3.94,5.48,Safe
+10,2,Pamela Anderson,22.0,10.0,9.16,3.73,5.48,Safe
+10,2,Nicole Scherzinger,28.0,12.73,8.96,4.0,5.48,Safe
+10,2,Erin Andrews,23.0,10.45,9.07,3.85,5.48,Safe
+10,2,Kate Gosselin,15.0,6.82,10.41,3.54,5.48,Safe
+10,2,Jake Pavelka,20.0,9.09,9.5,3.79,5.48,Safe
+10,3,Aiden Turner,20.0,9.85,10.6,4.07,24.32,Safe
+10,3,Niecy Nash,21.0,10.34,10.08,4.07,24.32,Safe
+10,3,Buzz Aldrin,13.0,6.4,6.78,1.75,24.32,Eliminated
+10,3,Chad Ochocinco,20.0,9.85,11.07,4.2,24.32,Safe
+10,3,Evan Lysacek,26.0,12.81,9.7,4.16,24.32,Safe
+10,3,Pamela Anderson,21.0,10.34,10.02,4.03,24.32,Safe
+10,3,Nicole Scherzinger,23.0,11.33,9.63,4.06,24.32,Safe
+10,3,Erin Andrews,23.0,11.33,9.73,4.08,24.32,Safe
+10,3,Kate Gosselin,15.0,7.39,12.06,4.06,24.32,Safe
+10,3,Jake Pavelka,21.0,10.34,10.34,4.08,24.32,Safe
+10,4,Aiden Turner,16.5,8.89,6.48,1.75,22.34,Eliminated
+10,4,Niecy Nash,18.0,9.7,11.91,4.04,22.34,Safe
+10,4,Chad Ochocinco,22.0,11.86,12.19,4.39,22.34,Safe
+10,4,Evan Lysacek,26.0,14.02,10.61,4.28,22.34,Safe
+10,4,Pamela Anderson,23.5,12.67,11.05,4.27,22.34,Safe
+10,4,Nicole Scherzinger,25.0,13.48,10.58,4.25,22.34,Safe
+10,4,Erin Andrews,19.5,10.51,11.3,4.02,22.34,Safe
+10,4,Kate Gosselin,16.0,8.63,13.94,4.39,22.34,Safe
+10,4,Jake Pavelka,19.0,10.24,11.94,4.13,22.34,Safe
+10,5,Niecy Nash,18.0,10.4,14.15,4.29,21.11,Safe
+10,5,Chad Ochocinco,18.0,10.4,14.41,4.38,21.11,Safe
+10,5,Evan Lysacek,27.0,15.61,11.73,4.4,21.11,Safe
+10,5,Pamela Anderson,21.0,12.14,12.83,4.26,21.11,Safe
+10,5,Nicole Scherzinger,29.0,16.76,11.59,4.46,21.11,Safe
+10,5,Erin Andrews,22.0,12.72,12.86,4.34,21.11,Safe
+10,5,Kate Gosselin,15.0,8.67,9.1,2.05,21.11,Eliminated
+10,5,Jake Pavelka,23.0,13.29,13.33,4.56,21.11,Safe
+10,6,Niecy Nash,25.9998,12.44,16.74,4.63,24.69,Safe
+10,6,Chad Ochocinco,30.999899999999997,14.83,16.42,4.99,24.69,Safe
+10,6,Evan Lysacek,27.0,12.92,14.73,4.22,24.69,Safe
+10,6,Pamela Anderson,29.9998,14.35,15.01,4.55,24.69,Safe
+10,6,Nicole Scherzinger,35.9999,17.22,13.16,4.51,24.69,Safe
+10,6,Erin Andrews,34.0,16.27,14.63,4.76,24.69,Safe
+10,6,Jake Pavelka,24.999899999999997,11.96,9.31,2.16,24.69,Eliminated
+10,7,Niecy Nash,24.5,15.76,19.59,4.92,18.23,Safe
+10,7,Chad Ochocinco,26.0,16.72,19.03,4.96,18.23,Safe
+10,7,Evan Lysacek,27.0,17.36,17.37,4.71,18.23,Safe
+10,7,Pamela Anderson,25.5,16.4,10.18,2.15,18.23,Eliminated
+10,7,Nicole Scherzinger,27.0,17.36,16.12,4.37,18.23,Safe
+10,7,Erin Andrews,25.5,16.4,17.71,4.58,18.23,Safe
+10,8,Niecy Nash,21.5,17.0,15.61,2.78,27.63,Eliminated
+10,8,Chad Ochocinco,22.5,17.79,23.39,4.95,27.63,Safe
+10,8,Evan Lysacek,26.5,20.95,20.8,4.96,27.63,Safe
+10,8,Nicole Scherzinger,29.5,23.32,19.03,4.99,27.63,Safe
+10,8,Erin Andrews,26.5,20.95,21.17,5.03,27.63,Safe
+10,9,Chad Ochocinco,26.0,23.01,20.18,2.97,21.93,Eliminated
+10,9,Evan Lysacek,29.5,26.11,26.83,5.17,21.93,Safe
+10,9,Nicole Scherzinger,29.5,26.11,25.36,4.79,21.93,Safe
+10,9,Erin Andrews,28.0,24.78,27.62,5.07,21.93,Safe
+10,10,Evan Lysacek,26.888699999999996,32.53,33.61,6.61,100.0,Safe
+10,10,Nicole Scherzinger,28.7777,34.81,31.8,6.53,100.0,Safe
+10,10,Erin Andrews,26.9998,32.66,34.59,6.66,100.0,Safe
+11,1,David Hasselhoff,15.0,6.61,1.25,0.99,19.24,Eliminated
+11,1,Florence Henderson,18.0,7.93,8.82,7.75,19.24,Safe
+11,1,Kyle Massey,23.0,10.13,8.61,7.82,19.24,Safe
+11,1,Jennifer Grey,24.0,10.57,8.65,7.91,19.24,Safe
+11,1,Rick Fox,22.0,9.69,8.64,7.9,19.24,Safe
+11,1,Kurt Warner,19.0,8.37,8.74,7.77,19.24,Safe
+11,1,Margaret Cho,15.0,6.61,9.81,7.83,19.24,Safe
+11,1,Michael Bolton,16.0,7.05,9.36,7.79,19.24,Safe
+11,1,Brandy,23.0,10.13,8.57,7.82,19.24,Safe
+11,1,The Situation,15.0,6.61,9.79,7.85,19.24,Safe
+11,1,Audrina Patridge,19.0,8.37,8.81,7.82,19.24,Safe
+11,1,Bristol Palin,18.0,7.93,8.95,7.84,19.24,Safe
+11,2,Florence Henderson,19.0,8.6,9.46,3.94,37.55,Safe
+11,2,Kyle Massey,22.0,9.95,9.03,3.98,37.55,Safe
+11,2,Jennifer Grey,24.0,10.86,9.0,4.01,37.55,Safe
+11,2,Rick Fox,21.0,9.5,9.1,3.94,37.55,Safe
+11,2,Kurt Warner,21.0,9.5,9.2,3.96,37.55,Safe
+11,2,Margaret Cho,18.0,8.14,10.47,4.11,37.55,Safe
+11,2,Michael Bolton,12.0,5.43,5.77,1.7,37.55,Eliminated
+11,2,Brandy,21.0,9.5,9.02,3.93,37.55,Safe
+11,2,The Situation,18.0,8.14,10.41,4.06,37.55,Safe
+11,2,Audrina Patridge,23.0,10.41,9.2,4.06,37.55,Safe
+11,2,Bristol Palin,22.0,9.95,9.35,4.03,37.55,Safe
+11,3,Florence Henderson,20.0,9.05,10.98,4.01,15.62,Safe
+11,3,Kyle Massey,23.0,10.41,10.15,4.01,15.62,Safe
+11,3,Jennifer Grey,24.0,10.86,10.0,4.04,15.62,Safe
+11,3,Rick Fox,24.0,10.86,10.1,4.0,15.62,Safe
+11,3,Kurt Warner,23.0,10.41,10.32,4.06,15.62,Safe
+11,3,Margaret Cho,18.0,8.14,5.63,1.49,15.62,Eliminated
+11,3,Brandy,24.0,10.86,10.0,4.03,15.62,Safe
+11,3,The Situation,20.0,9.05,11.75,4.24,15.62,Safe
+11,3,Audrina Patridge,26.0,11.76,10.03,4.1,15.62,Safe
+11,3,Bristol Palin,19.0,8.6,11.04,3.88,15.62,Safe
+11,4,Florence Henderson,17.5,9.78,12.47,4.24,22.25,Safe
+11,4,Kyle Massey,20.0,11.17,11.37,4.18,22.25,Safe
+11,4,Jennifer Grey,28.0,15.64,10.79,4.41,22.25,Safe
+11,4,Rick Fox,19.5,10.89,11.42,4.17,22.25,Safe
+11,4,Kurt Warner,17.0,9.5,12.01,4.06,22.25,Safe
+11,4,Brandy,24.0,13.41,10.85,4.29,22.25,Safe
+11,4,The Situation,14.0,7.82,7.27,1.83,22.25,Eliminated
+11,4,Audrina Patridge,23.0,12.85,10.93,4.29,22.25,Safe
+11,4,Bristol Palin,16.0,8.94,12.88,4.21,22.25,Safe
+11,5,Florence Henderson,21.0,11.54,7.15,1.72,12.76,Eliminated
+11,5,Kyle Massey,20.0,10.99,13.79,4.08,12.76,Safe
+11,5,Jennifer Grey,25.0,13.74,12.23,4.22,12.76,Safe
+11,5,Rick Fox,24.0,13.19,12.98,4.31,12.76,Safe
+11,5,Kurt Warner,24.0,13.19,13.53,4.49,12.76,Safe
+11,5,Brandy,27.0,14.84,12.12,4.41,12.76,Safe
+11,5,Audrina Patridge,23.0,12.64,12.73,4.15,12.76,Safe
+11,5,Bristol Palin,18.0,9.89,15.48,4.34,12.76,Safe
+11,6,Kyle Massey,29.999899999999997,14.49,15.62,4.45,9.08,Safe
+11,6,Jennifer Grey,29.0,14.01,14.55,4.04,9.08,Safe
+11,6,Rick Fox,30.0,14.49,15.02,4.33,9.08,Safe
+11,6,Kurt Warner,21.9999,10.63,17.38,4.03,9.08,Safe
+11,6,Brandy,35.9999,17.39,13.17,4.4,9.08,Safe
+11,6,Audrina Patridge,31.9998,15.46,7.02,1.71,9.08,Eliminated
+11,6,Bristol Palin,27.9998,13.53,17.24,4.7,9.08,Safe
+11,7,Kyle Massey,33.5,16.07,18.26,4.66,18.95,Safe
+11,7,Jennifer Grey,36.5,17.51,16.85,4.58,18.95,Safe
+11,7,Rick Fox,34.5,16.55,10.01,2.15,18.95,Eliminated
+11,7,Kurt Warner,35.0,16.79,19.41,5.02,18.95,Safe
+11,7,Brandy,36.5,17.51,15.81,4.29,18.95,Safe
+11,7,Bristol Palin,32.5,15.59,19.66,4.89,18.95,Safe
+11,8,Kyle Massey,28.0,21.13,21.6,5.15,22.32,Safe
+11,8,Jennifer Grey,28.5,21.51,20.21,4.9,22.32,Safe
+11,8,Kurt Warner,24.0,18.11,14.82,2.64,22.32,Eliminated
+11,8,Brandy,28.5,21.51,19.45,4.68,22.32,Safe
+11,8,Bristol Palin,23.5,17.74,23.93,5.0,22.32,Safe
+11,9,Kyle Massey,29.0,25.44,27.09,5.26,36.94,Safe
+11,9,Jennifer Grey,30.0,26.32,25.61,5.07,36.94,Safe
+11,9,Brandy,28.5,25.0,17.47,3.14,36.94,Eliminated
+11,9,Bristol Palin,26.5,23.25,29.83,5.4,36.94,Safe
+11,10,Kyle Massey,27.333199999999998,32.93,32.78,6.56,100.0,Safe
+11,10,Jennifer Grey,30.0,36.14,31.04,6.49,100.0,Safe
+11,10,Bristol Palin,25.666600000000003,30.92,36.17,6.75,100.0,Safe
+12,1,Ralph Macchio,24.0,11.59,9.09,8.25,100.0,Safe
+12,1,Chelsea Kane,21.0,10.14,9.04,8.27,100.0,Safe
+12,1,Kirstie Alley,23.0,11.11,9.08,8.28,100.0,Safe
+12,1,Hines Ward,21.0,10.14,9.12,8.29,100.0,Safe
+12,1,Sugar Ray Leonard,17.0,8.21,9.09,8.27,100.0,Safe
+12,1,Chris Jericho,19.0,9.18,9.08,8.33,100.0,Safe
+12,1,Petra Nemcova,18.0,8.7,9.08,8.28,100.0,Safe
+12,1,Mike Catherwood,13.0,6.28,9.11,8.29,100.0,Safe
+12,1,Romeo,19.0,9.18,9.12,8.3,100.0,Safe
+12,1,Wendy Williams,14.0,6.76,9.08,8.25,100.0,Safe
+12,1,Kendra Wilkinson,18.0,8.7,9.12,8.3,100.0,Safe
+12,2,Ralph Macchio,21.0,9.72,9.42,3.97,15.78,Safe
+12,2,Chelsea Kane,18.0,8.33,9.75,3.81,15.78,Safe
+12,2,Kirstie Alley,20.0,9.26,9.45,3.88,15.78,Safe
+12,2,Hines Ward,23.0,10.65,9.25,3.99,15.78,Safe
+12,2,Sugar Ray Leonard,17.0,7.87,9.97,3.83,15.78,Safe
+12,2,Chris Jericho,23.0,10.65,9.23,3.97,15.78,Safe
+12,2,Petra Nemcova,18.0,8.33,9.79,3.83,15.78,Safe
+12,2,Mike Catherwood,17.0,7.87,4.28,1.31,15.78,Eliminated
+12,2,Romeo,23.0,10.65,9.26,3.99,15.78,Safe
+12,2,Wendy Williams,17.0,7.87,9.89,3.77,15.78,Safe
+12,2,Kendra Wilkinson,19.0,8.8,9.7,3.92,15.78,Safe
+12,3,Ralph Macchio,21.0,9.81,10.39,4.09,30.35,Safe
+12,3,Chelsea Kane,23.0,10.75,10.56,4.22,30.35,Safe
+12,3,Kirstie Alley,21.0,9.81,10.45,4.09,30.35,Safe
+12,3,Hines Ward,25.0,11.68,9.98,4.15,30.35,Safe
+12,3,Sugar Ray Leonard,20.0,9.35,10.96,4.13,30.35,Safe
+12,3,Chris Jericho,21.0,9.81,10.23,4.02,30.35,Safe
+12,3,Petra Nemcova,25.0,11.68,10.51,4.25,30.35,Safe
+12,3,Romeo,20.0,9.35,10.39,4.01,30.35,Safe
+12,3,Wendy Williams,15.0,7.01,6.08,1.7,30.35,Eliminated
+12,3,Kendra Wilkinson,23.0,10.75,10.45,4.17,30.35,Safe
+12,4,Ralph Macchio,25.0,12.14,11.44,4.2,12.74,Safe
+12,4,Chelsea Kane,26.0,12.62,11.49,4.27,12.74,Safe
+12,4,Kirstie Alley,22.0,10.68,12.05,4.13,12.74,Safe
+12,4,Hines Ward,25.0,12.14,11.08,4.12,12.74,Safe
+12,4,Sugar Ray Leonard,21.0,10.19,5.87,1.55,12.74,Eliminated
+12,4,Chris Jericho,23.0,11.17,11.66,4.15,12.74,Safe
+12,4,Petra Nemcova,23.0,11.17,11.79,4.13,12.74,Safe
+12,4,Romeo,23.0,11.17,11.76,4.12,12.74,Safe
+12,4,Kendra Wilkinson,18.0,8.74,12.84,3.88,12.74,Safe
+12,5,Ralph Macchio,22.0,11.34,13.49,4.16,18.92,Safe
+12,5,Chelsea Kane,26.0,13.4,12.79,4.38,18.92,Safe
+12,5,Kirstie Alley,23.0,11.86,13.78,4.37,18.92,Safe
+12,5,Hines Ward,27.0,13.92,12.32,4.29,18.92,Safe
+12,5,Chris Jericho,26.0,13.4,12.91,4.41,18.92,Safe
+12,5,Petra Nemcova,22.0,11.34,7.06,1.78,18.92,Eliminated
+12,5,Romeo,26.0,13.4,13.08,4.41,18.92,Safe
+12,5,Kendra Wilkinson,22.0,11.34,14.56,4.47,18.92,Safe
+12,6,Ralph Macchio,24.0,13.33,15.65,4.58,30.47,Safe
+12,6,Chelsea Kane,28.0,15.56,14.45,4.63,30.47,Safe
+12,6,Kirstie Alley,26.0,14.44,15.6,4.74,30.47,Safe
+12,6,Hines Ward,27.0,15.0,14.18,4.48,30.47,Safe
+12,6,Chris Jericho,22.0,12.22,9.01,2.17,30.47,Eliminated
+12,6,Romeo,28.0,15.56,14.68,4.69,30.47,Safe
+12,6,Kendra Wilkinson,25.0,13.89,16.43,4.83,30.47,Safe
+12,7,Ralph Macchio,33.0,17.51,18.15,4.82,12.79,Safe
+12,7,Chelsea Kane,32.0,16.98,17.4,4.54,12.79,Safe
+12,7,Kirstie Alley,30.0,15.92,18.72,4.66,12.79,Safe
+12,7,Hines Ward,33.0,17.51,16.96,4.56,12.79,Safe
+12,7,Romeo,30.0,15.92,18.0,4.46,12.79,Safe
+12,7,Kendra Wilkinson,30.5,16.18,10.77,2.11,12.79,Eliminated
+12,8,Ralph Macchio,23.0,17.69,22.94,4.64,18.64,Safe
+12,8,Chelsea Kane,27.5,21.15,20.85,4.88,18.64,Safe
+12,8,Kirstie Alley,26.5,20.38,22.26,5.08,18.64,Safe
+12,8,Hines Ward,27.0,20.77,20.69,4.71,18.64,Safe
+12,8,Romeo,26.0,20.0,13.27,2.48,18.64,Eliminated
+12,9,Ralph Macchio,24.0,20.43,21.16,3.49,40.98,Eliminated
+12,9,Chelsea Kane,36.5,31.06,24.68,5.7,40.98,Safe
+12,9,Kirstie Alley,27.0,22.98,28.21,5.17,40.98,Safe
+12,9,Hines Ward,30.0,25.53,25.95,5.14,40.98,Safe
+12,10,Chelsea Kane,29.666600000000003,33.97,31.29,6.49,100.0,Safe
+12,10,Kirstie Alley,27.999899999999997,32.06,35.79,6.72,100.0,Safe
+12,10,Hines Ward,29.666600000000003,33.97,32.92,6.6,100.0,Safe
+13,1,Elisabetta Canalis,15.0,6.91,9.56,7.92,22.74,Safe
+13,1,David Arquette,18.0,8.29,8.97,7.93,22.74,Safe
+13,1,Ricki Lake,20.0,9.22,8.73,7.96,22.74,Safe
+13,1,J.R. Martinez,22.0,10.14,8.7,7.87,22.74,Safe
+13,1,Metta World Peace (Ron),14.0,6.45,1.33,0.99,22.74,Eliminated
+13,1,Hope Solo,21.0,9.68,8.64,7.92,22.74,Safe
+13,1,Chynna Phillips,22.0,10.14,8.67,7.97,22.74,Safe
+13,1,Kristin Cavallari,19.0,8.76,8.85,7.9,22.74,Safe
+13,1,Carson Kressley,17.0,7.83,9.07,8.02,22.74,Safe
+13,1,Chaz Bono,17.0,7.83,9.04,7.91,22.74,Safe
+13,1,Nancy Grace,16.0,7.37,9.24,7.94,22.74,Safe
+13,1,Rob Kardashian,16.0,7.37,9.2,7.84,22.74,Safe
+13,2,Elisabetta Canalis,21.0,9.42,3.56,1.08,4.91,Eliminated
+13,2,David Arquette,18.0,8.07,10.06,3.62,4.91,Safe
+13,2,Ricki Lake,23.0,10.31,8.95,3.77,4.91,Safe
+13,2,J.R. Martinez,22.0,9.87,9.16,3.82,4.91,Safe
+13,2,Hope Solo,19.0,8.52,9.72,3.66,4.91,Safe
+13,2,Chynna Phillips,21.0,9.42,9.27,3.68,4.91,Safe
+13,2,Kristin Cavallari,22.0,9.87,9.25,3.79,4.91,Safe
+13,2,Carson Kressley,18.0,8.07,10.16,3.61,4.91,Safe
+13,2,Chaz Bono,17.0,7.62,10.39,3.63,4.91,Safe
+13,2,Nancy Grace,21.0,9.42,9.74,3.81,4.91,Safe
+13,2,Rob Kardashian,21.0,9.42,9.74,3.84,4.91,Safe
+13,3,David Arquette,24.0,10.13,10.84,3.97,10.33,Safe
+13,3,Ricki Lake,27.0,11.39,9.59,3.86,10.33,Safe
+13,3,J.R. Martinez,26.0,10.97,9.78,3.88,10.33,Safe
+13,3,Hope Solo,24.0,10.13,10.62,3.99,10.33,Safe
+13,3,Chynna Phillips,26.0,10.97,9.94,3.94,10.33,Safe
+13,3,Kristin Cavallari,24.0,10.13,4.19,1.26,10.33,Eliminated
+13,3,Carson Kressley,23.0,9.7,11.2,4.05,10.33,Safe
+13,3,Chaz Bono,18.0,7.59,12.11,3.82,10.33,Safe
+13,3,Nancy Grace,21.0,8.86,11.08,3.81,10.33,Safe
+13,3,Rob Kardashian,24.0,10.13,10.65,3.97,10.33,Safe
+13,4,David Arquette,23.0,11.0,11.94,4.24,22.18,Safe
+13,4,Ricki Lake,29.0,13.88,10.2,4.14,22.18,Safe
+13,4,J.R. Martinez,26.0,12.44,10.65,4.14,22.18,Safe
+13,4,Hope Solo,24.0,11.48,11.55,4.18,22.18,Safe
+13,4,Chynna Phillips,21.0,10.05,5.66,1.61,22.18,Eliminated
+13,4,Carson Kressley,20.0,9.57,12.65,4.13,22.18,Safe
+13,4,Chaz Bono,21.0,10.05,13.26,4.39,22.18,Safe
+13,4,Nancy Grace,21.0,10.05,12.47,4.21,22.18,Safe
+13,4,Rob Kardashian,24.0,11.48,11.62,4.21,22.18,Safe
+13,5,David Arquette,25.0,13.3,13.27,4.52,22.75,Safe
+13,5,Ricki Lake,24.0,12.77,11.89,4.07,22.75,Safe
+13,5,J.R. Martinez,28.0,14.89,11.79,4.39,22.75,Safe
+13,5,Hope Solo,24.0,12.77,13.04,4.36,22.75,Safe
+13,5,Carson Kressley,19.0,10.11,8.0,1.91,22.75,Eliminated
+13,5,Chaz Bono,21.0,11.17,14.96,4.58,22.75,Safe
+13,5,Nancy Grace,22.0,11.7,14.1,4.44,22.75,Safe
+13,5,Rob Kardashian,25.0,13.3,12.94,4.44,22.75,Safe
+13,6,David Arquette,23.0,13.86,15.56,4.58,19.45,Safe
+13,6,Ricki Lake,29.0,17.47,13.35,4.59,19.45,Safe
+13,6,J.R. Martinez,29.0,17.47,13.29,4.61,19.45,Safe
+13,6,Hope Solo,20.0,12.05,16.12,4.34,19.45,Safe
+13,6,Chaz Bono,19.0,11.45,10.08,2.14,19.45,Eliminated
+13,6,Nancy Grace,24.0,14.46,16.14,4.8,19.45,Safe
+13,6,Rob Kardashian,22.0,13.25,15.45,4.39,19.45,Safe
+13,7,David Arquette,23.5,16.04,10.64,2.16,16.12,Eliminated
+13,7,Ricki Lake,26.5,18.09,16.01,4.44,16.12,Safe
+13,7,J.R. Martinez,24.0,16.38,16.78,4.3,16.12,Safe
+13,7,Hope Solo,25.0,17.06,18.84,4.99,16.12,Safe
+13,7,Nancy Grace,22.0,15.02,19.58,4.72,16.12,Safe
+13,7,Rob Kardashian,25.5,17.41,18.15,4.83,16.12,Safe
+13,8,Ricki Lake,26.0,20.08,20.14,4.65,26.03,Safe
+13,8,J.R. Martinez,30.0,23.17,19.8,5.14,26.03,Safe
+13,8,Hope Solo,26.0,20.08,22.49,5.2,26.03,Safe
+13,8,Nancy Grace,22.0,16.99,15.57,2.77,26.03,Eliminated
+13,8,Rob Kardashian,25.5,19.69,22.01,5.0,26.03,Safe
+13,9,Ricki Lake,33.4999,28.27,25.11,5.45,38.24,Safe
+13,9,J.R. Martinez,28.0,23.63,26.6,4.94,38.24,Safe
+13,9,Hope Solo,24.4998,20.68,21.08,3.46,38.24,Eliminated
+13,9,Rob Kardashian,32.4998,27.43,27.21,5.66,38.24,Safe
+13,10,Ricki Lake,27.999899999999997,33.14,31.81,6.54,100.0,Safe
+13,10,J.R. Martinez,28.1665,33.33,33.7,6.63,100.0,Safe
+13,10,Rob Kardashian,28.333199999999998,33.53,34.49,6.67,100.0,Safe
+14,1,William Levy,24.0,8.89,8.33,7.62,100.0,Safe
+14,1,Jack Wagner,23.0,8.52,8.31,7.65,100.0,Safe
+14,1,Sherri Sheperd,23.0,8.52,8.37,7.66,100.0,Safe
+14,1,Jaleel White,26.0,9.63,8.28,7.61,100.0,Safe
+14,1,Roshon Fegan,23.0,8.52,8.33,7.65,100.0,Safe
+14,1,Melissa Gilbert,20.0,7.41,8.35,7.68,100.0,Safe
+14,1,Martina Navratilova,20.0,7.41,8.34,7.66,100.0,Safe
+14,1,Donald Driver,21.0,7.78,8.37,7.66,100.0,Safe
+14,1,Gavin DeGraw,20.0,7.41,8.32,7.65,100.0,Safe
+14,1,Gladys Knight,23.0,8.52,8.32,7.64,100.0,Safe
+14,1,Katherine Jenkins,26.0,9.63,8.33,7.69,100.0,Safe
+14,1,Maria Menounos,21.0,7.78,8.34,7.7,100.0,Safe
+14,2,William Levy,25.0,9.29,8.5,3.85,23.28,Safe
+14,2,Jack Wagner,21.0,7.81,8.82,3.78,23.28,Safe
+14,2,Sherri Sheperd,23.0,8.55,8.69,3.76,23.28,Safe
+14,2,Jaleel White,22.0,8.18,8.69,3.78,23.28,Safe
+14,2,Roshon Fegan,26.0,9.67,8.52,3.92,23.28,Safe
+14,2,Melissa Gilbert,20.0,7.43,8.96,3.75,23.28,Safe
+14,2,Martina Navratilova,17.0,6.32,4.17,1.31,23.28,Eliminated
+14,2,Donald Driver,24.0,8.92,8.64,3.85,23.28,Safe
+14,2,Gavin DeGraw,21.0,7.81,8.79,3.81,23.28,Safe
+14,2,Gladys Knight,19.0,7.06,9.08,3.7,23.28,Safe
+14,2,Katherine Jenkins,26.0,9.67,8.57,3.9,23.28,Safe
+14,2,Maria Menounos,25.0,9.29,8.57,3.85,23.28,Safe
+14,3,William Levy,28.0,10.0,9.18,3.9,11.52,Safe
+14,3,Jack Wagner,24.0,8.57,3.95,1.21,11.52,Eliminated
+14,3,Sherri Sheperd,24.0,8.57,9.74,3.79,11.52,Safe
+14,3,Jaleel White,25.0,8.93,9.6,3.83,11.52,Safe
+14,3,Roshon Fegan,25.0,8.93,9.52,3.75,11.52,Safe
+14,3,Melissa Gilbert,24.0,8.57,10.0,3.85,11.52,Safe
+14,3,Donald Driver,26.0,9.29,9.52,3.79,11.52,Safe
+14,3,Gavin DeGraw,24.0,8.57,9.88,3.8,11.52,Safe
+14,3,Gladys Knight,24.0,8.57,10.1,3.92,11.52,Safe
+14,3,Katherine Jenkins,29.0,10.36,9.16,3.89,11.52,Safe
+14,3,Maria Menounos,27.0,9.64,9.35,3.87,11.52,Safe
+14,4,William Levy,22.0,9.44,10.42,3.85,14.99,Safe
+14,4,Sherri Sheperd,21.0,9.01,4.93,1.41,14.99,Eliminated
+14,4,Jaleel White,22.0,9.44,10.75,3.98,14.99,Safe
+14,4,Roshon Fegan,26.0,11.16,10.2,4.03,14.99,Safe
+14,4,Melissa Gilbert,22.0,9.44,11.03,3.99,14.99,Safe
+14,4,Donald Driver,27.0,11.59,10.19,4.11,14.99,Safe
+14,4,Gavin DeGraw,23.0,9.87,10.89,4.07,14.99,Safe
+14,4,Gladys Knight,20.0,8.58,11.44,3.98,14.99,Safe
+14,4,Katherine Jenkins,24.0,10.3,10.11,3.92,14.99,Safe
+14,4,Maria Menounos,26.0,11.16,10.04,4.04,14.99,Safe
+14,5,William Levy,29.0,12.95,11.28,4.32,27.27,Safe
+14,5,Jaleel White,24.0,10.71,11.98,4.24,27.27,Safe
+14,5,Roshon Fegan,26.0,11.61,11.29,4.21,27.27,Safe
+14,5,Melissa Gilbert,21.0,9.38,12.65,4.19,27.27,Safe
+14,5,Donald Driver,27.0,12.05,11.12,4.19,27.27,Safe
+14,5,Gavin DeGraw,19.0,8.48,6.79,1.82,27.27,Eliminated
+14,5,Gladys Knight,22.0,9.82,12.87,4.32,27.27,Safe
+14,5,Katherine Jenkins,29.0,12.95,10.98,4.31,27.27,Safe
+14,5,Maria Menounos,27.0,12.05,11.05,4.18,27.27,Safe
+14,6,William Levy,36.0,13.95,12.61,4.47,23.96,Safe
+14,6,Jaleel White,36.9998,14.34,13.25,4.64,23.96,Safe
+14,6,Roshon Fegan,27.9998,10.85,13.52,4.22,23.96,Safe
+14,6,Melissa Gilbert,30.0,11.63,14.43,4.56,23.96,Safe
+14,6,Donald Driver,33.9999,13.18,12.54,4.33,23.96,Safe
+14,6,Gladys Knight,24.0,9.3,8.49,2.03,23.96,Eliminated
+14,6,Katherine Jenkins,38.9999,15.12,12.14,4.52,23.96,Safe
+14,6,Maria Menounos,29.999899999999997,11.63,13.02,4.18,23.96,Safe
+14,7,William Levy,26.5,14.44,14.86,4.32,15.33,Safe
+14,7,Jaleel White,25.5,13.9,8.24,1.87,15.33,Eliminated
+14,7,Roshon Fegan,26.0,14.17,15.77,4.61,15.33,Safe
+14,7,Melissa Gilbert,23.5,12.81,16.99,4.61,15.33,Safe
+14,7,Donald Driver,26.5,14.44,14.86,4.39,15.33,Safe
+14,7,Katherine Jenkins,27.0,14.71,14.41,4.3,15.33,Safe
+14,7,Maria Menounos,28.5,15.53,14.86,4.55,15.33,Safe
+14,8,William Levy,28.5,17.43,17.45,4.63,11.97,Safe
+14,8,Roshon Fegan,28.0,17.13,9.97,2.03,11.97,Eliminated
+14,8,Melissa Gilbert,25.5,15.6,19.8,4.82,11.97,Safe
+14,8,Donald Driver,27.5,16.82,17.59,4.51,11.97,Safe
+14,8,Katherine Jenkins,27.5,16.82,17.33,4.4,11.97,Safe
+14,8,Maria Menounos,26.5,16.21,17.87,4.43,11.97,Safe
+14,9,William Levy,29.0,25.22,27.15,4.88,19.48,Safe
+14,9,Donald Driver,28.5,24.78,27.46,4.88,19.48,Safe
+14,9,Katherine Jenkins,28.0,24.35,27.51,4.84,19.48,Safe
+14,9,Maria Menounos,29.5,25.65,17.88,2.79,19.48,Eliminated
+14,10,William Levy,29.666600000000003,33.21,33.07,6.59,100.0,Safe
+14,10,Donald Driver,29.666600000000003,33.21,33.42,6.61,100.0,Safe
+14,10,Katherine Jenkins,30.0,33.58,33.5,6.58,100.0,Safe
+15,1,Gilles Marini,24.0,8.68,8.04,7.39,23.05,Safe
+15,1,Sabrina Bryan,22.5,8.14,8.22,7.43,23.05,Safe
+15,1,Kirstie Alley,19.0,6.87,8.49,7.38,23.05,Safe
+15,1,Kelly Monaco,21.5,7.78,8.26,7.5,23.05,Safe
+15,1,Apolo Anton Ohno,22.0,7.96,8.12,7.37,23.05,Safe
+15,1,Emmitt Smith,24.5,8.86,8.03,7.45,23.05,Safe
+15,1,Shawn Johnson,22.0,7.96,8.22,7.47,23.05,Safe
+15,1,Pamela Anderson,17.0,6.15,1.16,0.82,23.05,Eliminated
+15,1,Helio Castroneves,21.5,7.78,8.13,7.43,23.05,Safe
+15,1,Joey Fatone,20.5,7.41,8.31,7.44,23.05,Safe
+15,1,Drew Lachey,21.5,7.78,8.31,7.44,23.05,Safe
+15,1,Bristol Palin,19.5,7.05,8.43,7.34,23.05,Safe
+15,1,Melissa Rycroft,21.0,7.59,8.27,7.44,23.05,Safe
+15,2,Gilles Marini,25.5,9.24,8.4,3.71,8.44,Safe
+15,2,Sabrina Bryan,26.0,9.42,8.5,3.79,8.44,Safe
+15,2,Kirstie Alley,21.0,7.61,9.28,3.67,8.44,Safe
+15,2,Kelly Monaco,22.0,7.97,8.94,3.64,8.44,Safe
+15,2,Apolo Anton Ohno,24.5,8.88,8.42,3.69,8.44,Safe
+15,2,Emmitt Smith,22.5,8.15,8.69,3.62,8.44,Safe
+15,2,Shawn Johnson,25.0,9.06,8.53,3.69,8.44,Safe
+15,2,Helio Castroneves,23.0,8.33,8.66,3.63,8.44,Safe
+15,2,Joey Fatone,22.5,8.15,3.23,1.04,8.44,Eliminated
+15,2,Drew Lachey,22.5,8.15,8.86,3.62,8.44,Safe
+15,2,Bristol Palin,18.0,6.52,9.73,3.53,8.44,Safe
+15,2,Melissa Rycroft,23.5,8.51,8.75,3.65,8.44,Safe
+15,3,Gilles Marini,25.5,9.17,9.22,3.65,9.23,Safe
+15,3,Sabrina Bryan,25.5,9.17,9.37,3.73,9.23,Safe
+15,3,Kirstie Alley,24.0,8.63,10.17,3.93,9.23,Safe
+15,3,Kelly Monaco,27.0,9.71,9.53,3.9,9.23,Safe
+15,3,Apolo Anton Ohno,25.5,9.17,9.3,3.73,9.23,Safe
+15,3,Emmitt Smith,25.0,8.99,9.56,3.73,9.23,Safe
+15,3,Shawn Johnson,26.5,9.53,9.27,3.8,9.23,Safe
+15,3,Helio Castroneves,25.5,9.17,3.6,1.12,9.23,Eliminated
+15,3,Drew Lachey,24.0,8.63,9.81,3.74,9.23,Safe
+15,3,Bristol Palin,22.5,8.09,10.8,3.98,9.23,Safe
+15,3,Melissa Rycroft,27.0,9.71,9.38,3.93,9.23,Safe
+15,4,Gilles Marini,39.5,12.29,11.11,4.11,11.3,Safe
+15,4,Sabrina Bryan,35.5,11.04,11.71,4.07,11.3,Safe
+15,4,Kirstie Alley,30.0,9.33,13.06,4.09,11.3,Safe
+15,4,Kelly Monaco,37.5,11.66,11.63,4.14,11.3,Safe
+15,4,Apolo Anton Ohno,34.5,10.73,11.74,4.01,11.3,Safe
+15,4,Emmitt Smith,36.0,11.2,11.83,4.2,11.3,Safe
+15,4,Shawn Johnson,39.5,12.29,11.18,4.18,11.3,Safe
+15,4,Bristol Palin,32.0,9.95,6.22,1.54,11.3,Eliminated
+15,4,Melissa Rycroft,37.0,11.51,11.53,4.07,11.3,Safe
+15,5,Gilles Marini,28.25,12.71,11.86,4.53,100.0,Safe
+15,5,Sabrina Bryan,29.25,13.16,12.49,4.63,100.0,Safe
+15,5,Kirstie Alley,26.25,11.81,13.92,4.84,100.0,Safe
+15,5,Kelly Monaco,25.75,11.59,12.39,4.6,100.0,Safe
+15,5,Apolo Anton Ohno,28.25,12.71,12.52,4.65,100.0,Safe
+15,5,Emmitt Smith,28.0,12.6,12.62,4.64,100.0,Safe
+15,5,Shawn Johnson,28.25,12.71,11.91,4.54,100.0,Safe
+15,5,Melissa Rycroft,28.25,12.71,12.28,4.61,100.0,Safe
+15,6,Gilles Marini,27.5,12.17,13.07,3.98,8.25,Safe
+15,6,Sabrina Bryan,30.0,13.27,5.94,1.52,8.25,Eliminated
+15,6,Kirstie Alley,27.5,12.17,14.64,4.47,8.25,Safe
+15,6,Kelly Monaco,27.0,11.95,13.48,4.05,8.25,Safe
+15,6,Apolo Anton Ohno,30.0,13.27,13.05,4.21,8.25,Safe
+15,6,Emmitt Smith,26.5,11.73,13.76,4.06,8.25,Safe
+15,6,Shawn Johnson,28.0,12.39,13.01,3.99,8.25,Safe
+15,6,Melissa Rycroft,29.5,13.05,13.05,4.19,8.25,Safe
+15,7,Gilles Marini,33.4998,13.84,13.88,4.83,100.0,Safe
+15,7,Kirstie Alley,27.999899999999997,11.57,15.54,5.08,100.0,Safe
+15,7,Kelly Monaco,36.0,14.88,14.33,4.93,100.0,Safe
+15,7,Apolo Anton Ohno,33.0,13.64,13.9,4.85,100.0,Safe
+15,7,Emmitt Smith,34.4999,14.26,14.62,4.96,100.0,Safe
+15,7,Shawn Johnson,37.9998,15.7,13.86,4.85,100.0,Safe
+15,7,Melissa Rycroft,38.9999,16.12,13.88,4.83,100.0,Safe
+15,8,Gilles Marini,29.2777,14.69,7.6,1.81,13.82,Eliminated
+15,8,Kirstie Alley,25.5,12.8,16.81,4.56,13.82,Safe
+15,8,Kelly Monaco,28.3333,14.22,15.39,4.43,13.82,Safe
+15,8,Apolo Anton Ohno,29.2777,14.69,14.88,4.34,13.82,Safe
+15,8,Emmitt Smith,29.0554,14.58,15.47,4.53,13.82,Safe
+15,8,Shawn Johnson,27.8333,13.97,15.12,4.3,13.82,Safe
+15,8,Melissa Rycroft,30.0,15.05,14.72,4.46,13.82,Safe
+15,9,Kelly Monaco,27.110999999999997,19.23,22.26,4.85,19.67,Safe
+15,9,Apolo Anton Ohno,28.611,20.29,12.99,2.47,19.67,Eliminated
+15,9,Emmitt Smith,27.0,19.15,22.26,4.78,19.67,Safe
+15,9,Shawn Johnson,29.5,20.92,21.33,4.93,19.67,Safe
+15,9,Melissa Rycroft,28.7777,20.41,21.17,4.79,19.67,Safe
+15,10,Kelly Monaco,29.1109,33.31,34.4,6.67,100.0,Safe
+15,10,Shawn Johnson,28.944300000000002,33.12,32.9,6.55,100.0,Safe
+15,10,Melissa Rycroft,29.333099999999998,33.57,32.7,6.55,100.0,Safe
+16,1,Ingo Rademacher,20.0,8.73,8.35,7.69,100.0,Safe
+16,1,Zendaya,24.0,10.48,8.34,7.64,100.0,Safe
+16,1,Dorothy Hamill,21.0,9.17,8.35,7.68,100.0,Safe
+16,1,Victor Ortiz,18.0,7.86,8.36,7.69,100.0,Safe
+16,1,Alexandra Raisman,21.0,9.17,8.38,7.67,100.0,Safe
+16,1,Jacoby Jones,20.0,8.73,8.33,7.66,100.0,Safe
+16,1,D. L. Hughley,12.0,5.24,8.28,7.63,100.0,Safe
+16,1,Andy Dick,17.0,7.42,8.33,7.68,100.0,Safe
+16,1,Wynonna Judd,18.0,7.86,8.3,7.64,100.0,Safe
+16,1,Kellie Pickler,21.0,9.17,8.32,7.66,100.0,Safe
+16,1,Lisa Vanderpump,18.0,7.86,8.31,7.67,100.0,Safe
+16,1,Sean Lowe,19.0,8.3,8.34,7.7,100.0,Safe
+16,2,Ingo Rademacher,20.0,8.2,8.35,3.88,100.0,Safe
+16,2,Zendaya,26.0,10.66,8.33,3.87,100.0,Safe
+16,2,Dorothy Hamill,15.0,6.15,8.36,3.87,100.0,Safe
+16,2,Victor Ortiz,18.0,7.38,8.38,3.89,100.0,Safe
+16,2,Alexandra Raisman,24.0,9.84,8.38,3.88,100.0,Safe
+16,2,Jacoby Jones,23.0,9.43,8.34,3.87,100.0,Safe
+16,2,D. L. Hughley,16.0,6.56,8.3,3.87,100.0,Safe
+16,2,Andy Dick,20.0,8.2,8.32,3.86,100.0,Safe
+16,2,Wynonna Judd,18.0,7.38,8.31,3.86,100.0,Safe
+16,2,Kellie Pickler,26.0,10.66,8.31,3.86,100.0,Safe
+16,2,Lisa Vanderpump,18.0,7.38,8.29,3.86,100.0,Safe
+16,2,Sean Lowe,20.0,8.2,8.34,3.88,100.0,Safe
+16,3,Ingo Rademacher,21.0,8.94,9.51,3.98,28.18,Safe
+16,3,Zendaya,25.9998,11.06,9.23,4.06,28.18,Safe
+16,3,Victor Ortiz,23.0,9.79,9.42,3.99,28.18,Safe
+16,3,Alexandra Raisman,23.0,9.79,9.4,4.02,28.18,Safe
+16,3,Jacoby Jones,25.9998,11.06,9.26,4.06,28.18,Safe
+16,3,D. L. Hughley,16.0,6.81,10.12,3.73,28.18,Safe
+16,3,Andy Dick,18.0,7.66,9.84,3.86,28.18,Safe
+16,3,Wynonna Judd,15.0,6.38,5.04,1.55,28.18,Eliminated
+16,3,Kellie Pickler,25.0,10.64,9.25,4.01,28.18,Safe
+16,3,Lisa Vanderpump,21.0,8.94,9.41,3.94,28.18,Safe
+16,3,Sean Lowe,21.0,8.94,9.51,3.96,28.18,Safe
+16,4,Ingo Rademacher,23.0,10.27,10.42,4.1,23.09,Safe
+16,4,Zendaya,26.0,11.61,9.94,4.1,23.09,Safe
+16,4,Victor Ortiz,18.0,8.04,11.1,3.88,23.09,Safe
+16,4,Alexandra Raisman,27.0,12.05,10.13,4.19,23.09,Safe
+16,4,Jacoby Jones,24.0,10.71,10.13,4.03,23.09,Safe
+16,4,D. L. Hughley,21.0,9.38,11.25,4.17,23.09,Safe
+16,4,Andy Dick,21.0,9.38,10.95,4.09,23.09,Safe
+16,4,Kellie Pickler,26.0,11.61,9.92,4.16,23.09,Safe
+16,4,Lisa Vanderpump,18.0,8.04,5.38,1.56,23.09,Eliminated
+16,4,Sean Lowe,20.0,8.93,10.77,3.96,23.09,Safe
+16,5,Ingo Rademacher,21.0,10.05,11.96,4.13,21.84,Safe
+16,5,Zendaya,29.0,13.88,10.75,4.29,21.84,Safe
+16,5,Victor Ortiz,21.0,10.05,12.55,4.3,21.84,Safe
+16,5,Alexandra Raisman,25.0,11.96,11.22,4.22,21.84,Safe
+16,5,Jacoby Jones,26.0,12.44,11.05,4.23,21.84,Safe
+16,5,D. L. Hughley,18.0,8.61,6.8,1.77,21.84,Eliminated
+16,5,Andy Dick,18.0,8.61,12.96,4.03,21.84,Safe
+16,5,Kellie Pickler,27.0,12.92,10.83,4.24,21.84,Safe
+16,5,Sean Lowe,24.0,11.48,11.87,4.31,21.84,Safe
+16,6,Ingo Rademacher,23.0,12.2,13.72,4.45,18.89,Safe
+16,6,Zendaya,25.5,13.53,12.3,4.3,18.89,Safe
+16,6,Victor Ortiz,20.0,10.61,7.73,1.85,18.89,Eliminated
+16,6,Alexandra Raisman,26.0,13.79,12.65,4.36,18.89,Safe
+16,6,Jacoby Jones,22.5,11.94,13.04,4.15,18.89,Safe
+16,6,Andy Dick,21.5,11.41,14.88,4.53,18.89,Safe
+16,6,Kellie Pickler,27.0,14.32,12.04,4.3,18.89,Safe
+16,6,Sean Lowe,23.0,12.2,13.65,4.41,18.89,Safe
+16,7,Ingo Rademacher,25.0,13.59,15.85,4.75,36.77,Safe
+16,7,Zendaya,30.0,16.3,13.92,4.68,36.77,Safe
+16,7,Alexandra Raisman,32.0,17.39,14.12,4.76,36.77,Safe
+16,7,Jacoby Jones,27.0,14.67,14.99,4.73,36.77,Safe
+16,7,Andy Dick,17.0,9.24,11.38,2.49,36.77,Eliminated
+16,7,Kellie Pickler,29.0,15.76,13.76,4.56,36.77,Safe
+16,7,Sean Lowe,24.0,13.04,15.98,4.69,36.77,Safe
+16,8,Ingo Rademacher,24.0,15.43,19.28,4.9,28.87,Safe
+16,8,Zendaya,29.0,18.65,16.59,4.84,28.87,Safe
+16,8,Alexandra Raisman,28.0,18.01,16.97,4.82,28.87,Safe
+16,8,Jacoby Jones,26.0,16.72,18.07,4.84,28.87,Safe
+16,8,Kellie Pickler,27.5,17.68,16.7,4.7,28.87,Safe
+16,8,Sean Lowe,21.0,13.5,12.39,2.49,28.87,Eliminated
+16,9,Ingo Rademacher,25.5,18.09,14.94,2.63,20.09,Eliminated
+16,9,Zendaya,27.5,19.5,21.29,4.67,20.09,Safe
+16,9,Alexandra Raisman,29.5,20.92,20.98,4.93,20.09,Safe
+16,9,Jacoby Jones,29.5,20.92,21.92,5.13,20.09,Safe
+16,9,Kellie Pickler,29.0,20.57,20.87,4.79,20.09,Safe
+16,10,Zendaya,30.0,25.64,27.01,5.15,28.1,Safe
+16,10,Alexandra Raisman,29.0,24.79,18.18,3.01,28.1,Eliminated
+16,10,Jacoby Jones,27.999899999999997,23.93,28.17,5.07,28.1,Safe
+16,10,Kellie Pickler,30.0,25.64,26.64,5.07,28.1,Safe
+17,1,Valerie Harper,21.0,8.2,8.35,7.69,100.0,Safe
+17,1,Brant Daugherty,22.0,8.59,8.28,7.63,100.0,Safe
+17,1,Elizabeth Berkley Lauren,24.0,9.38,8.33,7.67,100.0,Safe
+17,1,Leah Remini,21.0,8.2,8.36,7.65,100.0,Safe
+17,1,Corbin Bleu,24.0,9.38,8.34,7.67,100.0,Safe
+17,1,Amber Riley,27.0,10.55,8.34,7.65,100.0,Safe
+17,1,Keyshawn Johnson,17.0,6.64,8.36,7.7,100.0,Safe
+17,1,Bill Engvall,18.0,7.03,8.28,7.63,100.0,Safe
+17,1,Christina Milian,22.0,8.59,8.36,7.68,100.0,Safe
+17,1,"Nicole ""Snooki"" Polizzi",23.0,8.98,8.31,7.66,100.0,Safe
+17,1,Jack Osbourne,23.0,8.98,8.32,7.62,100.0,Safe
+17,1,Bill Nye,14.0,5.47,8.38,7.7,100.0,Safe
+17,2,Valerie Harper,19.0,7.14,9.13,3.69,18.18,Safe
+17,2,Brant Daugherty,23.0,8.65,8.61,3.79,18.18,Safe
+17,2,Elizabeth Berkley Lauren,25.0,9.4,8.52,3.84,18.18,Safe
+17,2,Leah Remini,24.0,9.02,8.57,3.8,18.18,Safe
+17,2,Corbin Bleu,26.0,9.77,8.43,3.85,18.18,Safe
+17,2,Amber Riley,24.0,9.02,8.54,3.76,18.18,Safe
+17,2,Keyshawn Johnson,18.0,6.77,3.91,1.25,18.18,Eliminated
+17,2,Bill Engvall,21.0,7.89,8.75,3.72,18.18,Safe
+17,2,Christina Milian,25.0,9.4,8.55,3.85,18.18,Safe
+17,2,"Nicole ""Snooki"" Polizzi",20.0,7.52,8.98,3.73,18.18,Safe
+17,2,Jack Osbourne,24.0,9.02,8.55,3.84,18.18,Safe
+17,2,Bill Nye,17.0,6.39,9.48,3.61,18.18,Safe
+17,3,Valerie Harper,16.0,6.27,10.84,3.83,24.09,Safe
+17,3,Brant Daugherty,27.0,10.59,9.2,4.0,24.09,Safe
+17,3,Elizabeth Berkley Lauren,25.0,9.8,9.18,3.94,24.09,Safe
+17,3,Leah Remini,24.0,9.41,9.32,3.95,24.09,Safe
+17,3,Corbin Bleu,26.0,10.2,9.05,3.96,24.09,Safe
+17,3,Amber Riley,24.0,9.41,9.28,3.94,24.09,Safe
+17,3,Bill Engvall,24.0,9.41,9.46,3.99,24.09,Safe
+17,3,Christina Milian,26.0,10.2,9.19,4.01,24.09,Safe
+17,3,"Nicole ""Snooki"" Polizzi",25.0,9.8,9.64,4.05,24.09,Safe
+17,3,Jack Osbourne,22.0,8.63,9.48,3.87,24.09,Safe
+17,3,Bill Nye,16.0,6.27,5.35,1.55,24.09,Eliminated
+17,4,Valerie Harper,18.0,7.59,6.05,1.57,17.37,Eliminated
+17,4,Brant Daugherty,21.0,8.86,10.74,3.9,17.37,Safe
+17,4,Elizabeth Berkley Lauren,27.0,11.39,10.04,4.12,17.37,Safe
+17,4,Leah Remini,24.0,10.13,10.39,4.01,17.37,Safe
+17,4,Corbin Bleu,27.0,11.39,9.92,4.08,17.37,Safe
+17,4,Amber Riley,27.0,11.39,10.19,4.13,17.37,Safe
+17,4,Bill Engvall,21.0,8.86,10.98,3.97,17.37,Safe
+17,4,Christina Milian,24.0,10.13,10.33,4.04,17.37,Safe
+17,4,"Nicole ""Snooki"" Polizzi",24.0,10.13,10.72,4.11,17.37,Safe
+17,4,Jack Osbourne,24.0,10.13,10.63,4.13,17.37,Safe
+17,5,Brant Daugherty,27.0,11.49,11.83,4.02,7.04,Safe
+17,5,Elizabeth Berkley Lauren,26.0,11.06,11.54,3.91,7.04,Safe
+17,5,Leah Remini,22.0,9.36,12.72,3.82,7.04,Safe
+17,5,Corbin Bleu,28.0,11.91,11.1,3.97,7.04,Safe
+17,5,Amber Riley,26.0,11.06,11.69,3.96,7.04,Safe
+17,5,Bill Engvall,24.0,10.21,12.65,4.03,7.04,Safe
+17,5,Christina Milian,28.0,11.91,4.75,1.34,7.04,Eliminated
+17,5,"Nicole ""Snooki"" Polizzi",27.0,11.49,11.93,4.12,7.04,Safe
+17,5,Jack Osbourne,27.0,11.49,11.78,4.06,7.04,Safe
+17,6,Brant Daugherty,31.0,13.42,12.44,4.6,100.0,Safe
+17,6,Elizabeth Berkley Lauren,31.9998,13.85,12.11,4.56,100.0,Safe
+17,6,Leah Remini,27.999899999999997,12.12,13.35,4.75,100.0,Safe
+17,6,Corbin Bleu,26.999899999999997,11.69,11.67,4.48,100.0,Safe
+17,6,Amber Riley,31.999899999999997,13.85,12.28,4.59,100.0,Safe
+17,6,Bill Engvall,23.9999,10.39,13.29,4.75,100.0,Safe
+17,6,"Nicole ""Snooki"" Polizzi",30.0,12.99,12.51,4.62,100.0,Safe
+17,6,Jack Osbourne,26.9998,11.69,12.35,4.6,100.0,Safe
+17,7,Brant Daugherty,28.5,12.87,13.26,4.34,14.08,Safe
+17,7,Elizabeth Berkley Lauren,27.0,12.19,13.17,4.17,14.08,Safe
+17,7,Leah Remini,26.5,11.96,14.21,4.38,14.08,Safe
+17,7,Corbin Bleu,29.5,13.32,12.44,4.2,14.08,Safe
+17,7,Amber Riley,29.5,13.32,12.81,4.29,14.08,Safe
+17,7,Bill Engvall,25.0,11.29,14.41,4.31,14.08,Safe
+17,7,"Nicole ""Snooki"" Polizzi",27.0,12.19,6.61,1.65,14.08,Eliminated
+17,7,Jack Osbourne,28.5,12.87,13.08,4.24,14.08,Safe
+17,8,Brant Daugherty,27.0,14.06,8.04,1.89,15.42,Eliminated
+17,8,Elizabeth Berkley Lauren,25.0,13.02,15.74,4.32,15.42,Safe
+17,8,Leah Remini,28.0,14.58,15.93,4.65,15.42,Safe
+17,8,Corbin Bleu,30.0,15.62,14.06,4.41,15.42,Safe
+17,8,Amber Riley,28.0,14.58,14.79,4.42,15.42,Safe
+17,8,Bill Engvall,24.0,12.5,16.84,4.49,15.42,Safe
+17,8,Jack Osbourne,30.0,15.62,14.6,4.47,15.42,Safe
+17,9,Elizabeth Berkley Lauren,28.0,17.78,9.56,1.94,9.32,Eliminated
+17,9,Leah Remini,27.0,17.14,18.2,4.62,9.32,Safe
+17,9,Corbin Bleu,29.0,18.41,16.34,4.41,9.32,Safe
+17,9,Amber Riley,25.5,16.19,17.82,4.35,9.32,Safe
+17,9,Bill Engvall,21.0,13.33,20.78,4.44,9.32,Safe
+17,9,Jack Osbourne,27.0,17.14,17.31,4.4,9.32,Safe
+17,10,Leah Remini,32.5,18.57,14.09,2.7,26.92,Eliminated
+17,10,Corbin Bleu,37.5,21.43,19.65,4.74,26.92,Safe
+17,10,Amber Riley,39.5,22.57,20.58,5.17,26.92,Safe
+17,10,Bill Engvall,30.0,17.14,24.84,5.15,26.92,Safe
+17,10,Jack Osbourne,35.5,20.29,20.84,4.85,26.92,Safe
+17,11,Corbin Bleu,29.6664,25.91,25.77,4.84,19.89,Safe
+17,11,Amber Riley,31.333199999999998,27.37,25.84,5.14,19.89,Safe
+17,11,Bill Engvall,25.499899999999997,22.27,20.98,2.97,19.89,Eliminated
+17,11,Jack Osbourne,27.999899999999997,24.45,27.4,4.92,19.89,Safe
+18,1,Billy Dee Williams,15.0,5.73,8.35,7.69,100.0,Safe
+18,1,Danica McKellar,24.0,9.16,8.33,7.67,100.0,Safe
+18,1,James Maslow,21.0,8.02,8.37,7.7,100.0,Safe
+18,1,Candace Cameron Bure,25.0,9.54,8.37,7.68,100.0,Safe
+18,1,Sean Avery,20.0,7.63,8.32,7.66,100.0,Safe
+18,1,Diana Nyad,18.0,6.87,8.37,7.7,100.0,Safe
+18,1,Charlie White,27.0,10.31,8.35,7.69,100.0,Safe
+18,1,Amy Purdy,24.0,9.16,8.3,7.64,100.0,Safe
+18,1,Meryl Davis,24.0,9.16,8.31,7.65,100.0,Safe
+18,1,Drew Carey,21.0,8.02,8.31,7.65,100.0,Safe
+18,1,Cody Simpson,22.0,8.4,8.33,7.66,100.0,Safe
+18,1,NeNe Leakes,21.0,8.02,8.31,7.64,100.0,Safe
+18,2,Billy Dee Williams,15.0,6.15,11.03,3.57,10.38,Safe
+18,2,Danica McKellar,24.0,9.84,9.36,3.92,10.38,Safe
+18,2,James Maslow,25.0,10.25,9.37,3.97,10.38,Safe
+18,2,Candace Cameron Bure,21.0,8.61,9.75,3.8,10.38,Safe
+18,2,Sean Avery,21.0,8.61,3.88,1.21,10.38,Eliminated
+18,2,Charlie White,25.0,10.25,9.22,3.89,10.38,Safe
+18,2,Amy Purdy,24.0,9.84,9.31,3.84,10.38,Safe
+18,2,Meryl Davis,25.0,10.25,9.16,3.87,10.38,Safe
+18,2,Drew Carey,21.0,8.61,9.66,3.77,10.38,Safe
+18,2,Cody Simpson,22.0,9.02,9.54,3.77,10.38,Safe
+18,2,NeNe Leakes,21.0,8.61,9.72,3.82,10.38,Safe
+18,3,Danica McKellar,36.0,11.58,10.98,4.39,100.0,Safe
+18,3,James Maslow,36.0,11.58,11.01,4.4,100.0,Safe
+18,3,Candace Cameron Bure,32.0,10.29,11.47,4.45,100.0,Safe
+18,3,Charlie White,36.0,11.58,10.84,4.35,100.0,Safe
+18,3,Amy Purdy,36.0,11.58,10.93,4.35,100.0,Safe
+18,3,Meryl Davis,39.0,12.54,10.77,4.33,100.0,Safe
+18,3,Drew Carey,30.0,9.65,11.36,4.44,100.0,Safe
+18,3,Cody Simpson,35.0,11.25,11.22,4.42,100.0,Safe
+18,3,NeNe Leakes,31.0,9.97,11.42,4.43,100.0,Safe
+18,4,Danica McKellar,32.0,10.77,10.99,4.38,100.0,Safe
+18,4,James Maslow,35.0,11.78,11.03,4.38,100.0,Safe
+18,4,Candace Cameron Bure,28.0,9.43,11.47,4.48,100.0,Safe
+18,4,Charlie White,33.0,11.11,10.85,4.35,100.0,Safe
+18,4,Amy Purdy,34.0,11.45,10.92,4.36,100.0,Safe
+18,4,Meryl Davis,39.0,13.13,10.77,4.32,100.0,Safe
+18,4,Drew Carey,33.0,11.11,11.36,4.45,100.0,Safe
+18,4,Cody Simpson,31.0,10.44,11.21,4.41,100.0,Safe
+18,4,NeNe Leakes,32.0,10.77,11.41,4.45,100.0,Safe
+18,5,Danica McKellar,39.0,12.11,11.37,4.16,13.23,Safe
+18,5,James Maslow,40.0,12.42,11.41,4.19,13.23,Safe
+18,5,Candace Cameron Bure,35.0,10.87,12.18,4.23,13.23,Safe
+18,5,Charlie White,37.0,11.49,11.46,4.13,13.23,Safe
+18,5,Amy Purdy,37.0,11.49,11.47,4.11,13.23,Safe
+18,5,Meryl Davis,36.0,11.18,11.51,4.05,13.23,Safe
+18,5,Drew Carey,28.0,8.7,13.01,3.92,13.23,Safe
+18,5,Cody Simpson,34.0,10.56,5.57,1.51,13.23,Eliminated
+18,5,NeNe Leakes,36.0,11.18,12.01,4.19,13.23,Safe
+18,6,Danica McKellar,36.0,12.77,12.95,4.25,12.94,Safe
+18,6,James Maslow,35.0,12.41,13.14,4.25,12.94,Safe
+18,6,Candace Cameron Bure,32.0,11.35,14.17,4.31,12.94,Safe
+18,6,Charlie White,36.0,12.77,12.94,4.26,12.94,Safe
+18,6,Amy Purdy,38.0,13.48,12.79,4.28,12.94,Safe
+18,6,Meryl Davis,40.0,14.18,12.7,4.46,12.94,Safe
+18,6,Drew Carey,32.0,11.35,7.35,1.75,12.94,Eliminated
+18,6,NeNe Leakes,33.0,11.7,13.94,4.34,12.94,Safe
+18,7,Danica McKellar,36.0,14.23,15.08,4.44,17.57,Safe
+18,7,James Maslow,35.0,13.83,15.43,4.48,17.57,Safe
+18,7,Candace Cameron Bure,37.0,14.62,16.04,4.72,17.57,Safe
+18,7,Charlie White,35.5,14.03,15.21,4.41,17.57,Safe
+18,7,Amy Purdy,37.5,14.82,14.79,4.45,17.57,Safe
+18,7,Meryl Davis,39.0,15.42,14.55,4.5,17.57,Safe
+18,7,NeNe Leakes,33.0,13.04,8.89,1.98,17.57,Eliminated
+18,8,Danica McKellar,38.0,16.81,9.99,2.1,15.84,Eliminated
+18,8,James Maslow,36.0,15.93,18.51,4.64,15.84,Safe
+18,8,Candace Cameron Bure,36.0,15.93,18.98,4.75,15.84,Safe
+18,8,Charlie White,40.0,17.7,17.66,4.78,15.84,Safe
+18,8,Amy Purdy,40.0,17.7,17.2,4.61,15.84,Safe
+18,8,Meryl Davis,36.0,15.93,17.66,4.41,15.84,Safe
+18,9,James Maslow,38.0,19.9,22.07,4.96,22.22,Safe
+18,9,Candace Cameron Bure,36.0,18.85,22.87,4.92,22.22,Safe
+18,9,Charlie White,38.0,19.9,13.17,2.53,22.22,Eliminated
+18,9,Amy Purdy,39.0,20.42,20.86,4.79,22.22,Safe
+18,9,Meryl Davis,40.0,20.94,21.03,4.9,22.22,Safe
+18,10,James Maslow,29.0,25.29,18.09,2.86,21.16,Eliminated
+18,10,Candace Cameron Bure,25.9998,22.67,29.29,4.97,21.16,Safe
+18,10,Amy Purdy,29.666600000000003,25.87,26.31,4.94,21.16,Safe
+18,10,Meryl Davis,30.0,26.16,26.32,5.01,21.16,Safe
+19,1,Antonio Sabato Jr.,25.0,6.72,8.5,7.24,21.12,Safe
+19,1,Jonathan Bennett,30.0,8.06,7.94,7.23,21.12,Safe
+19,1,Lea Thompson,32.0,8.6,7.96,7.29,21.12,Safe
+19,1,Janel Parrish,29.0,7.8,8.03,7.26,21.12,Safe
+19,1,Alfonso Ribeiro,36.0,9.68,7.97,7.33,21.12,Safe
+19,1,Lolo Jones,22.0,5.91,1.21,0.9,21.12,Eliminated
+19,1,Randy Couture,31.0,8.33,7.97,7.25,21.12,Safe
+19,1,Tommy Chong,27.0,7.26,8.23,7.33,21.12,Safe
+19,1,Betsey Johnson,20.0,5.38,9.62,7.24,21.12,Safe
+19,1,Michael Waltrip,25.0,6.72,8.5,7.26,21.12,Safe
+19,1,Tavis Smiley,29.0,7.8,8.11,7.36,21.12,Safe
+19,1,Bethany Mota,32.0,8.6,7.98,7.39,21.12,Safe
+19,1,Sadie Robertson,34.0,9.14,7.97,7.28,21.12,Safe
+19,2,Antonio Sabato Jr.,31.0,8.56,8.91,3.83,11.97,Safe
+19,2,Jonathan Bennett,30.0,8.29,8.48,3.56,11.97,Safe
+19,2,Lea Thompson,35.0,9.67,8.18,3.73,11.97,Safe
+19,2,Janel Parrish,34.0,9.39,8.34,3.79,11.97,Safe
+19,2,Alfonso Ribeiro,32.0,8.84,8.44,3.72,11.97,Safe
+19,2,Randy Couture,28.0,7.73,8.78,3.63,11.97,Safe
+19,2,Tommy Chong,28.0,7.73,8.99,3.7,11.97,Safe
+19,2,Betsey Johnson,28.0,7.73,10.04,3.95,11.97,Safe
+19,2,Michael Waltrip,24.0,6.63,9.67,3.64,11.97,Safe
+19,2,Tavis Smiley,28.0,7.73,3.37,1.11,11.97,Eliminated
+19,2,Bethany Mota,33.0,9.12,8.36,3.77,11.97,Safe
+19,2,Sadie Robertson,31.0,8.56,8.44,3.65,11.97,Safe
+19,3,Antonio Sabato Jr.,29.0,8.22,9.9,3.89,21.02,Safe
+19,3,Jonathan Bennett,32.0,9.07,9.29,3.86,21.02,Safe
+19,3,Lea Thompson,31.0,8.78,9.06,3.76,21.02,Safe
+19,3,Janel Parrish,40.0,11.33,8.77,3.91,21.02,Safe
+19,3,Alfonso Ribeiro,32.0,9.07,9.21,3.85,21.02,Safe
+19,3,Randy Couture,26.0,7.37,4.55,1.39,21.02,Eliminated
+19,3,Tommy Chong,34.0,9.63,9.63,4.03,21.02,Safe
+19,3,Betsey Johnson,29.0,8.22,10.87,4.15,21.02,Safe
+19,3,Michael Waltrip,28.0,7.93,10.64,4.05,21.02,Safe
+19,3,Bethany Mota,40.0,11.33,8.81,3.96,21.02,Safe
+19,3,Sadie Robertson,32.0,9.07,9.26,3.86,21.02,Safe
+19,4,Antonio Sabato Jr.,29.0,9.06,11.23,3.95,7.44,Safe
+19,4,Jonathan Bennett,24.0,7.5,11.61,3.67,7.44,Safe
+19,4,Lea Thompson,39.0,12.19,9.68,4.03,7.44,Safe
+19,4,Janel Parrish,36.0,11.25,9.52,3.88,7.44,Safe
+19,4,Alfonso Ribeiro,40.0,12.5,9.77,4.18,7.44,Safe
+19,4,Tommy Chong,28.0,8.75,11.1,3.86,7.44,Safe
+19,4,Betsey Johnson,29.0,9.06,5.09,1.37,7.44,Eliminated
+19,4,Michael Waltrip,25.0,7.81,12.23,4.0,7.44,Safe
+19,4,Bethany Mota,33.0,10.31,9.83,3.81,7.44,Safe
+19,4,Sadie Robertson,37.0,11.56,9.95,4.08,7.44,Safe
+19,5,Antonio Sabato Jr.,28.0,10.61,11.79,4.51,100.0,Safe
+19,5,Jonathan Bennett,24.0,9.09,12.25,4.59,100.0,Safe
+19,5,Lea Thompson,34.0,12.88,10.18,4.22,100.0,Safe
+19,5,Janel Parrish,33.0,12.5,10.04,4.22,100.0,Safe
+19,5,Alfonso Ribeiro,34.0,12.88,10.3,4.26,100.0,Safe
+19,5,Tommy Chong,23.0,8.71,11.69,4.51,100.0,Safe
+19,5,Michael Waltrip,20.0,7.58,12.89,4.69,100.0,Safe
+19,5,Bethany Mota,32.0,12.12,10.36,4.26,100.0,Safe
+19,5,Sadie Robertson,36.0,13.64,10.49,4.28,100.0,Safe
+19,6,Antonio Sabato Jr.,28.0,9.56,13.05,4.06,7.21,Safe
+19,6,Jonathan Bennett,32.0,10.92,5.58,1.41,7.21,Eliminated
+19,6,Lea Thompson,32.0,10.92,11.3,3.9,7.21,Safe
+19,6,Janel Parrish,33.0,11.26,11.08,3.9,7.21,Safe
+19,6,Alfonso Ribeiro,39.0,13.31,10.56,4.12,7.21,Safe
+19,6,Tommy Chong,28.0,9.56,12.88,3.92,7.21,Safe
+19,6,Michael Waltrip,30.0,10.24,13.56,4.38,7.21,Safe
+19,6,Bethany Mota,36.0,12.29,10.87,4.01,7.21,Safe
+19,6,Sadie Robertson,35.0,11.95,11.11,4.05,7.21,Safe
+19,7,Antonio Sabato Jr.,29.5,11.41,7.36,1.69,12.17,Eliminated
+19,7,Lea Thompson,35.0,13.54,12.67,4.29,12.17,Safe
+19,7,Janel Parrish,33.5,12.96,12.64,4.21,12.17,Safe
+19,7,Alfonso Ribeiro,34.0,13.15,12.16,4.13,12.17,Safe
+19,7,Tommy Chong,30.0,11.61,14.67,4.42,12.17,Safe
+19,7,Michael Waltrip,28.0,10.83,15.42,4.54,12.17,Safe
+19,7,Bethany Mota,37.5,14.51,12.02,4.29,12.17,Safe
+19,7,Sadie Robertson,31.0,11.99,13.06,4.05,12.17,Safe
+19,8,Lea Thompson,32.0,12.9,15.27,4.42,26.21,Safe
+19,8,Janel Parrish,43.0,17.34,14.1,4.76,26.21,Safe
+19,8,Alfonso Ribeiro,41.0,16.53,13.73,4.54,26.21,Safe
+19,8,Tommy Chong,29.0,11.69,17.37,4.67,26.21,Safe
+19,8,Michael Waltrip,25.0,10.08,10.99,2.33,26.21,Eliminated
+19,8,Bethany Mota,40.0,16.13,13.62,4.53,26.21,Safe
+19,8,Sadie Robertson,38.0,15.32,14.91,4.71,26.21,Safe
+19,9,Lea Thompson,35.0,16.36,10.43,2.15,15.96,Eliminated
+19,9,Janel Parrish,38.5,17.99,16.89,4.66,15.96,Safe
+19,9,Alfonso Ribeiro,38.5,17.99,16.55,4.54,15.96,Safe
+19,9,Tommy Chong,28.5,13.32,21.38,4.77,15.96,Safe
+19,9,Bethany Mota,37.0,17.29,16.79,4.47,15.96,Safe
+19,9,Sadie Robertson,36.5,17.06,17.96,4.7,15.96,Safe
+19,10,Janel Parrish,39.0,21.37,20.53,4.89,17.6,Safe
+19,10,Alfonso Ribeiro,37.5,20.55,20.66,4.72,17.6,Safe
+19,10,Tommy Chong,31.0,16.99,16.16,2.63,17.6,Eliminated
+19,10,Bethany Mota,38.0,20.82,20.74,4.82,17.6,Safe
+19,10,Sadie Robertson,37.0,20.27,21.91,5.0,17.6,Safe
+19,11,Janel Parrish,38.99980000000001,24.95,26.91,5.05,30.11,Safe
+19,11,Alfonso Ribeiro,40.0,25.59,26.69,5.11,30.11,Safe
+19,11,Bethany Mota,38.0,24.31,18.48,3.05,30.11,Eliminated
+19,11,Sadie Robertson,39.333200000000005,25.16,27.92,5.3,30.11,Safe
+20,1,Suzanne Somers,25.0,7.86,8.33,7.71,100.0,Safe
+20,1,Willow Shields,25.0,7.86,8.31,7.62,100.0,Safe
+20,1,Riker Lynch,31.0,9.75,8.35,7.66,100.0,Safe
+20,1,Rumer Willis,32.0,10.06,8.35,7.67,100.0,Safe
+20,1,Nastia Liukin,30.0,9.43,8.32,7.62,100.0,Safe
+20,1,Michael Sam,26.0,8.18,8.32,7.64,100.0,Safe
+20,1,Robert Herjavec,28.0,8.81,8.33,7.7,100.0,Safe
+20,1,Charlotte McKinney,22.0,6.92,8.32,7.65,100.0,Safe
+20,1,Noah Galloway,26.0,8.18,8.33,7.7,100.0,Safe
+20,1,Redfoo,22.0,6.92,8.36,7.67,100.0,Safe
+20,1,Patti LaBelle,25.0,7.86,8.34,7.71,100.0,Safe
+20,1,Chris Soules,26.0,8.18,8.32,7.65,100.0,Safe
+20,2,Suzanne Somers,28.0,8.07,8.83,3.53,4.26,Safe
+20,2,Willow Shields,32.0,9.22,8.47,3.61,4.26,Safe
+20,2,Riker Lynch,32.0,9.22,8.44,3.65,4.26,Safe
+20,2,Rumer Willis,32.0,9.22,8.54,3.71,4.26,Safe
+20,2,Nastia Liukin,34.0,9.8,8.3,3.72,4.26,Safe
+20,2,Michael Sam,28.0,8.07,8.83,3.51,4.26,Safe
+20,2,Robert Herjavec,28.0,8.07,8.84,3.52,4.26,Safe
+20,2,Charlotte McKinney,26.0,7.49,9.09,3.47,4.26,Safe
+20,2,Noah Galloway,27.0,7.78,9.06,3.51,4.26,Safe
+20,2,Redfoo,31.0,8.93,2.75,0.93,4.26,Eliminated
+20,2,Patti LaBelle,28.0,8.07,8.99,3.62,4.26,Safe
+20,2,Chris Soules,21.0,6.05,9.87,3.26,4.26,Safe
+20,3,Suzanne Somers,25.0,7.99,9.83,3.85,20.98,Safe
+20,3,Willow Shields,32.0,10.22,9.01,3.9,20.98,Safe
+20,3,Riker Lynch,34.0,10.86,8.85,3.96,20.98,Safe
+20,3,Rumer Willis,33.0,10.54,8.93,3.92,20.98,Safe
+20,3,Nastia Liukin,34.0,10.86,8.76,3.95,20.98,Safe
+20,3,Michael Sam,24.0,7.67,9.9,3.76,20.98,Safe
+20,3,Robert Herjavec,29.0,9.27,9.47,3.92,20.98,Safe
+20,3,Charlotte McKinney,22.0,7.03,4.8,1.43,20.98,Eliminated
+20,3,Noah Galloway,30.0,9.58,9.69,4.1,20.98,Safe
+20,3,Patti LaBelle,22.0,7.03,10.27,3.73,20.98,Safe
+20,3,Chris Soules,28.0,8.95,10.49,4.18,20.98,Safe
+20,4,Suzanne Somers,28.0,8.62,11.35,3.93,12.27,Safe
+20,4,Willow Shields,39.0,12.0,9.66,4.03,12.27,Safe
+20,4,Riker Lynch,34.0,10.46,9.87,3.84,12.27,Safe
+20,4,Rumer Willis,35.0,10.77,9.88,3.88,12.27,Safe
+20,4,Nastia Liukin,36.0,11.08,9.57,3.86,12.27,Safe
+20,4,Michael Sam,30.0,9.23,4.88,1.37,12.27,Eliminated
+20,4,Robert Herjavec,34.0,10.46,10.44,4.07,12.27,Safe
+20,4,Noah Galloway,32.0,9.85,10.85,4.05,12.27,Safe
+20,4,Patti LaBelle,30.0,9.23,11.54,4.14,12.27,Safe
+20,4,Chris Soules,27.0,8.31,11.96,4.05,12.27,Safe
+20,5,Suzanne Somers,28.0,9.89,6.05,1.59,12.52,Eliminated
+20,5,Willow Shields,34.0,12.01,10.66,3.96,12.52,Safe
+20,5,Riker Lynch,38.0,13.43,10.66,4.22,12.52,Safe
+20,5,Rumer Willis,39.0,13.78,10.53,4.13,12.52,Safe
+20,5,Nastia Liukin,38.0,13.43,10.34,4.1,12.52,Safe
+20,5,Robert Herjavec,24.0,8.48,12.83,3.86,12.52,Safe
+20,5,Noah Galloway,28.0,9.89,12.41,4.13,12.52,Safe
+20,5,Patti LaBelle,27.0,9.54,13.12,4.23,12.52,Safe
+20,5,Chris Soules,27.0,9.54,13.4,4.25,12.52,Safe
+20,6,Willow Shields,36.5,12.9,12.4,4.02,8.7,Safe
+20,6,Riker Lynch,38.0,13.43,12.16,4.08,8.7,Safe
+20,6,Rumer Willis,35.5,12.54,12.54,4.09,8.7,Safe
+20,6,Nastia Liukin,36.5,12.9,12.26,4.05,8.7,Safe
+20,6,Robert Herjavec,33.5,11.84,14.62,4.41,8.7,Safe
+20,6,Noah Galloway,34.0,12.01,14.15,4.33,8.7,Safe
+20,6,Patti LaBelle,34.0,12.01,6.98,1.62,8.7,Eliminated
+20,6,Chris Soules,35.0,12.37,14.88,4.61,8.7,Safe
+20,7,Willow Shields,39.0,15.35,7.1,1.73,12.22,Eliminated
+20,7,Riker Lynch,37.0,14.57,14.24,4.1,12.22,Safe
+20,7,Rumer Willis,37.0,14.57,14.64,4.26,12.22,Safe
+20,7,Nastia Liukin,41.0,16.14,13.7,4.27,12.22,Safe
+20,7,Robert Herjavec,31.0,12.2,17.21,4.46,12.22,Safe
+20,7,Noah Galloway,38.0,14.96,15.75,4.64,12.22,Safe
+20,7,Chris Soules,31.0,12.2,17.36,4.44,12.22,Safe
+20,8,Riker Lynch,39.0,18.44,16.38,4.62,18.47,Safe
+20,8,Rumer Willis,40.0,18.91,16.62,4.79,18.47,Safe
+20,8,Nastia Liukin,38.0,17.97,16.13,4.49,18.47,Safe
+20,8,Robert Herjavec,31.0,14.66,11.81,2.3,18.47,Eliminated
+20,8,Noah Galloway,31.5,14.89,18.97,4.57,18.47,Safe
+20,8,Chris Soules,32.0,15.13,20.09,4.96,18.47,Safe
+20,9,Riker Lynch,40.0,25.48,26.32,4.98,28.58,Safe
+20,9,Rumer Willis,39.0,24.84,26.84,4.98,28.58,Safe
+20,9,Nastia Liukin,40.0,25.48,17.44,2.97,28.58,Eliminated
+20,9,Noah Galloway,38.0,24.2,29.4,5.41,28.58,Safe
+20,10,Riker Lynch,40.0,34.48,31.89,6.53,100.0,Safe
+20,10,Rumer Willis,40.0,34.48,32.48,6.53,100.0,Safe
+20,10,Noah Galloway,36.0,31.03,35.63,6.71,100.0,Safe
+21,1,Gary Busey,15.0,6.0,7.67,7.1,100.0,Safe
+21,1,Alexa PenaVega,22.0,8.8,7.69,7.12,100.0,Safe
+21,1,Carlos PenaVega,23.0,9.2,7.7,7.11,100.0,Safe
+21,1,Victor Espinoza,15.0,6.0,7.68,7.12,100.0,Safe
+21,1,Alek Skarlatos,22.0,8.8,7.7,7.16,100.0,Safe
+21,1,Chaka Khan,13.0,5.2,7.7,7.12,100.0,Safe
+21,1,Andy Grammer,21.0,8.4,7.7,7.13,100.0,Safe
+21,1,Tamar Braxton,23.0,9.2,7.72,7.16,100.0,Safe
+21,1,Nick Carter,24.0,9.6,7.66,7.08,100.0,Safe
+21,1,Hayes Grier,21.0,8.4,7.67,7.11,100.0,Safe
+21,1,Bindi Irwin,24.0,9.6,7.69,7.08,100.0,Safe
+21,1,Kim Zolciak-Biermann,12.0,4.8,7.74,7.17,100.0,Safe
+21,1,Paula Deen,15.0,6.0,7.68,7.12,100.0,Safe
+21,2,Gary Busey,16.5,6.1,8.62,3.46,11.34,Safe
+21,2,Alexa PenaVega,23.0,8.5,7.86,3.7,11.34,Safe
+21,2,Carlos PenaVega,22.5,8.32,7.89,3.65,11.34,Safe
+21,2,Victor Espinoza,18.5,6.84,3.05,1.05,11.34,Eliminated
+21,2,Alek Skarlatos,22.5,8.32,7.82,3.65,11.34,Safe
+21,2,Chaka Khan,15.0,5.55,8.89,3.43,11.34,Safe
+21,2,Andy Grammer,22.0,8.13,7.89,3.66,11.34,Safe
+21,2,Tamar Braxton,24.5,9.06,7.82,3.71,11.34,Safe
+21,2,Nick Carter,22.5,8.32,7.89,3.68,11.34,Safe
+21,2,Hayes Grier,22.5,8.32,7.86,3.66,11.34,Safe
+21,2,Bindi Irwin,24.0,8.87,7.79,3.68,11.34,Safe
+21,2,Kim Zolciak-Biermann,18.5,6.84,8.28,3.51,11.34,Safe
+21,2,Paula Deen,18.5,6.84,8.33,3.53,11.34,Safe
+21,3,Gary Busey,25.0,8.2,10.8,4.33,100.0,Safe
+21,3,Alexa PenaVega,36.0,11.8,9.87,4.17,100.0,Safe
+21,3,Carlos PenaVega,31.0,10.16,9.9,4.18,100.0,Safe
+21,3,Alek Skarlatos,33.0,10.82,9.81,4.15,100.0,Safe
+21,3,Andy Grammer,29.0,9.51,9.89,4.18,100.0,Safe
+21,3,Tamar Braxton,33.0,10.82,9.79,4.16,100.0,Safe
+21,3,Nick Carter,36.0,11.8,9.89,4.18,100.0,Safe
+21,3,Hayes Grier,30.0,9.84,9.87,4.19,100.0,Safe
+21,3,Bindi Irwin,32.0,10.49,9.73,4.15,100.0,Safe
+21,3,Paula Deen,20.0,6.56,10.45,4.28,100.0,Safe
+21,4,Gary Busey,16.0,6.78,6.28,1.73,27.22,Eliminated
+21,4,Alexa PenaVega,21.0,8.9,10.67,4.01,27.22,Safe
+21,4,Carlos PenaVega,25.0,10.59,10.31,4.16,27.22,Safe
+21,4,Alek Skarlatos,24.0,10.17,10.29,4.08,27.22,Safe
+21,4,Andy Grammer,23.0,9.75,10.44,4.09,27.22,Safe
+21,4,Tamar Braxton,27.0,11.44,10.11,4.17,27.22,Safe
+21,4,Nick Carter,27.0,11.44,10.14,4.19,27.22,Safe
+21,4,Hayes Grier,27.0,11.44,10.18,4.17,27.22,Safe
+21,4,Bindi Irwin,28.0,11.86,9.97,4.21,27.22,Safe
+21,4,Paula Deen,18.0,7.63,11.61,4.03,27.22,Safe
+21,5,Alexa PenaVega,40.0,13.29,11.39,4.45,100.0,Safe
+21,5,Carlos PenaVega,39.0,12.96,11.0,4.37,100.0,Safe
+21,5,Alek Skarlatos,29.0,9.63,10.98,4.37,100.0,Safe
+21,5,Andy Grammer,36.0,11.96,11.16,4.41,100.0,Safe
+21,5,Tamar Braxton,29.0,9.63,10.78,4.33,100.0,Safe
+21,5,Nick Carter,35.0,11.63,10.82,4.34,100.0,Safe
+21,5,Hayes Grier,30.0,9.97,10.86,4.37,100.0,Safe
+21,5,Bindi Irwin,37.0,12.29,10.62,4.3,100.0,Safe
+21,5,Paula Deen,26.0,8.64,12.39,4.59,100.0,Safe
+21,6,Alexa PenaVega,30.0,9.58,12.4,4.18,25.91,Safe
+21,6,Carlos PenaVega,38.0,12.14,11.41,4.3,25.91,Safe
+21,6,Alek Skarlatos,30.0,9.58,12.1,4.11,25.91,Safe
+21,6,Andy Grammer,40.0,12.78,11.49,4.39,25.91,Safe
+21,6,Tamar Braxton,40.0,12.78,11.17,4.3,25.91,Safe
+21,6,Nick Carter,39.0,12.46,11.18,4.29,25.91,Safe
+21,6,Hayes Grier,32.0,10.22,11.79,4.18,25.91,Safe
+21,6,Bindi Irwin,40.0,12.78,11.02,4.32,25.91,Safe
+21,6,Paula Deen,24.0,7.67,7.46,1.88,25.91,Eliminated
+21,7,Alexa PenaVega,27.5,12.44,14.18,4.44,10.52,Safe
+21,7,Carlos PenaVega,28.0,12.67,13.23,4.21,10.52,Safe
+21,7,Alek Skarlatos,26.5,11.99,13.95,4.29,10.52,Safe
+21,7,Andy Grammer,28.0,12.67,13.3,4.26,10.52,Safe
+21,7,Tamar Braxton,27.0,12.22,13.17,4.08,10.52,Safe
+21,7,Nick Carter,27.0,12.22,13.16,4.1,10.52,Safe
+21,7,Hayes Grier,28.0,12.67,6.34,1.56,10.52,Eliminated
+21,7,Bindi Irwin,29.0,13.12,12.66,4.2,10.52,Safe
+21,8,Alexa PenaVega,26.9998,13.92,16.05,4.7,25.97,Safe
+21,8,Carlos PenaVega,28.9998,14.95,14.86,4.58,25.97,Safe
+21,8,Alek Skarlatos,25.0,12.89,16.12,4.53,25.97,Safe
+21,8,Andy Grammer,23.9998,12.37,9.01,2.13,25.97,Eliminated
+21,8,Tamar Braxton,28.0,14.43,14.97,4.55,25.97,Safe
+21,8,Nick Carter,33.0,17.01,14.44,4.79,25.97,Safe
+21,8,Bindi Irwin,28.0,14.43,14.55,4.46,25.97,Safe
+21,9,Alexa PenaVega,30.0,18.24,9.38,1.87,6.59,Eliminated
+21,9,Carlos PenaVega,27.0,16.41,17.85,4.3,6.59,Safe
+21,9,Alek Skarlatos,25.5,15.5,19.35,4.5,6.59,Safe
+21,9,Tamar Braxton,24.5,14.89,18.99,4.23,6.59,Safe
+21,9,Nick Carter,27.5,16.72,17.48,4.27,6.59,Safe
+21,9,Bindi Irwin,30.0,18.24,16.95,4.43,6.59,Safe
+21,10,Carlos PenaVega,31.5,26.58,24.92,6.05,100.0,Safe
+21,10,Alek Skarlatos,28.5,24.05,26.99,6.22,100.0,Safe
+21,10,Nick Carter,27.0,22.78,24.44,6.02,100.0,Safe
+21,10,Bindi Irwin,31.5,26.58,23.65,5.95,100.0,Safe
+21,11,Carlos PenaVega,30.0,25.42,17.84,2.87,22.88,Eliminated
+21,11,Alek Skarlatos,27.999899999999997,23.73,29.17,5.18,22.88,Safe
+21,11,Nick Carter,30.0,25.42,26.78,4.97,22.88,Safe
+21,11,Bindi Irwin,30.0,25.42,26.21,4.79,22.88,Safe
+22,1,Mischa Barton,16.0,6.75,8.36,7.69,100.0,Safe
+22,1,Kim Fields,20.0,8.44,8.31,7.67,100.0,Safe
+22,1,Jodie Sweetin,20.0,8.44,8.33,7.65,100.0,Safe
+22,1,Doug Flutie,15.0,6.33,8.32,7.64,100.0,Safe
+22,1,Von Miller,21.0,8.86,8.37,7.67,100.0,Safe
+22,1,Antonio Brown,21.0,8.86,8.34,7.68,100.0,Safe
+22,1,Paige VanZant,21.0,8.86,8.32,7.67,100.0,Safe
+22,1,Geraldo Rivera,13.0,5.49,8.33,7.65,100.0,Safe
+22,1,Nyle DiMarco,23.0,9.7,8.33,7.65,100.0,Safe
+22,1,Ginger Zee,23.0,9.7,8.33,7.68,100.0,Safe
+22,1,Wanya Morris,23.0,9.7,8.34,7.69,100.0,Safe
+22,1,Marla Maples,21.0,8.86,8.31,7.6,100.0,Safe
+22,2,Mischa Barton,15.0,6.36,9.27,3.7,31.24,Safe
+22,2,Kim Fields,19.0,8.05,8.69,3.82,31.24,Safe
+22,2,Jodie Sweetin,21.0,8.9,8.57,3.88,31.24,Safe
+22,2,Doug Flutie,20.0,8.47,8.63,3.82,31.24,Safe
+22,2,Von Miller,20.0,8.47,8.73,3.88,31.24,Safe
+22,2,Antonio Brown,19.0,8.05,8.72,3.87,31.24,Safe
+22,2,Paige VanZant,24.0,10.17,8.43,3.87,31.24,Safe
+22,2,Geraldo Rivera,13.0,5.51,4.58,1.46,31.24,Eliminated
+22,2,Nyle DiMarco,20.0,8.47,8.68,3.85,31.24,Safe
+22,2,Ginger Zee,21.0,8.9,8.58,3.86,31.24,Safe
+22,2,Wanya Morris,24.0,10.17,8.52,3.95,31.24,Safe
+22,2,Marla Maples,20.0,8.47,8.6,3.85,31.24,Safe
+22,3,Mischa Barton,18.0,7.59,4.62,1.32,15.58,Eliminated
+22,3,Kim Fields,22.0,9.28,9.58,3.93,15.58,Safe
+22,3,Jodie Sweetin,23.0,9.7,9.39,3.91,15.58,Safe
+22,3,Doug Flutie,20.0,8.44,9.78,3.82,15.58,Safe
+22,3,Von Miller,20.0,8.44,9.77,3.87,15.58,Safe
+22,3,Antonio Brown,20.0,8.44,9.81,3.85,15.58,Safe
+22,3,Paige VanZant,23.0,9.7,9.27,3.88,15.58,Safe
+22,3,Nyle DiMarco,25.0,10.55,9.34,4.06,15.58,Safe
+22,3,Ginger Zee,21.0,8.86,9.58,3.85,15.58,Safe
+22,3,Wanya Morris,24.0,10.13,9.24,3.98,15.58,Safe
+22,3,Marla Maples,21.0,8.86,9.61,3.89,15.58,Safe
+22,4,Kim Fields,32.0,10.03,10.54,4.06,15.88,Safe
+22,4,Jodie Sweetin,27.0,8.46,10.93,3.84,15.88,Safe
+22,4,Doug Flutie,24.0,7.52,11.72,3.84,15.88,Safe
+22,4,Von Miller,32.0,10.03,10.75,4.09,15.88,Safe
+22,4,Antonio Brown,35.0,10.97,10.59,4.18,15.88,Safe
+22,4,Paige VanZant,36.0,11.29,9.99,4.06,15.88,Safe
+22,4,Nyle DiMarco,34.0,10.66,10.15,4.01,15.88,Safe
+22,4,Ginger Zee,36.0,11.29,10.27,4.13,15.88,Safe
+22,4,Wanya Morris,35.0,10.97,10.06,4.06,15.88,Safe
+22,4,Marla Maples,28.0,8.78,5.0,1.45,15.88,Eliminated
+22,5,Kim Fields,28.0,10.14,11.09,4.39,100.0,Safe
+22,5,Jodie Sweetin,35.0,12.68,11.51,4.45,100.0,Safe
+22,5,Doug Flutie,28.0,10.14,12.35,4.59,100.0,Safe
+22,5,Von Miller,29.0,10.51,11.29,4.43,100.0,Safe
+22,5,Antonio Brown,26.0,9.42,11.15,4.41,100.0,Safe
+22,5,Paige VanZant,31.0,11.23,10.53,4.29,100.0,Safe
+22,5,Nyle DiMarco,37.0,13.41,10.69,4.34,100.0,Safe
+22,5,Ginger Zee,32.0,11.59,10.8,4.34,100.0,Safe
+22,5,Wanya Morris,30.0,10.87,10.59,4.31,100.0,Safe
+22,6,Kim Fields,24.0,10.57,11.98,4.17,16.17,Safe
+22,6,Jodie Sweetin,25.0,11.01,12.22,4.3,16.17,Safe
+22,6,Doug Flutie,21.0,9.25,6.59,1.65,16.17,Eliminated
+22,6,Von Miller,24.0,10.57,12.14,4.16,16.17,Safe
+22,6,Antonio Brown,27.0,11.89,11.71,4.31,16.17,Safe
+22,6,Paige VanZant,28.0,12.33,11.07,4.17,16.17,Safe
+22,6,Nyle DiMarco,25.0,11.01,11.53,4.06,16.17,Safe
+22,6,Ginger Zee,24.0,10.57,11.77,4.09,16.17,Safe
+22,6,Wanya Morris,29.0,12.78,11.0,4.2,16.17,Safe
+22,7,Kim Fields,26.0,12.15,6.68,1.65,13.06,Eliminated
+22,7,Jodie Sweetin,25.5,11.92,14.04,4.34,13.06,Safe
+22,7,Von Miller,26.0,12.15,13.89,4.38,13.06,Safe
+22,7,Antonio Brown,26.0,12.15,13.48,4.27,13.06,Safe
+22,7,Paige VanZant,27.5,12.85,12.8,4.22,13.06,Safe
+22,7,Nyle DiMarco,28.0,13.08,13.11,4.32,13.06,Safe
+22,7,Ginger Zee,27.5,12.85,13.34,4.33,13.06,Safe
+22,7,Wanya Morris,27.5,12.85,12.66,4.11,13.06,Safe
+22,8,Jodie Sweetin,30.0,17.75,9.66,1.94,7.65,Eliminated
+22,8,Antonio Brown,27.0,15.98,18.61,4.41,7.65,Safe
+22,8,Paige VanZant,28.0,16.57,17.72,4.39,7.65,Safe
+22,8,Nyle DiMarco,29.0,17.16,17.71,4.47,7.65,Safe
+22,8,Ginger Zee,30.0,17.75,17.73,4.66,7.65,Safe
+22,8,Wanya Morris,25.0,14.79,18.57,4.14,7.65,Safe
+22,9,Antonio Brown,27.5,19.16,13.93,2.56,21.19,Eliminated
+22,9,Paige VanZant,29.5,20.56,21.19,4.94,21.19,Safe
+22,9,Nyle DiMarco,28.5,19.86,21.49,4.81,21.19,Safe
+22,9,Ginger Zee,28.0,19.51,21.56,4.78,21.19,Safe
+22,9,Wanya Morris,30.0,20.91,21.83,5.09,21.19,Safe
+22,10,Paige VanZant,29.666600000000003,34.1,32.99,6.58,100.0,Safe
+22,10,Nyle DiMarco,28.9998,33.33,33.46,6.6,100.0,Safe
+22,10,Ginger Zee,28.333199999999998,32.57,33.55,6.62,100.0,Safe
+23,1,Jake T. Austin,22.0,6.67,7.65,7.1,100.0,Safe
+23,1,Maureen McCormick,22.0,6.67,7.74,7.16,100.0,Safe
+23,1,Marilu Henner,27.0,8.18,7.68,7.14,100.0,Safe
+23,1,Ryan Lochte,24.0,7.27,7.68,7.11,100.0,Safe
+23,1,Calvin Johnson Jr.,26.0,7.88,7.67,7.12,100.0,Safe
+23,1,Laurie Hernandez,31.0,9.39,7.72,7.14,100.0,Safe
+23,1,Amber Rose,24.0,7.27,7.67,7.1,100.0,Safe
+23,1,Rick Perry,20.0,6.06,7.72,7.16,100.0,Safe
+23,1,James Hinchcliffe,31.0,9.39,7.7,7.1,100.0,Safe
+23,1,Babyface,26.0,7.88,7.7,7.11,100.0,Safe
+23,1,Vanilla Ice,25.0,7.58,7.7,7.12,100.0,Safe
+23,1,Jana Kramer,27.0,8.18,7.69,7.12,100.0,Safe
+23,1,Terra Jole,25.0,7.58,7.7,7.11,100.0,Safe
+23,2,Jake T. Austin,24.0,6.82,3.07,1.04,13.1,Eliminated
+23,2,Maureen McCormick,26.0,7.39,8.15,3.64,13.1,Safe
+23,2,Marilu Henner,27.0,7.67,8.03,3.64,13.1,Safe
+23,2,Ryan Lochte,24.0,6.82,8.37,3.62,13.1,Safe
+23,2,Calvin Johnson Jr.,28.0,7.95,7.98,3.69,13.1,Safe
+23,2,Laurie Hernandez,32.0,9.09,7.79,3.71,13.1,Safe
+23,2,Amber Rose,24.0,6.82,8.35,3.54,13.1,Safe
+23,2,Rick Perry,22.0,6.25,8.58,3.51,13.1,Safe
+23,2,James Hinchcliffe,29.0,8.24,7.94,3.65,13.1,Safe
+23,2,Babyface,30.0,8.52,7.87,3.67,13.1,Safe
+23,2,Vanilla Ice,26.0,7.39,8.14,3.59,13.1,Safe
+23,2,Jana Kramer,29.0,8.24,7.89,3.64,13.1,Safe
+23,2,Terra Jole,31.0,8.81,7.83,3.69,13.1,Safe
+23,3,Maureen McCormick,28.0,8.62,8.73,3.77,13.48,Safe
+23,3,Marilu Henner,28.0,8.62,8.67,3.79,13.48,Safe
+23,3,Ryan Lochte,25.0,7.69,9.24,3.8,13.48,Safe
+23,3,Calvin Johnson Jr.,32.0,9.85,8.37,3.86,13.48,Safe
+23,3,Laurie Hernandez,31.0,9.54,8.26,3.78,13.48,Safe
+23,3,Amber Rose,25.0,7.69,9.16,3.72,13.48,Safe
+23,3,Rick Perry,23.0,7.08,3.88,1.19,13.48,Eliminated
+23,3,James Hinchcliffe,29.0,8.92,8.49,3.79,13.48,Safe
+23,3,Babyface,25.0,7.69,8.88,3.63,13.48,Safe
+23,3,Vanilla Ice,23.0,7.08,9.22,3.64,13.48,Safe
+23,3,Jana Kramer,26.0,8.0,8.71,3.67,13.48,Safe
+23,3,Terra Jole,30.0,9.23,8.37,3.75,13.48,Safe
+23,4,Maureen McCormick,24.0,9.2,9.52,3.99,24.2,Safe
+23,4,Marilu Henner,21.0,8.05,9.73,3.83,24.2,Safe
+23,4,Ryan Lochte,22.0,8.43,10.17,4.0,24.2,Safe
+23,4,Calvin Johnson Jr.,23.0,8.81,9.27,3.85,24.2,Safe
+23,4,Laurie Hernandez,30.0,11.49,8.77,3.9,24.2,Safe
+23,4,Amber Rose,24.0,9.2,9.86,4.04,24.2,Safe
+23,4,James Hinchcliffe,28.0,10.73,9.05,4.0,24.2,Safe
+23,4,Babyface,18.0,6.9,4.87,1.46,24.2,Eliminated
+23,4,Vanilla Ice,23.0,8.81,10.06,4.03,24.2,Safe
+23,4,Jana Kramer,23.0,8.81,9.59,3.93,24.2,Safe
+23,4,Terra Jole,25.0,9.58,9.12,3.94,24.2,Safe
+23,5,Maureen McCormick,24.0,10.43,11.18,4.41,100.0,Safe
+23,5,Marilu Henner,27.0,11.74,11.44,4.44,100.0,Safe
+23,5,Ryan Lochte,24.0,10.43,11.95,4.53,100.0,Safe
+23,5,Calvin Johnson Jr.,24.0,10.43,10.9,4.37,100.0,Safe
+23,5,Laurie Hernandez,25.0,10.87,10.31,4.26,100.0,Safe
+23,5,Amber Rose,24.0,10.43,11.59,4.47,100.0,Safe
+23,5,James Hinchcliffe,29.0,12.61,10.67,4.33,100.0,Safe
+23,5,Jana Kramer,26.0,11.3,11.26,4.43,100.0,Safe
+23,5,Terra Jole,27.0,11.74,10.71,4.33,100.0,Safe
+23,6,Maureen McCormick,31.0,10.16,12.13,4.16,20.04,Safe
+23,6,Marilu Henner,34.0,11.15,12.04,4.27,20.04,Safe
+23,6,Ryan Lochte,30.0,9.84,12.83,4.29,20.04,Safe
+23,6,Calvin Johnson Jr.,37.0,12.13,11.33,4.25,20.04,Safe
+23,6,Laurie Hernandez,37.0,12.13,10.84,4.16,20.04,Safe
+23,6,Amber Rose,28.0,9.18,6.4,1.69,20.04,Eliminated
+23,6,James Hinchcliffe,38.0,12.46,11.03,4.24,20.04,Safe
+23,6,Jana Kramer,40.0,13.11,11.52,4.44,20.04,Safe
+23,6,Terra Jole,30.0,9.84,11.88,3.99,20.04,Safe
+23,7,Maureen McCormick,33.0,11.98,6.81,1.69,13.28,Eliminated
+23,7,Marilu Henner,32.0,11.62,14.07,4.25,13.28,Safe
+23,7,Ryan Lochte,33.0,11.98,14.44,4.46,13.28,Safe
+23,7,Calvin Johnson Jr.,37.0,13.43,12.76,4.3,13.28,Safe
+23,7,Laurie Hernandez,34.5,12.52,12.63,4.08,13.28,Safe
+23,7,James Hinchcliffe,37.0,13.43,12.57,4.24,13.28,Safe
+23,7,Jana Kramer,34.5,12.52,13.19,4.23,13.28,Safe
+23,7,Terra Jole,34.5,12.52,13.53,4.35,13.28,Safe
+23,8,Marilu Henner,23.0,11.44,17.1,4.36,14.38,Safe
+23,8,Ryan Lochte,26.0,12.94,8.97,1.99,14.38,Eliminated
+23,8,Calvin Johnson Jr.,30.0,14.93,14.56,4.41,14.38,Safe
+23,8,Laurie Hernandez,33.0,16.42,14.07,4.49,14.38,Safe
+23,8,James Hinchcliffe,34.9998,17.41,13.91,4.62,14.38,Safe
+23,8,Jana Kramer,30.0,14.93,14.91,4.53,14.38,Safe
+23,8,Terra Jole,24.0,11.94,16.47,4.31,14.38,Safe
+23,9,Marilu Henner,36.0,15.86,11.09,2.11,11.05,Eliminated
+23,9,Calvin Johnson Jr.,37.0,16.3,17.8,4.46,11.05,Safe
+23,9,Laurie Hernandez,40.0,17.62,16.83,4.48,11.05,Safe
+23,9,James Hinchcliffe,36.0,15.86,17.55,4.28,11.05,Safe
+23,9,Jana Kramer,40.0,17.62,17.58,4.69,11.05,Safe
+23,9,Terra Jole,38.0,16.74,19.16,4.93,11.05,Safe
+23,10,Calvin Johnson Jr.,28.0,19.11,22.34,4.62,11.36,Safe
+23,10,Laurie Hernandez,30.0,20.48,20.9,4.54,11.36,Safe
+23,10,James Hinchcliffe,29.5,20.14,21.59,4.65,11.36,Safe
+23,10,Jana Kramer,29.0,19.8,21.8,4.69,11.36,Safe
+23,10,Terra Jole,30.0,20.48,13.37,2.31,11.36,Eliminated
+23,11,Calvin Johnson Jr.,38.3331,25.19,27.63,5.25,33.76,Safe
+23,11,Laurie Hernandez,39.333200000000005,25.85,26.26,5.11,33.76,Safe
+23,11,James Hinchcliffe,38.9998,25.63,26.86,5.19,33.76,Safe
+23,11,Jana Kramer,35.5,23.33,19.24,3.16,33.76,Eliminated
+24,1,Charo,21.0,6.95,8.36,7.69,100.0,Safe
+24,1,Mr. T,20.0,6.62,8.35,7.67,100.0,Safe
+24,1,Heather Morris,28.0,9.27,8.28,7.61,100.0,Safe
+24,1,Nancy Kerrigan,28.0,9.27,8.33,7.63,100.0,Safe
+24,1,Bonner Bolton,22.0,7.28,8.33,7.66,100.0,Safe
+24,1,Simone Biles,32.0,10.6,8.34,7.64,100.0,Safe
+24,1,David Ross,28.0,9.27,8.37,7.72,100.0,Safe
+24,1,Rashad Jennings,31.0,10.26,8.35,7.71,100.0,Safe
+24,1,Chris Kattan,17.0,5.63,8.37,7.72,100.0,Safe
+24,1,Erika Jayne,24.0,7.95,8.33,7.66,100.0,Safe
+24,1,Normani,27.0,8.94,8.3,7.65,100.0,Safe
+24,1,Nick Viall,24.0,7.95,8.31,7.68,100.0,Safe
+24,2,Charo,25.0,7.62,8.96,3.74,19.31,Safe
+24,2,Mr. T,22.0,6.71,9.28,3.67,19.31,Safe
+24,2,Heather Morris,30.0,9.15,8.52,3.84,19.31,Safe
+24,2,Nancy Kerrigan,28.0,8.54,8.69,3.82,19.31,Safe
+24,2,Bonner Bolton,28.0,8.54,8.64,3.75,19.31,Safe
+24,2,Simone Biles,29.0,8.84,8.64,3.82,19.31,Safe
+24,2,David Ross,27.0,8.23,8.8,3.79,19.31,Safe
+24,2,Rashad Jennings,32.0,9.76,8.5,3.85,19.31,Safe
+24,2,Chris Kattan,22.0,6.71,3.95,1.26,19.31,Eliminated
+24,2,Erika Jayne,28.0,8.54,8.7,3.8,19.31,Safe
+24,2,Normani,32.0,9.76,8.46,3.87,19.31,Safe
+24,2,Nick Viall,25.0,7.62,8.86,3.75,19.31,Safe
+24,3,Charo,24.0,7.62,4.48,1.34,16.24,Eliminated
+24,3,Mr. T,24.0,7.62,10.48,3.88,16.24,Safe
+24,3,Heather Morris,33.0,10.48,9.03,3.91,16.24,Safe
+24,3,Nancy Kerrigan,33.0,10.48,9.3,4.02,16.24,Safe
+24,3,Bonner Bolton,24.0,7.62,9.99,3.73,16.24,Safe
+24,3,Simone Biles,32.0,10.16,9.24,3.98,16.24,Safe
+24,3,David Ross,31.0,9.84,9.48,3.98,16.24,Safe
+24,3,Rashad Jennings,28.0,8.89,9.36,3.82,16.24,Safe
+24,3,Erika Jayne,26.0,8.25,9.73,3.82,16.24,Safe
+24,3,Normani,34.0,10.79,9.04,3.95,16.24,Safe
+24,3,Nick Viall,26.0,8.25,9.87,3.88,16.24,Safe
+24,4,Mr. T,28.0,8.59,5.34,1.43,13.61,Eliminated
+24,4,Heather Morris,35.0,10.74,10.02,3.97,13.61,Safe
+24,4,Nancy Kerrigan,33.0,10.12,10.38,4.03,13.61,Safe
+24,4,Bonner Bolton,32.0,9.82,11.04,4.14,13.61,Safe
+24,4,Simone Biles,36.0,11.04,10.12,4.09,13.61,Safe
+24,4,David Ross,31.0,9.51,10.65,3.95,13.61,Safe
+24,4,Rashad Jennings,39.0,11.96,10.02,4.12,13.61,Safe
+24,4,Erika Jayne,30.0,9.2,11.02,3.99,13.61,Safe
+24,4,Normani,32.0,9.82,10.2,3.8,13.61,Safe
+24,4,Nick Viall,30.0,9.2,11.2,4.06,13.61,Safe
+24,5,Heather Morris,34.0,11.18,11.46,4.05,11.29,Safe
+24,5,Nancy Kerrigan,36.0,11.84,11.44,4.16,11.29,Safe
+24,5,Bonner Bolton,30.0,9.87,12.72,4.1,11.29,Safe
+24,5,Simone Biles,38.0,12.5,11.03,4.19,11.29,Safe
+24,5,David Ross,29.0,9.54,12.58,4.01,11.29,Safe
+24,5,Rashad Jennings,32.0,10.53,11.63,3.96,11.29,Safe
+24,5,Erika Jayne,32.0,10.53,5.68,1.48,11.29,Eliminated
+24,5,Normani,39.0,12.83,11.09,4.18,11.29,Safe
+24,5,Nick Viall,34.0,11.18,12.37,4.25,11.29,Safe
+24,6,Heather Morris,37.0,13.75,5.63,1.46,7.66,Eliminated
+24,6,Nancy Kerrigan,33.5,12.45,13.14,4.0,7.66,Safe
+24,6,Bonner Bolton,31.5,11.71,14.38,4.2,7.66,Safe
+24,6,Simone Biles,34.5,12.83,12.66,3.97,7.66,Safe
+24,6,David Ross,31.0,11.52,14.41,4.16,7.66,Safe
+24,6,Rashad Jennings,35.0,13.01,13.0,4.11,7.66,Safe
+24,6,Normani,36.0,13.38,12.51,4.07,7.66,Safe
+24,6,Nick Viall,30.5,11.34,14.27,4.11,7.66,Safe
+24,7,Nancy Kerrigan,36.0,14.23,7.9,1.87,16.0,Eliminated
+24,7,Bonner Bolton,31.0,12.25,16.78,4.38,16.0,Safe
+24,7,Simone Biles,39.0,15.42,14.22,4.4,16.0,Safe
+24,7,David Ross,32.0,12.65,16.59,4.39,16.0,Safe
+24,7,Rashad Jennings,39.0,15.42,14.53,4.45,16.0,Safe
+24,7,Normani,42.0,16.6,13.75,4.45,16.0,Safe
+24,7,Nick Viall,34.0,13.44,16.22,4.53,16.0,Safe
+24,8,Bonner Bolton,29.0,16.62,15.93,2.81,28.22,Eliminated
+24,8,Simone Biles,36.0,20.63,20.58,4.91,28.22,Safe
+24,8,David Ross,32.5,18.62,23.55,5.18,28.22,Safe
+24,8,Rashad Jennings,37.5,21.49,20.59,5.01,28.22,Safe
+24,8,Normani,39.5,22.64,19.35,4.97,28.22,Safe
+24,9,Simone Biles,40.0,26.4,17.07,2.76,19.69,Eliminated
+24,9,David Ross,35.0,23.1,30.13,5.16,19.69,Safe
+24,9,Rashad Jennings,38.5,25.41,26.73,4.88,19.69,Safe
+24,9,Normani,38.0,25.08,26.07,4.64,19.69,Safe
+24,10,David Ross,36.3333,31.5,36.34,6.74,100.0,Safe
+24,10,Rashad Jennings,39.6666,34.39,32.23,6.53,100.0,Safe
+24,10,Normani,39.333200000000005,34.1,31.42,6.49,100.0,Safe
+25,1,Sasha Pieterse,18.0,7.53,7.72,7.17,100.0,Safe
+25,1,Frankie Muniz,19.0,7.95,7.67,7.1,100.0,Safe
+25,1,Jordan Fisher,22.0,9.21,7.67,7.1,100.0,Safe
+25,1,Derek Fisher,18.0,7.53,7.67,7.14,100.0,Safe
+25,1,Nikki Bella,20.0,8.37,7.68,7.11,100.0,Safe
+25,1,Terrell Owens,15.0,6.28,7.69,7.12,100.0,Safe
+25,1,Victoria Arlen,19.0,7.95,7.68,7.1,100.0,Safe
+25,1,Barbara Corcoran,14.0,5.86,7.71,7.12,100.0,Safe
+25,1,Lindsey Stirling,22.0,9.21,7.71,7.13,100.0,Safe
+25,1,Debbie Gibson,17.0,7.11,7.7,7.13,100.0,Safe
+25,1,Nick Lachey,18.0,7.53,7.73,7.1,100.0,Safe
+25,1,Drew Scott,16.0,6.69,7.69,7.14,100.0,Safe
+25,1,Vanessa Lachey,21.0,8.79,7.68,7.11,100.0,Safe
+25,2,Sasha Pieterse,22.5,8.23,8.01,3.76,18.71,Safe
+25,2,Frankie Muniz,24.0,8.78,7.82,3.73,18.71,Safe
+25,2,Jordan Fisher,24.0,8.78,7.85,3.74,18.71,Safe
+25,2,Derek Fisher,19.0,6.95,8.23,3.62,18.71,Safe
+25,2,Nikki Bella,19.5,7.13,8.17,3.61,18.71,Safe
+25,2,Terrell Owens,19.5,7.13,8.24,3.67,18.71,Safe
+25,2,Victoria Arlen,22.0,8.04,7.96,3.71,18.71,Safe
+25,2,Barbara Corcoran,17.0,6.22,3.42,1.13,18.71,Eliminated
+25,2,Lindsey Stirling,22.5,8.23,7.94,3.69,18.71,Safe
+25,2,Debbie Gibson,20.5,7.5,8.1,3.66,18.71,Safe
+25,2,Nick Lachey,19.0,6.95,8.29,3.64,18.71,Safe
+25,2,Drew Scott,20.5,7.5,8.07,3.65,18.71,Safe
+25,2,Vanessa Lachey,23.5,8.59,7.91,3.77,18.71,Safe
+25,3,Sasha Pieterse,19.0,7.79,9.05,4.01,100.0,Safe
+25,3,Frankie Muniz,21.0,8.61,8.85,3.99,100.0,Safe
+25,3,Jordan Fisher,25.0,10.25,8.87,3.98,100.0,Safe
+25,3,Derek Fisher,21.0,8.61,9.3,4.06,100.0,Safe
+25,3,Nikki Bella,21.0,8.61,9.22,4.06,100.0,Safe
+25,3,Terrell Owens,21.0,8.61,9.31,4.08,100.0,Safe
+25,3,Victoria Arlen,22.0,9.02,8.99,4.0,100.0,Safe
+25,3,Lindsey Stirling,27.0,11.07,8.98,4.0,100.0,Safe
+25,3,Nick Lachey,21.0,8.61,9.37,4.09,100.0,Safe
+25,3,Drew Scott,23.0,9.43,9.12,4.02,100.0,Safe
+25,3,Vanessa Lachey,23.0,9.43,8.95,3.99,100.0,Safe
+25,4,Sasha Pieterse,24.0,8.86,9.68,3.83,11.6,Safe
+25,4,Frankie Muniz,24.0,8.86,9.43,3.72,11.6,Safe
+25,4,Jordan Fisher,29.0,10.7,9.11,3.91,11.6,Safe
+25,4,Derek Fisher,23.0,8.49,4.01,1.21,11.6,Eliminated
+25,4,Nikki Bella,24.0,8.86,9.81,3.89,11.6,Safe
+25,4,Terrell Owens,24.0,8.86,9.84,3.85,11.6,Safe
+25,4,Victoria Arlen,27.0,9.96,9.29,3.91,11.6,Safe
+25,4,Lindsey Stirling,26.0,9.59,9.37,3.9,11.6,Safe
+25,4,Nick Lachey,22.0,8.12,10.18,3.81,11.6,Safe
+25,4,Drew Scott,24.0,8.86,9.7,3.89,11.6,Safe
+25,4,Vanessa Lachey,24.0,8.86,9.58,3.76,11.6,Safe
+25,5,Sasha Pieterse,24.0,9.2,4.82,1.38,14.25,Eliminated
+25,5,Frankie Muniz,29.0,11.11,10.19,4.09,14.25,Safe
+25,5,Jordan Fisher,30.0,11.49,9.81,4.05,14.25,Safe
+25,5,Nikki Bella,27.0,10.34,10.67,4.09,14.25,Safe
+25,5,Terrell Owens,25.0,9.58,10.93,4.05,14.25,Safe
+25,5,Victoria Arlen,27.0,10.34,10.22,3.95,14.25,Safe
+25,5,Lindsey Stirling,28.0,10.73,10.16,4.04,14.25,Safe
+25,5,Nick Lachey,22.0,8.43,11.59,3.97,14.25,Safe
+25,5,Drew Scott,25.0,9.58,10.81,4.02,14.25,Safe
+25,5,Vanessa Lachey,24.0,9.2,10.81,3.91,14.25,Safe
+25,6,Frankie Muniz,31.0,10.13,11.71,4.05,21.2,Safe
+25,6,Jordan Fisher,39.0,12.75,10.71,4.22,21.2,Safe
+25,6,Nikki Bella,36.0,11.76,11.77,4.35,21.2,Safe
+25,6,Terrell Owens,37.0,12.09,11.89,4.39,21.2,Safe
+25,6,Victoria Arlen,31.0,10.13,11.78,4.08,21.2,Safe
+25,6,Lindsey Stirling,40.0,13.07,10.99,4.33,21.2,Safe
+25,6,Nick Lachey,26.0,8.5,6.94,1.78,21.2,Eliminated
+25,6,Drew Scott,30.0,9.8,12.41,4.19,21.2,Safe
+25,6,Vanessa Lachey,36.0,11.76,11.81,4.31,21.2,Safe
+25,7,Frankie Muniz,30.0,13.95,13.01,4.52,19.09,Safe
+25,7,Jordan Fisher,27.0,12.56,12.49,4.17,19.09,Safe
+25,7,Nikki Bella,24.0,11.16,7.17,1.8,19.09,Eliminated
+25,7,Terrell Owens,24.5,11.4,13.88,4.32,19.09,Safe
+25,7,Victoria Arlen,28.5,13.26,13.19,4.44,19.09,Safe
+25,7,Lindsey Stirling,25.5,11.86,13.04,4.14,19.09,Safe
+25,7,Drew Scott,28.5,13.26,13.83,4.56,19.09,Safe
+25,7,Vanessa Lachey,27.0,12.56,13.4,4.38,19.09,Safe
+25,8,Frankie Muniz,26.5,16.93,17.69,4.61,14.54,Safe
+25,8,Jordan Fisher,30.0,19.17,16.42,4.7,14.54,Safe
+25,8,Terrell Owens,25.5,16.29,10.56,2.12,14.54,Eliminated
+25,8,Victoria Arlen,24.0,15.34,18.58,4.51,14.54,Safe
+25,8,Lindsey Stirling,27.0,17.25,17.55,4.64,14.54,Safe
+25,8,Drew Scott,23.5,15.02,19.2,4.57,14.54,Safe
+25,9,Frankie Muniz,25.5,18.89,22.12,4.57,13.21,Safe
+25,9,Jordan Fisher,29.0,21.48,20.04,4.57,13.21,Safe
+25,9,Victoria Arlen,28.0,20.74,13.01,2.33,13.21,Eliminated
+25,9,Lindsey Stirling,28.5,21.11,21.06,4.81,13.21,Safe
+25,9,Drew Scott,24.0,17.78,23.77,4.74,13.21,Safe
+25,10,Frankie Muniz,38.8887,24.87,27.82,5.06,19.08,Safe
+25,10,Jordan Fisher,40.0,25.58,25.98,4.77,19.08,Safe
+25,10,Lindsey Stirling,40.0,25.58,26.74,4.94,19.08,Safe
+25,10,Drew Scott,37.5,23.98,19.46,2.89,19.08,Eliminated
+26,1,Jamie Anderson,19.0,9.05,1.34,1.06,15.29,Eliminated
+26,1,Johnny Damon,18.0,8.57,12.08,9.32,15.29,Safe
+26,1,Kareem Abdul-Jabbar,17.0,8.1,12.33,9.03,15.29,Safe
+26,1,Arike Ogunbowale,20.0,9.52,11.19,9.15,15.29,Safe
+26,1,Jennie Finch Daigle,21.0,10.0,10.95,9.35,15.29,Safe
+26,1,Chris Mazdzer,21.0,10.0,10.79,9.19,15.29,Safe
+26,1,Mirai Nagasu,23.0,10.95,10.3,8.99,15.29,Safe
+26,1,Tonya Harding,23.0,10.95,10.41,9.12,15.29,Safe
+26,1,Josh Norman,24.0,11.43,10.24,9.24,15.29,Safe
+26,1,Adam Rippon,24.0,11.43,10.35,9.13,15.29,Safe
+26,2,Kareem Abdul-Jabbar,29.5,11.03,7.69,1.73,12.43,Eliminated
+26,2,Arike Ogunbowale,35.0,13.08,13.65,4.49,12.43,Safe
+26,2,Jennie Finch Daigle,31.5,11.78,13.79,4.31,12.43,Safe
+26,2,Chris Mazdzer,33.0,12.34,13.49,4.32,12.43,Safe
+26,2,Mirai Nagasu,37.0,13.83,12.54,4.31,12.43,Safe
+26,2,Tonya Harding,33.0,12.34,13.06,4.18,12.43,Safe
+26,2,Josh Norman,31.5,11.78,13.18,4.08,12.43,Safe
+26,2,Adam Rippon,37.0,13.83,12.59,4.36,12.43,Safe
+26,3,Jennie Finch Daigle,29.0,13.74,12.04,2.49,29.53,Eliminated
+26,3,Chris Mazdzer,33.0,15.64,18.62,4.83,29.53,Safe
+26,3,Mirai Nagasu,35.0,16.59,17.31,4.67,29.53,Safe
+26,3,Tonya Harding,35.0,16.59,17.83,4.8,29.53,Safe
+26,3,Josh Norman,38.0,18.01,17.53,4.93,29.53,Safe
+26,3,Adam Rippon,41.0,19.43,16.67,4.94,29.53,Safe
+26,4,Tonya Harding,28.0,32.75,34.27,6.65,100.0,Safe
+26,4,Josh Norman,28.5,33.33,33.74,6.65,100.0,Safe
+26,4,Adam Rippon,29.0,33.92,31.99,6.52,100.0,Safe
+27,1,Juan Pablo Di Pace,22.0,8.63,7.84,7.22,13.15,Safe
+27,1,Evanna Lynch,18.0,7.06,8.54,7.28,13.15,Safe
+27,1,Nancy McKeon,19.5,7.65,8.12,7.14,13.15,Safe
+27,1,John Schneider,18.0,7.06,8.44,7.04,13.15,Safe
+27,1,Milo Manheim,20.0,7.84,8.18,7.31,13.15,Safe
+27,1,Danelle Umstead,18.0,7.06,8.5,7.2,13.15,Safe
+27,1,Mary Lou Retton,20.0,7.84,7.93,7.05,13.15,Safe
+27,1,DeMarcus Ware,23.0,9.02,7.83,7.16,13.15,Safe
+27,1,Nikki Glaser,17.5,6.86,0.89,0.71,13.15,Eliminated
+27,1,Bobby Bones,20.0,7.84,8.04,7.17,13.15,Safe
+27,1,Tinashe,23.0,9.02,7.78,7.18,13.15,Safe
+27,1,Alexis Ren,22.0,8.63,7.87,7.18,13.15,Safe
+27,1,Joe Amabile,14.0,5.49,10.05,7.16,13.15,Safe
+27,2,Juan Pablo Di Pace,26.0,9.61,8.07,3.78,17.27,Safe
+27,2,Evanna Lynch,24.0,8.87,8.82,3.86,17.27,Safe
+27,2,Nancy McKeon,20.5,7.58,8.87,3.73,17.27,Safe
+27,2,John Schneider,21.5,7.95,9.02,3.79,17.27,Safe
+27,2,Milo Manheim,26.0,9.61,8.43,3.88,17.27,Safe
+27,2,Danelle Umstead,18.5,6.84,3.94,1.22,17.27,Eliminated
+27,2,Mary Lou Retton,23.0,8.5,8.47,3.74,17.27,Safe
+27,2,DeMarcus Ware,23.5,8.69,8.24,3.72,17.27,Safe
+27,2,Bobby Bones,19.5,7.21,8.97,3.6,17.27,Safe
+27,2,Tinashe,26.0,9.61,8.03,3.76,17.27,Safe
+27,2,Alexis Ren,24.5,9.06,8.28,3.76,17.27,Safe
+27,2,Joe Amabile,17.5,6.47,10.85,4.11,17.27,Safe
+27,3,Juan Pablo Di Pace,30.0,11.07,8.61,3.87,14.5,Safe
+27,3,Evanna Lynch,27.0,9.96,9.5,3.97,14.5,Safe
+27,3,Nancy McKeon,22.0,8.12,4.23,1.28,14.5,Eliminated
+27,3,John Schneider,21.0,7.75,10.28,3.79,14.5,Safe
+27,3,Milo Manheim,27.0,9.96,9.1,3.87,14.5,Safe
+27,3,Mary Lou Retton,24.0,8.86,9.43,3.79,14.5,Safe
+27,3,DeMarcus Ware,26.0,9.59,8.98,3.79,14.5,Safe
+27,3,Bobby Bones,23.0,8.49,10.01,3.9,14.5,Safe
+27,3,Tinashe,27.0,9.96,8.71,3.76,14.5,Safe
+27,3,Alexis Ren,26.0,9.59,9.03,3.86,14.5,Safe
+27,3,Joe Amabile,18.0,6.64,12.12,4.09,14.5,Safe
+27,4,Juan Pablo Di Pace,24.0,10.34,9.67,3.61,6.12,Safe
+27,4,Evanna Lynch,24.0,10.34,10.34,3.78,6.12,Safe
+27,4,John Schneider,21.0,9.05,11.43,3.9,6.12,Safe
+27,4,Milo Manheim,29.0,12.5,9.46,3.96,6.12,Safe
+27,4,Mary Lou Retton,26.0,11.21,9.92,3.85,6.12,Safe
+27,4,DeMarcus Ware,22.0,9.48,10.32,3.64,6.12,Safe
+27,4,Bobby Bones,20.0,8.62,11.57,3.83,6.12,Safe
+27,4,Tinashe,26.0,11.21,3.54,1.13,6.12,Eliminated
+27,4,Alexis Ren,25.0,10.78,9.85,3.76,6.12,Safe
+27,4,Joe Amabile,15.0,6.47,13.9,3.92,6.12,Safe
+27,5,Juan Pablo Di Pace,29.0,13.06,10.02,4.21,100.0,Safe
+27,5,Evanna Lynch,24.0,10.81,10.74,4.34,100.0,Safe
+27,5,John Schneider,24.0,10.81,11.84,4.53,100.0,Safe
+27,5,Milo Manheim,27.0,12.16,9.81,4.17,100.0,Safe
+27,5,Mary Lou Retton,25.0,11.26,10.27,4.25,100.0,Safe
+27,5,DeMarcus Ware,26.0,11.71,10.71,4.32,100.0,Safe
+27,5,Bobby Bones,21.0,9.46,12.01,4.55,100.0,Safe
+27,5,Alexis Ren,29.0,13.06,10.22,4.25,100.0,Safe
+27,5,Joe Amabile,17.0,7.66,14.39,4.93,100.0,Safe
+27,6,Juan Pablo Di Pace,30.0,13.1,10.29,4.08,18.54,Safe
+27,6,Evanna Lynch,29.0,12.66,10.98,4.17,18.54,Safe
+27,6,John Schneider,19.0,8.3,13.38,4.01,18.54,Safe
+27,6,Milo Manheim,30.0,13.1,10.09,4.05,18.54,Safe
+27,6,Mary Lou Retton,24.0,10.48,5.37,1.55,18.54,Eliminated
+27,6,DeMarcus Ware,26.0,11.35,11.26,4.08,18.54,Safe
+27,6,Bobby Bones,22.0,9.61,12.98,4.24,18.54,Safe
+27,6,Alexis Ren,27.0,11.79,10.8,4.04,18.54,Safe
+27,6,Joe Amabile,22.0,9.61,14.86,4.71,18.54,Safe
+27,7,Juan Pablo Di Pace,28.0,12.87,12.21,3.98,6.65,Safe
+27,7,Evanna Lynch,29.5,13.56,12.4,4.24,6.65,Safe
+27,7,John Schneider,27.0,12.41,6.79,1.55,6.65,Eliminated
+27,7,Milo Manheim,29.0,13.33,11.79,3.88,6.65,Safe
+27,7,DeMarcus Ware,26.5,12.18,13.12,4.04,6.65,Safe
+27,7,Bobby Bones,26.5,12.18,14.42,4.42,6.65,Safe
+27,7,Alexis Ren,27.5,12.64,12.62,4.0,6.65,Safe
+27,7,Joe Amabile,23.5,10.8,16.65,4.77,6.65,Safe
+27,8,Juan Pablo Di Pace,30.0,18.63,8.57,1.95,12.15,Eliminated
+27,8,Evanna Lynch,29.0,18.01,16.52,4.42,12.15,Safe
+27,8,Milo Manheim,27.5,17.08,16.38,4.11,12.15,Safe
+27,8,Bobby Bones,22.5,13.98,20.13,4.44,12.15,Safe
+27,8,Alexis Ren,29.0,18.01,16.69,4.44,12.15,Safe
+27,8,Joe Amabile,23.0,14.29,21.71,4.99,12.15,Safe
+27,9,Evanna Lynch,30.0,25.97,23.73,5.96,100.0,Safe
+27,9,Milo Manheim,30.0,25.97,23.53,5.93,100.0,Safe
+27,9,Bobby Bones,27.0,23.38,28.8,6.32,100.0,Safe
+27,9,Alexis Ren,28.5,24.68,23.94,5.99,100.0,Safe
