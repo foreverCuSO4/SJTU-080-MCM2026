@@ -30,6 +30,38 @@ from tqdm import tqdm
 # 值越大表示越相信粉丝投票在相邻周之间保持稳定
 CONCENTRATION = 50.0
 
+# 是否使用贝叶斯时序一致性（上一周后验作为下一周先验）
+# True : 使用时序一致性（默认，当前实现）
+# False: 不使用时序一致性；每一周都使用均匀先验 α=[1,1,...,1]
+USE_BAYESIAN_TEMPORAL_PRIOR = False
+
+# CSV output column headers (more readable)
+# Note: to avoid affecting internal calculations and summaries, we only rename columns at CSV export.
+CSV_COLUMN_RENAME_MAP = {
+    'Season': 'Season',
+    'Week': 'Week',
+    'Name': 'Celebrity',
+    'Mode': 'Rule_Mode',
+    'Judge_Raw_Score': 'Judge_Total_Score_Raw',
+    'Judge_Percent': 'Judge_Percent',
+    'Judge_Rank_Points': 'Judge_Rank_Points',
+    'Est_Fan_Percent_Mean': 'Estimated_Fan_Vote_Percent_Mean',
+    'Est_Fan_Percent_Std': 'Estimated_Fan_Vote_Percent_Std',
+    'Acceptance_Rate': 'Acceptance_Rate_Percent',
+    'Actual_Result': 'Actual_Result',
+}
+
+# Make key categorical values more readable (CSV export only)
+CSV_VALUE_MAP_MODE = {
+    'rank_strict': 'Rank (Strict Elimination)',
+    'percentage': 'Percentage (Judge% + Fan%)',
+    'rank_bottom2': 'Rank (Bottom 2 Elimination)',
+}
+CSV_VALUE_MAP_RESULT = {
+    'Eliminated': 'Eliminated',
+    'Safe': 'Safe',
+}
+
 # 蒙特卡罗模拟迭代次数
 ITERATIONS = 100000
 
@@ -166,7 +198,7 @@ def get_season_mode(season_num):
         return 'percentage'
 
 
-def construct_dirichlet_prior(prev_week_estimates, current_active_names, concentration):
+def construct_dirichlet_prior(prev_week_estimates, current_active_names, concentration, use_bayesian=True):
     """
     构造 Dirichlet 先验参数 α。
     
@@ -188,6 +220,10 @@ def construct_dirichlet_prior(prev_week_estimates, current_active_names, concent
         alpha: numpy 数组，与 current_active_names 顺序对应的 α 参数
     """
     num_dancers = len(current_active_names)
+
+    # 可选：关闭贝叶斯时序一致性时，每周固定使用均匀先验
+    if not use_bayesian:
+        return np.ones(num_dancers)
     
     # Case 1: 没有上一周数据（第1周）或为空，使用均匀先验
     if prev_week_estimates is None or len(prev_week_estimates) == 0:
@@ -230,8 +266,8 @@ def construct_dirichlet_prior(prev_week_estimates, current_active_names, concent
     return alpha
 
 
-def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=None, 
-                                 concentration=50.0, iterations=100000):
+def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=None,
+                                concentration=50.0, iterations=100000, use_bayesian=True):
     """
     基于 Dirichlet 分布的粉丝投票百分比推断（支持所有 34 个赛季）。
     
@@ -262,6 +298,7 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
         prev_week_estimates: 上一周估计字典 {name: mean_fan_percent}
         concentration: Dirichlet 浓度参数 C（默认 50.0）
         iterations: 蒙特卡罗模拟次数
+        use_bayesian: 是否使用贝叶斯时序一致性（默认 True）
     
     返回:
         (result_df, current_week_estimates): 结果 DataFrame 和当周估计字典
@@ -342,7 +379,7 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
     # ---------------------------------------------------------
     # Step 4: 构造 Dirichlet 先验参数 α
     # ---------------------------------------------------------
-    alpha = construct_dirichlet_prior(prev_week_estimates, names, concentration)
+    alpha = construct_dirichlet_prior(prev_week_estimates, names, concentration, use_bayesian=use_bayesian)
     
     # ---------------------------------------------------------
     # Step 5: 蒙特卡罗模拟（向量化）
@@ -473,6 +510,7 @@ if __name__ == "__main__":
     print("=" * 70)
     print("蒙特卡罗模拟：Season 1-34 粉丝投票百分比估算")
     print(f"配置：Concentration={CONCENTRATION}, Iterations={ITERATIONS}")
+    print(f"时序先验：{'启用(贝叶斯时序一致性)' if USE_BAYESIAN_TEMPORAL_PRIOR else '关闭(每周均匀先验)'}")
     print("规则模式：")
     print(f"  - Season 1-2: 排名制（严格淘汰最低分者）")
     print(f"  - Season 3-27: 百分比制（评委% + 粉丝%）")
@@ -501,7 +539,8 @@ if __name__ == "__main__":
                 df=df,
                 prev_week_estimates=prev_estimates,
                 concentration=CONCENTRATION,
-                iterations=ITERATIONS
+                iterations=ITERATIONS,
+                use_bayesian=USE_BAYESIAN_TEMPORAL_PRIOR
             )
             
             if result_df is not None:
@@ -532,9 +571,15 @@ if __name__ == "__main__":
                        'Est_Fan_Percent_Mean', 'Est_Fan_Percent_Std', 'Actual_Result']
         print(final_report[display_cols].head(30))
         
-        # 导出结果
+        # 导出结果（导出时重命名列名/分类值，使表头更易读）
         output_csv = "monte_carlo_results_percent_mode.csv"
-        final_report.to_csv(output_csv, index=False)
+        export_report = final_report.copy()
+        if 'Mode' in export_report.columns:
+            export_report['Mode'] = export_report['Mode'].map(CSV_VALUE_MAP_MODE).fillna(export_report['Mode'])
+        if 'Actual_Result' in export_report.columns:
+            export_report['Actual_Result'] = export_report['Actual_Result'].map(CSV_VALUE_MAP_RESULT).fillna(export_report['Actual_Result'])
+        export_report = export_report.rename(columns=CSV_COLUMN_RENAME_MAP)
+        export_report.to_csv(output_csv, index=False)
         print(f"\n结果已保存到: {output_csv}")
         
         # 打印一些统计摘要

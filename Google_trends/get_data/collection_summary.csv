@@ -1,0 +1,422 @@
+celebrity_name,season,start_date,end_date,status
+John O'Hurley,1,2005-06-01,2005-07-06,completed
+Kelly Monaco,1,2005-06-01,2005-07-06,completed
+Evander Holyfield,1,2005-06-01,2005-07-06,completed
+Rachel Hunter,1,2005-06-01,2005-07-06,completed
+Joey McIntyre,1,2005-06-01,2005-07-06,completed
+Trista Sutter,1,2005-06-01,2005-07-06,completed
+Tatum O'Neal,2,2006-01-05,2006-02-26,completed
+Tia Carrere,2,2006-01-05,2006-02-26,completed
+George Hamilton,2,2006-01-05,2006-02-26,completed
+Lisa Rinna,2,2006-01-05,2006-02-26,completed
+Stacy Keibler,2,2006-01-05,2006-02-26,completed
+Jerry Rice,2,2006-01-05,2006-02-26,completed
+Giselle Fernandez,2,2006-01-05,2006-02-26,completed
+Master P,2,2006-01-05,2006-02-26,completed
+Drew Lachey,2,2006-01-05,2006-02-26,completed
+Kenny Mayne,2,2006-01-05,2006-02-26,completed
+Harry Hamlin,3,2006-09-12,2006-11-15,completed
+Vivica A. Fox,3,2006-09-12,2006-11-15,completed
+Monique Coleman,3,2006-09-12,2006-11-15,completed
+Joey Lawrence,3,2006-09-12,2006-11-15,completed
+Mario Lopez,3,2006-09-12,2006-11-15,completed
+Emmitt Smith,3,2006-09-12,2006-11-15,completed
+Shanna Moakler,3,2006-09-12,2006-11-15,completed
+Willa Ford,3,2006-09-12,2006-11-15,completed
+Sara Evans,3,2006-09-12,2006-11-15,completed
+Jerry Springer,3,2006-09-12,2006-11-15,completed
+Tucker Carlson,3,2006-09-12,2006-11-15,completed
+John Ratzenberger,4,2007-03-19,2007-05-22,completed
+Ian Ziering,4,2007-03-19,2007-05-22,completed
+Clyde Drexler,4,2007-03-19,2007-05-22,completed
+Laila Ali,4,2007-03-19,2007-05-22,completed
+Apolo Anton Ohno,4,2007-03-19,2007-05-22,completed
+Shandi Finnessey,4,2007-03-19,2007-05-22,completed
+Paulina Porizkova,4,2007-03-19,2007-05-22,completed
+Heather Mills,4,2007-03-19,2007-05-22,completed
+Billy Ray Cyrus,4,2007-03-19,2007-05-22,completed
+Joey Fatone,4,2007-03-19,2007-05-22,completed
+Leeza Gibbons,4,2007-03-19,2007-05-22,completed
+Cameron Mathison,5,2007-09-24,2007-11-27,completed
+Jane Seymour,5,2007-09-24,2007-11-27,completed
+Sabrina Bryan,5,2007-09-24,2007-11-27,completed
+Jennie Garth,5,2007-09-24,2007-11-27,completed
+Floyd Mayweather Jr. ,5,2007-09-24,2007-11-27,completed
+Josie Maran,5,2007-09-24,2007-11-27,completed
+Albert Reed,5,2007-09-24,2007-11-27,completed
+Helio Castroneves,5,2007-09-24,2007-11-27,completed
+Mel B,5,2007-09-24,2007-11-27,completed
+Wayne Newton,5,2007-09-24,2007-11-27,completed
+Marie Osmond,5,2007-09-24,2007-11-27,completed
+Mark Cuban,5,2007-09-24,2007-11-27,completed
+Cristian de la Fuente,6,2008-03-17,2008-05-20,completed
+Steve Guttenberg,6,2008-03-17,2008-05-20,completed
+Priscilla Presley,6,2008-03-17,2008-05-20,completed
+Marlee Matlin,6,2008-03-17,2008-05-20,completed
+Shannon Elizabeth,6,2008-03-17,2008-05-20,completed
+Marissa Jaret Winokur,6,2008-03-17,2008-05-20,completed
+Jason Taylor,6,2008-03-17,2008-05-20,completed
+Kristi Yamaguchi,6,2008-03-17,2008-05-20,completed
+Monica Seles,6,2008-03-17,2008-05-20,completed
+Penn Jillette,6,2008-03-17,2008-05-20,completed
+Adam Carolla,6,2008-03-17,2008-05-20,completed
+Mario,6,2008-03-17,2008-05-20,completed
+Ted McGinley,7,2008-09-22,2008-11-25,completed
+Cloris Leachman,7,2008-09-22,2008-11-25,completed
+Susan Lucci,7,2008-09-22,2008-11-25,completed
+Cody Linley,7,2008-09-22,2008-11-25,completed
+Misty May-Treanor,7,2008-09-22,2008-11-25,completed
+Maurice Greene,7,2008-09-22,2008-11-25,completed
+Warren Sapp,7,2008-09-22,2008-11-25,completed
+Jeffrey Ross,7,2008-09-22,2008-11-25,completed
+Toni Braxton,7,2008-09-22,2008-11-25,completed
+Lance Bass,7,2008-09-22,2008-11-25,completed
+Kim Kardashian,7,2008-09-22,2008-11-25,completed
+Rocco DiSpirito,7,2008-09-22,2008-11-25,completed
+Brooke Burke,7,2008-09-22,2008-11-25,completed
+Gilles Marini,8,2009-03-09,2009-05-19,completed
+Denise Richards,8,2009-03-09,2009-05-19,completed
+David Alan Grier,8,2009-03-09,2009-05-19,completed
+Lawrence Taylor,8,2009-03-09,2009-05-19,completed
+Ty Murray,8,2009-03-09,2009-05-19,completed
+Shawn Johnson,8,2009-03-09,2009-05-19,completed
+Steve Wozniak,8,2009-03-09,2009-05-19,completed
+Belinda Carlisle,8,2009-03-09,2009-05-19,completed
+Chuck Wicks,8,2009-03-09,2009-05-19,completed
+Lil' Kim,8,2009-03-09,2009-05-19,completed
+Steve-O,8,2009-03-09,2009-05-19,completed
+Holly Madison,8,2009-03-09,2009-05-19,completed
+Melissa Rycroft,8,2009-03-09,2009-05-19,completed
+Ashley Hamiliton,9,2009-09-21,2009-11-24,completed
+Debi Mazar,9,2009-09-21,2009-11-24,completed
+Melissa Joan Hart,9,2009-09-21,2009-11-24,completed
+Mark Dacascos,9,2009-09-21,2009-11-24,completed
+Chuck Liddell,9,2009-09-21,2009-11-24,completed
+Natalie Coughlin,9,2009-09-21,2009-11-24,completed
+Louie Vito,9,2009-09-21,2009-11-24,completed
+Michael Irvin,9,2009-09-21,2009-11-24,completed
+Joanna Krupa,9,2009-09-21,2009-11-24,completed
+Kathy Ireland,9,2009-09-21,2009-11-24,completed
+Tom DeLay,9,2009-09-21,2009-11-24,completed
+Macy Gray,9,2009-09-21,2009-11-24,completed
+Aaron Carter,9,2009-09-21,2009-11-24,completed
+Mya,9,2009-09-21,2009-11-24,completed
+Donny Osmond,9,2009-09-21,2009-11-24,completed
+Kelly Osbourne,9,2009-09-21,2009-11-24,completed
+Aiden Turner,10,2010-03-22,2010-05-25,completed
+Shannen Doherty,10,2010-03-22,2010-05-25,completed
+Niecy Nash,10,2010-03-22,2010-05-25,completed
+Buzz Aldrin,10,2010-03-22,2010-05-25,completed
+Chad Ochocinco,10,2010-03-22,2010-05-25,completed
+Evan Lysacek,10,2010-03-22,2010-05-25,completed
+Pamela Anderson,10,2010-03-22,2010-05-25,completed
+Nicole Scherzinger,10,2010-03-22,2010-05-25,completed
+Erin Andrews,10,2010-03-22,2010-05-25,completed
+Kate Gosselin,10,2010-03-22,2010-05-25,completed
+Jake Pavelka,10,2010-03-22,2010-05-25,completed
+David Hasselhoff,11,2010-09-20,2010-11-23,completed
+Florence Henderson,11,2010-09-20,2010-11-23,completed
+Kyle Massey,11,2010-09-20,2010-11-23,completed
+Jennifer Grey,11,2010-09-20,2010-11-23,completed
+Rick Fox,11,2010-09-20,2010-11-23,completed
+Kurt Warner,11,2010-09-20,2010-11-23,completed
+Margaret Cho,11,2010-09-20,2010-11-23,completed
+Michael Bolton,11,2010-09-20,2010-11-23,completed
+Brandy,11,2010-09-20,2010-11-23,completed
+The Situation,11,2010-09-20,2010-11-23,completed
+Audrina Patridge,11,2010-09-20,2010-11-23,completed
+Bristol Palin,11,2010-09-20,2010-11-23,completed
+Ralph Macchio,12,2011-03-21,2011-05-24,completed
+Chelsea Kane,12,2011-03-21,2011-05-24,completed
+Kirstie Alley,12,2011-03-21,2011-05-24,completed
+Hines Ward,12,2011-03-21,2011-05-24,completed
+Sugar Ray Leonard,12,2011-03-21,2011-05-24,completed
+Chris Jericho,12,2011-03-21,2011-05-24,completed
+Petra Nemcova,12,2011-03-21,2011-05-24,completed
+Mike Catherwood,12,2011-03-21,2011-05-24,completed
+Romeo,12,2011-03-21,2011-05-24,completed
+Wendy Williams,12,2011-03-21,2011-05-24,completed
+Kendra Wilkinson,12,2011-03-21,2011-05-24,completed
+Elisabetta Canalis,13,2011-09-19,2011-11-22,completed
+David Arquette,13,2011-09-19,2011-11-22,completed
+Ricki Lake,13,2011-09-19,2011-11-22,completed
+J.R. Martinez,13,2011-09-19,2011-11-22,completed
+Metta World Peace (Ron),13,2011-09-19,2011-11-22,completed
+Hope Solo,13,2011-09-19,2011-11-22,completed
+Chynna Phillips,13,2011-09-19,2011-11-22,completed
+Kristin Cavallari,13,2011-09-19,2011-11-22,completed
+Carson Kressley,13,2011-09-19,2011-11-22,completed
+Chaz Bono,13,2011-09-19,2011-11-22,completed
+Nancy Grace,13,2011-09-19,2011-11-22,completed
+Rob Kardashian,13,2011-09-19,2011-11-22,completed
+William Levy,14,2012-03-19,2012-05-22,completed
+Jack Wagner,14,2012-03-19,2012-05-22,completed
+Sherri Sheperd,14,2012-03-19,2012-05-22,completed
+Jaleel White,14,2012-03-19,2012-05-22,completed
+Roshon Fegan,14,2012-03-19,2012-05-22,completed
+Melissa Gilbert,14,2012-03-19,2012-05-22,completed
+Martina Navratilova,14,2012-03-19,2012-05-22,completed
+Donald Driver,14,2012-03-19,2012-05-22,completed
+Gavin DeGraw,14,2012-03-19,2012-05-22,completed
+Gladys Knight,14,2012-03-19,2012-05-22,completed
+Katherine Jenkins,14,2012-03-19,2012-05-22,completed
+Maria Menounos,14,2012-03-19,2012-05-22,completed
+Gilles Marini,15,2012-09-24,2012-11-27,completed
+Sabrina Bryan,15,2012-09-24,2012-11-27,completed
+Kirstie Alley,15,2012-09-24,2012-11-27,completed
+Kelly Monaco,15,2012-09-24,2012-11-27,completed
+Apolo Anton Ohno,15,2012-09-24,2012-11-27,completed
+Emmitt Smith,15,2012-09-24,2012-11-27,completed
+Shawn Johnson,15,2012-09-24,2012-11-27,completed
+Pamela Anderson,15,2012-09-24,2012-11-27,completed
+Helio Castroneves,15,2012-09-24,2012-11-27,completed
+Joey Fatone,15,2012-09-24,2012-11-27,completed
+Drew Lachey,15,2012-09-24,2012-11-27,completed
+Bristol Palin,15,2012-09-24,2012-11-27,completed
+Melissa Rycroft,15,2012-09-24,2012-11-27,completed
+Ingo Rademacher,16,2013-03-18,2013-05-21,completed
+Zendaya,16,2013-03-18,2013-05-21,completed
+Dorothy Hamill,16,2013-03-18,2013-05-21,completed
+Victor Ortiz,16,2013-03-18,2013-05-21,completed
+Alexandra Raisman,16,2013-03-18,2013-05-21,completed
+Jacoby Jones,16,2013-03-18,2013-05-21,completed
+D. L. Hughley,16,2013-03-18,2013-05-21,completed
+Andy Dick,16,2013-03-18,2013-05-21,completed
+Wynonna Judd,16,2013-03-18,2013-05-21,completed
+Kellie Pickler,16,2013-03-18,2013-05-21,completed
+Lisa Vanderpump,16,2013-03-18,2013-05-21,completed
+Sean Lowe,16,2013-03-18,2013-05-21,completed
+Valerie Harper,17,2013-09-16,2013-11-26,completed
+Brant Daugherty,17,2013-09-16,2013-11-26,completed
+Elizabeth Berkley Lauren,17,2013-09-16,2013-11-26,completed
+Leah Remini,17,2013-09-16,2013-11-26,completed
+Corbin Bleu,17,2013-09-16,2013-11-26,completed
+Amber Riley,17,2013-09-16,2013-11-26,completed
+Keyshawn Johnson,17,2013-09-16,2013-11-26,completed
+Bill Engvall,17,2013-09-16,2013-11-26,completed
+Christina Milian,17,2013-09-16,2013-11-26,completed
+"Nicole ""Snooki"" Polizzi",17,2013-09-16,2013-11-26,completed
+Jack Osbourne,17,2013-09-16,2013-11-26,completed
+Bill Nye,17,2013-09-16,2013-11-26,completed
+Billy Dee Williams,18,2014-03-17,2014-05-20,completed
+Danica McKellar,18,2014-03-17,2014-05-20,completed
+James Maslow,18,2014-03-17,2014-05-20,completed
+Candace Cameron Bure,18,2014-03-17,2014-05-20,completed
+Sean Avery,18,2014-03-17,2014-05-20,completed
+Diana Nyad,18,2014-03-17,2014-05-20,completed
+Charlie White,18,2014-03-17,2014-05-20,completed
+Amy Purdy,18,2014-03-17,2014-05-20,completed
+Meryl Davis,18,2014-03-17,2014-05-20,completed
+Drew Carey,18,2014-03-17,2014-05-20,completed
+Cody Simpson,18,2014-03-17,2014-05-20,completed
+NeNe Leakes,18,2014-03-17,2014-05-20,completed
+Antonio Sabato Jr.,19,2014-09-15,2014-11-25,completed
+Jonathan Bennett,19,2014-09-15,2014-11-25,completed
+Lea Thompson,19,2014-09-15,2014-11-25,completed
+Janel Parrish,19,2014-09-15,2014-11-25,completed
+Alfonso Ribeiro,19,2014-09-15,2014-11-25,completed
+Lolo Jones,19,2014-09-15,2014-11-25,completed
+Randy Couture,19,2014-09-15,2014-11-25,completed
+Tommy Chong,19,2014-09-15,2014-11-25,completed
+Betsey Johnson,19,2014-09-15,2014-11-25,completed
+Michael Waltrip,19,2014-09-15,2014-11-25,completed
+Tavis Smiley,19,2014-09-15,2014-11-25,completed
+Bethany Mota,19,2014-09-15,2014-11-25,completed
+Sadie Robertson,19,2014-09-15,2014-11-25,completed
+Suzanne Somers,20,2015-03-16,2015-05-19,completed
+Willow Shields,20,2015-03-16,2015-05-19,completed
+Riker Lynch,20,2015-03-16,2015-05-19,completed
+Rumer Willis,20,2015-03-16,2015-05-19,completed
+Nastia Liukin,20,2015-03-16,2015-05-19,completed
+Michael Sam,20,2015-03-16,2015-05-19,completed
+Robert Herjavec,20,2015-03-16,2015-05-19,completed
+Charlotte McKinney,20,2015-03-16,2015-05-19,completed
+Noah Galloway,20,2015-03-16,2015-05-19,completed
+Redfoo,20,2015-03-16,2015-05-19,completed
+Patti LaBelle,20,2015-03-16,2015-05-19,completed
+Chris Soules,20,2015-03-16,2015-05-19,completed
+Gary Busey,21,2015-09-14,2015-11-24,completed
+Alexa PenaVega,21,2015-09-14,2015-11-24,completed
+Carlos PenaVega,21,2015-09-14,2015-11-24,completed
+Victor Espinoza,21,2015-09-14,2015-11-24,completed
+Alek Skarlatos,21,2015-09-14,2015-11-24,completed
+Chaka Khan,21,2015-09-14,2015-11-24,completed
+Andy Grammer,21,2015-09-14,2015-11-24,completed
+Tamar Braxton,21,2015-09-14,2015-11-24,completed
+Nick Carter,21,2015-09-14,2015-11-24,completed
+Hayes Grier,21,2015-09-14,2015-11-24,completed
+Bindi Irwin,21,2015-09-14,2015-11-24,completed
+Kim Zolciak-Biermann,21,2015-09-14,2015-11-24,completed
+Paula Deen,21,2015-09-14,2015-11-24,completed
+Mischa Barton,22,2016-03-21,2016-05-24,completed
+Kim Fields,22,2016-03-21,2016-05-24,completed
+Jodie Sweetin,22,2016-03-21,2016-05-24,completed
+Doug Flutie,22,2016-03-21,2016-05-24,completed
+Von Miller,22,2016-03-21,2016-05-24,completed
+Antonio Brown,22,2016-03-21,2016-05-24,completed
+Paige VanZant,22,2016-03-21,2016-05-24,completed
+Geraldo Rivera,22,2016-03-21,2016-05-24,completed
+Nyle DiMarco,22,2016-03-21,2016-05-24,completed
+Ginger Zee,22,2016-03-21,2016-05-24,completed
+Wanya Morris,22,2016-03-21,2016-05-24,completed
+Marla Maples,22,2016-03-21,2016-05-24,completed
+Jake T. Austin,23,2016-09-12,2016-11-22,completed
+Maureen McCormick,23,2016-09-12,2016-11-22,completed
+Marilu Henner,23,2016-09-12,2016-11-22,completed
+Ryan Lochte,23,2016-09-12,2016-11-22,completed
+Calvin Johnson Jr.,23,2016-09-12,2016-11-22,completed
+Laurie Hernandez,23,2016-09-12,2016-11-22,completed
+Amber Rose,23,2016-09-12,2016-11-22,completed
+Rick Perry,23,2016-09-12,2016-11-22,completed
+James Hinchcliffe,23,2016-09-12,2016-11-22,completed
+Babyface,23,2016-09-12,2016-11-22,completed
+Vanilla Ice,23,2016-09-12,2016-11-22,completed
+Jana Kramer,23,2016-09-12,2016-11-22,completed
+Terra Jole,23,2016-09-12,2016-11-22,completed
+Charo,24,2017-03-20,2017-05-23,completed
+Mr. T,24,2017-03-20,2017-05-23,completed
+Heather Morris,24,2017-03-20,2017-05-23,completed
+Nancy Kerrigan,24,2017-03-20,2017-05-23,completed
+Bonner Bolton,24,2017-03-20,2017-05-23,completed
+Simone Biles,24,2017-03-20,2017-05-23,completed
+David Ross,24,2017-03-20,2017-05-23,completed
+Rashad Jennings,24,2017-03-20,2017-05-23,completed
+Chris Kattan,24,2017-03-20,2017-05-23,completed
+Erika Jayne,24,2017-03-20,2017-05-23,completed
+Normani,24,2017-03-20,2017-05-23,completed
+Nick Viall,24,2017-03-20,2017-05-23,completed
+Sasha Pieterse,25,2017-09-18,2017-11-21,completed
+Frankie Muniz,25,2017-09-18,2017-11-21,completed
+Jordan Fisher,25,2017-09-18,2017-11-21,completed
+Derek Fisher,25,2017-09-18,2017-11-21,completed
+Nikki Bella,25,2017-09-18,2017-11-21,completed
+Terrell Owens,25,2017-09-18,2017-11-21,completed
+Victoria Arlen,25,2017-09-18,2017-11-21,completed
+Barbara Corcoran,25,2017-09-18,2017-11-21,completed
+Lindsey Stirling,25,2017-09-18,2017-11-21,completed
+Debbie Gibson,25,2017-09-18,2017-11-21,completed
+Nick Lachey,25,2017-09-18,2017-11-21,completed
+Drew Scott,25,2017-09-18,2017-11-21,completed
+Vanessa Lachey,25,2017-09-18,2017-11-21,completed
+Jamie Anderson,26,2018-04-30,2018-05-21,completed
+Johnny Damon,26,2018-04-30,2018-05-21,completed
+Kareem Abdul-Jabbar,26,2018-04-30,2018-05-21,completed
+Arike Ogunbowale,26,2018-04-30,2018-05-21,completed
+Jennie Finch Daigle,26,2018-04-30,2018-05-21,completed
+Chris Mazdzer,26,2018-04-30,2018-05-21,completed
+Mirai Nagasu,26,2018-04-30,2018-05-21,completed
+Tonya Harding,26,2018-04-30,2018-05-21,completed
+Josh Norman,26,2018-04-30,2018-05-21,completed
+Adam Rippon,26,2018-04-30,2018-05-21,completed
+Juan Pablo Di Pace,27,2018-09-24,2018-11-19,completed
+Evanna Lynch,27,2018-09-24,2018-11-19,completed
+Nancy McKeon,27,2018-09-24,2018-11-19,completed
+John Schneider,27,2018-09-24,2018-11-19,completed
+Milo Manheim,27,2018-09-24,2018-11-19,completed
+Danelle Umstead,27,2018-09-24,2018-11-19,completed
+Mary Lou Retton,27,2018-09-24,2018-11-19,completed
+DeMarcus Ware,27,2018-09-24,2018-11-19,completed
+Nikki Glaser,27,2018-09-24,2018-11-19,completed
+Bobby Bones,27,2018-09-24,2018-11-19,completed
+Tinashe,27,2018-09-24,2018-11-19,completed
+Alexis Ren,27,2018-09-24,2018-11-19,completed
+Joe Amabile,27,2018-09-24,2018-11-19,completed
+Kate Flannery,28,2019-09-16,2019-11-25,completed
+James Van Der Beek,28,2019-09-16,2019-11-25,completed
+Kel Mitchell,28,2019-09-16,2019-11-25,completed
+Ray Lewis,28,2019-09-16,2019-11-25,completed
+Lamar Odom,28,2019-09-16,2019-11-25,completed
+Sailor Brinkley-Cook,28,2019-09-16,2019-11-25,completed
+Sean Spicer,28,2019-09-16,2019-11-25,completed
+Mary Wilson,28,2019-09-16,2019-11-25,completed
+Lauren Alaina,28,2019-09-16,2019-11-25,completed
+Ally Brooke,28,2019-09-16,2019-11-25,completed
+Karamo Brown,28,2019-09-16,2019-11-25,completed
+Hannah Brown,28,2019-09-16,2019-11-25,completed
+Anne Heche,29,2020-09-14,2020-11-23,completed
+Jesse Metcalfe,29,2020-09-14,2020-11-23,completed
+Chrishell Stause,29,2020-09-14,2020-11-23,completed
+Skai Jackson,29,2020-09-14,2020-11-23,completed
+Justina Machado,29,2020-09-14,2020-11-23,completed
+Charles Oakley,29,2020-09-14,2020-11-23,completed
+Veron Davis,29,2020-09-14,2020-11-23,completed
+Johnny Weir,29,2020-09-14,2020-11-23,completed
+Nev Schulman,29,2020-09-14,2020-11-23,completed
+AJ McLean,29,2020-09-14,2020-11-23,completed
+Nelly,29,2020-09-14,2020-11-23,completed
+Kaitlyn Bristowe,29,2020-09-14,2020-11-23,completed
+Carole Baskin,29,2020-09-14,2020-11-23,completed
+Monica Aldama,29,2020-09-14,2020-11-23,completed
+Jeannie Mai,29,2020-09-14,2020-11-23,completed
+Martin Kove,30,2021-09-20,2021-11-22,completed
+Brian Austin Green,30,2021-09-20,2021-11-22,completed
+Melora Hardin,30,2021-09-20,2021-11-22,completed
+Matt James,30,2021-09-20,2021-11-22,completed
+"Mike ""The Miz"" Mizanin",30,2021-09-20,2021-11-22,completed
+Suni Lee,30,2021-09-20,2021-11-22,completed
+Iman Shumpert,30,2021-09-20,2021-11-22,completed
+Cody Rigsby,30,2021-09-20,2021-11-22,completed
+Melanie C,30,2021-09-20,2021-11-22,completed
+Jimmie Allen,30,2021-09-20,2021-11-22,completed
+Olivia Jade,30,2021-09-20,2021-11-22,completed
+JoJo Siwa,30,2021-09-20,2021-11-22,completed
+Christine Chiu,30,2021-09-20,2021-11-22,completed
+Kenya Moore,30,2021-09-20,2021-11-22,completed
+Amanda Kloots,30,2021-09-20,2021-11-22,completed
+Jason Lewis,31,2022-09-19,2022-11-21,completed
+Cheryl Ladd,31,2022-09-19,2022-11-21,completed
+Selma Blair,31,2022-09-19,2022-11-21,completed
+Joseph Baena,31,2022-09-19,2022-11-21,completed
+Trevor Donovan,31,2022-09-19,2022-11-21,completed
+Daniel Durant,31,2022-09-19,2022-11-21,completed
+Wayne Brady,31,2022-09-19,2022-11-21,completed
+Sam Champion,31,2022-09-19,2022-11-21,completed
+Jessie James Decker,31,2022-09-19,2022-11-21,completed
+Jordin Sparks,31,2022-09-19,2022-11-21,completed
+Heidi D'Amelio,31,2022-09-19,2022-11-21,completed
+Charli D'Amelio,31,2022-09-19,2022-11-21,completed
+Teresa Giudice,31,2022-09-19,2022-11-21,completed
+Vinny Guadagnino,31,2022-09-19,2022-11-21,completed
+Shangela,31,2022-09-19,2022-11-21,completed
+Gabby Windey,31,2022-09-19,2022-11-21,completed
+Jamie Lynn Spears,32,2023-09-26,2023-12-05,completed
+Mira Sorvino,32,2023-09-26,2023-12-05,completed
+Barry Williams,32,2023-09-26,2023-12-05,completed
+Alyson Hannigan,32,2023-09-26,2023-12-05,completed
+Xochitl Gomez,32,2023-09-26,2023-12-05,completed
+Adrian Peterson,32,2023-09-26,2023-12-05,completed
+Matt Walsh,32,2023-09-26,2023-12-05,completed
+Tyson Beckford,32,2023-09-26,2023-12-05,completed
+Jason Mraz,32,2023-09-26,2023-12-05,completed
+Lele Pons,32,2023-09-26,2023-12-05,completed
+Harry Jowsey,32,2023-09-26,2023-12-05,completed
+Mauricio Umansky,32,2023-09-26,2023-12-05,completed
+Charity Lawson,32,2023-09-26,2023-12-05,completed
+Ariana Madix,32,2023-09-26,2023-12-05,completed
+Tori Spelling,33,2024-09-17,2024-11-26,completed
+Eric Roberts,33,2024-09-17,2024-11-26,completed
+Reginald VelJohnson,33,2024-09-17,2024-11-26,completed
+Chandler Kinney,33,2024-09-17,2024-11-26,completed
+Dwight Howard ,33,2024-09-17,2024-11-26,completed
+Danny Amendola,33,2024-09-17,2024-11-26,completed
+Stephen Nedoroscik,33,2024-09-17,2024-11-26,completed
+Ilona Maher,33,2024-09-17,2024-11-26,completed
+Anna Delvey,33,2024-09-17,2024-11-26,completed
+Brooks Nader,33,2024-09-17,2024-11-26,completed
+Phaedra Parks,33,2024-09-17,2024-11-26,completed
+Jenn Tran,33,2024-09-17,2024-11-26,completed
+Joey Graziadei,33,2024-09-17,2024-11-26,completed
+Corey Feldman,34,2025-09-16,2025-11-25,completed
+Danielle Fishel,34,2025-09-16,2025-11-25,completed
+Elaine Hendrix,34,2025-09-16,2025-11-25,completed
+Baron Davis,34,2025-09-16,2025-11-25,completed
+Jordan Chiles,34,2025-09-16,2025-11-25,completed
+Andy Richter,34,2025-09-16,2025-11-25,completed
+Robert Irwin,34,2025-09-16,2025-11-25,completed
+Hilaria Baldwin,34,2025-09-16,2025-11-25,completed
+Lauren Jauregui,34,2025-09-16,2025-11-25,completed
+Scott Hoying,34,2025-09-16,2025-11-25,completed
+Alix Earle,34,2025-09-16,2025-11-25,completed
+Jen Affleck,34,2025-09-16,2025-11-25,completed
+Whitney Leavitt,34,2025-09-16,2025-11-25,completed
+Dylan Efron,34,2025-09-16,2025-11-25,completed
