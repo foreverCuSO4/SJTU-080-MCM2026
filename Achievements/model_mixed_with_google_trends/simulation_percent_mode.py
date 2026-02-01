@@ -20,46 +20,37 @@
 import pandas as pd
 import numpy as np
 import re
-from tqdm import tqdm
+from scipy.stats import rankdata
 
 # ---------------------------------------------------------
 # 1. 全局配置参数
 # ---------------------------------------------------------
 
+# 热度系数文件路径
+POPULARITY_FILE = 'popularity_coefficients.csv'
+
 # Dirichlet 浓度参数：控制粉丝投票的稳定性
 # 值越大表示越相信粉丝投票在相邻周之间保持稳定
-CONCENTRATION = 50.0
+CONCENTRATION = 10.0
 
-# 是否使用贝叶斯时序一致性（上一周后验作为下一周先验）
-# True : 使用时序一致性（默认，当前实现）
-# False: 不使用时序一致性；每一周都使用均匀先验 α=[1,1,...,1]
-USE_BAYESIAN_TEMPORAL_PRIOR = False
+# 贝叶斯先验混合权重（更“合理”的模型）：
+# - 惯性分量：来自上一周后验（或第1周的热度先验）
+# - 路人观众分量：始终是均匀分布 (1/N)
+# inertia_weight 越大，越相信“惯性”；越小，越相信“路人随机性”。
+INERTIA_WEIGHT = 0.6
 
-# CSV output column headers (more readable)
-# Note: to avoid affecting internal calculations and summaries, we only rename columns at CSV export.
-CSV_COLUMN_RENAME_MAP = {
-    'Season': 'Season',
-    'Week': 'Week',
-    'Name': 'Celebrity',
-    'Mode': 'Rule_Mode',
-    'Judge_Raw_Score': 'Judge_Total_Score_Raw',
-    'Judge_Percent': 'Judge_Percent',
-    'Judge_Rank_Points': 'Judge_Rank_Points',
-    'Est_Fan_Percent_Mean': 'Estimated_Fan_Vote_Percent_Mean',
-    'Est_Fan_Percent_Std': 'Estimated_Fan_Vote_Percent_Std',
-    'Acceptance_Rate': 'Acceptance_Rate_Percent',
-    'Actual_Result': 'Actual_Result',
-}
-
-# Make key categorical values more readable (CSV export only)
+# CSV 导出时的分类值映射
 CSV_VALUE_MAP_MODE = {
     'rank_strict': 'Rank (Strict Elimination)',
     'percentage': 'Percentage (Judge% + Fan%)',
     'rank_bottom2': 'Rank (Bottom 2 Elimination)',
 }
-CSV_VALUE_MAP_RESULT = {
-    'Eliminated': 'Eliminated',
-    'Safe': 'Safe',
+
+# 规则模式显示名称
+MODE_DISPLAY = {
+    'rank_strict': '排名制(严格)',
+    'percentage': '百分比制',
+    'rank_bottom2': '排名制(Bottom2)'
 }
 
 # 蒙特卡罗模拟迭代次数
@@ -117,45 +108,8 @@ def count_active_dancers(season_num, week_num, df):
 
 
 def calculate_rank_points(scores):
-    """
-    将分数转换为排名分（1 到 N），处理并列情况使用平均排名法。
-    
-    规则：
-    - 最低分得 1 分，最高分得 N 分
-    - 并列分数取平均排名（如两人并列最低，都得 (1+2)/2 = 1.5）
-    
-    参数:
-        scores: numpy 数组，原始分数
-    
-    返回:
-        rank_points: numpy 数组，排名分（1 到 N）
-    """
-    n = len(scores)
-    # 获取排序后的索引
-    sorted_indices = np.argsort(scores)
-    
-    # 初始化排名分
-    rank_points = np.zeros(n)
-    
-    i = 0
-    while i < n:
-        # 找到所有与当前值相同的元素
-        current_score = scores[sorted_indices[i]]
-        j = i
-        while j < n and scores[sorted_indices[j]] == current_score:
-            j += 1
-        
-        # 计算平均排名（排名从 1 开始）
-        # 位置 i 到 j-1 的排名是 (i+1) 到 j
-        avg_rank = (i + 1 + j) / 2.0
-        
-        # 为所有并列的元素分配平均排名
-        for k in range(i, j):
-            rank_points[sorted_indices[k]] = avg_rank
-        
-        i = j
-    
-    return rank_points
+    """将分数转换为排名分（1到N），并列取平均排名。"""
+    return rankdata(scores, method='average')
 
 
 def calculate_rank_points_vectorized(scores_matrix):
@@ -179,31 +133,26 @@ def calculate_rank_points_vectorized(scores_matrix):
 
 
 def get_season_mode(season_num):
-    """
-    根据赛季编号确定使用的规则模式。
-    
-    返回:
-        'rank_strict': Season 1-2，排名制严格淘汰
-        'percentage': Season 3-27，百分比制
-        'rank_bottom2': Season 28-34，排名制 + 评委拯救
-    """
-    if season_num in SEASONS_RANK_STRICT:
+    """根据赛季编号确定使用的规则模式。"""
+    if season_num <= 2:
         return 'rank_strict'
-    elif season_num in SEASONS_PERCENTAGE:
+    elif season_num <= 27:
         return 'percentage'
-    elif season_num in SEASONS_RANK_BOTTOM2:
+    elif season_num <= 34:
         return 'rank_bottom2'
-    else:
-        # 默认使用百分比制
-        return 'percentage'
+    return 'percentage'
 
 
-def construct_dirichlet_prior(prev_week_estimates, current_active_names, concentration, use_bayesian=True):
+def construct_dirichlet_prior(prev_week_estimates, current_active_names, concentration,
+                              use_bayesian=True, popularity_data=None, season_num=None,
+                              inertia_weight=0.85):
     """
     构造 Dirichlet 先验参数 α。
     
     贝叶斯时序一致性逻辑：
-    1. 如果没有上一周估计（第1周），使用均匀先验 α = [1, 1, ..., 1]
+    1. 如果没有上一周估计（第1周），使用 Google Trends 热度数据作为先验
+       - 若热度数据可用，α = popularity_normalized * concentration
+       - 若热度数据不可用，退化为均匀先验 α = [1, 1, ..., 1]
     2. 否则，从上一周估计中提取幸存者的均值，重新归一化后乘以浓度参数
     
     重归一化逻辑（处理淘汰选手的粉丝重新分配）：
@@ -215,6 +164,9 @@ def construct_dirichlet_prior(prev_week_estimates, current_active_names, concent
         prev_week_estimates: 上一周估计字典 {name: mean_fan_percent}，可以为 None
         current_active_names: 当前周活跃选手名字列表
         concentration: Dirichlet 浓度参数 C
+        use_bayesian: 是否使用贝叶斯时序一致性
+        popularity_data: 热度数据 DataFrame，包含 season, celebrity_name, popularity_coefficient
+        season_num: 当前赛季编号
     
     返回:
         alpha: numpy 数组，与 current_active_names 顺序对应的 α 参数
@@ -225,10 +177,87 @@ def construct_dirichlet_prior(prev_week_estimates, current_active_names, concent
     if not use_bayesian:
         return np.ones(num_dancers)
     
-    # Case 1: 没有上一周数据（第1周）或为空，使用均匀先验
+    # 先构造“惯性分量”的均值向量 mu_inertia（随后再与均匀分量混合）
+    mu_inertia = None
+    has_source_coverage = None  # 仅用于打印覆盖率
+
+    # Case 1: 没有上一周数据（第1周）或为空：惯性分量来自热度先验（若可用）
     if prev_week_estimates is None or len(prev_week_estimates) == 0:
-        # 均匀 Dirichlet 先验：α = [1, 1, ..., 1]
-        return np.ones(num_dancers)
+        if popularity_data is not None and season_num is not None:
+            season_pop = popularity_data[popularity_data['season'] == season_num]
+            if len(season_pop) > 0:
+                mu = np.zeros(num_dancers)
+                has_popularity = np.zeros(num_dancers, dtype=bool)
+
+                for i, name in enumerate(current_active_names):
+                    match = season_pop[season_pop['celebrity_name'] == name]
+                    if len(match) > 0:
+                        mu[i] = match['popularity_coefficient'].values[0]
+                        has_popularity[i] = True
+
+                if np.any(has_popularity):
+                    existing_mean = np.mean(mu[has_popularity])
+                    mu[~has_popularity] = existing_mean if existing_mean > 0 else 1.0 / num_dancers
+                else:
+                    mu = np.ones(num_dancers)
+
+                mu = np.maximum(mu, 1e-6)
+                mu_inertia = mu
+                has_source_coverage = has_popularity
+        
+        # 若热度不可用，则惯性分量退化为均匀（与路人分量一致）
+        if mu_inertia is None:
+            mu_inertia = np.ones(num_dancers)
+            has_source_coverage = np.zeros(num_dancers, dtype=bool)
+
+    # Case 2: 有上一周数据：惯性分量来自上一周后验均值（并会自动对幸存者重归一化）
+    else:
+        mu = np.zeros(num_dancers)
+        has_prior = np.zeros(num_dancers, dtype=bool)
+        for i, name in enumerate(current_active_names):
+            if name in prev_week_estimates:
+                mu[i] = prev_week_estimates[name]
+                has_prior[i] = True
+
+        if not np.all(has_prior):
+            existing_mean = np.mean(mu[has_prior]) if np.any(has_prior) else 100.0 / num_dancers
+            mu[~has_prior] = existing_mean
+
+        mu = np.maximum(mu, 1e-6)
+        mu_inertia = mu
+        has_source_coverage = has_prior
+
+    # --------------------------
+    # 混合：mu = w * mu_inertia_norm + (1-w) * uniform
+    # --------------------------
+    w = float(inertia_weight)
+    w = 0.0 if w < 0.0 else (1.0 if w > 1.0 else w)
+
+    total_inertia = np.sum(mu_inertia)
+    if total_inertia > 0:
+        mu_inertia_norm = mu_inertia / total_inertia
+    else:
+        mu_inertia_norm = np.ones(num_dancers) / num_dancers
+
+    mu_uniform = np.ones(num_dancers) / num_dancers
+    mu_mixed = w * mu_inertia_norm + (1.0 - w) * mu_uniform
+
+    # 数值防护并再次归一化（确保和为1）
+    mu_mixed = np.maximum(mu_mixed, 1e-12)
+    mu_mixed = mu_mixed / np.sum(mu_mixed)
+
+    alpha = mu_mixed * concentration
+    alpha = np.maximum(alpha, 1e-6)
+
+    if prev_week_estimates is None or len(prev_week_estimates) == 0:
+        # 第1周：来源是热度（可能退化为均匀）
+        covered = int(np.sum(has_source_coverage)) if has_source_coverage is not None else 0
+        print(f"    [先验] 第1周: 惯性(热度) + 路人(均匀) 混合 | w={w:.2f} | 覆盖率: {covered}/{num_dancers}")
+    else:
+        covered = int(np.sum(has_source_coverage)) if has_source_coverage is not None else 0
+        print(f"    [先验] 惯性(上周后验) + 路人(均匀) 混合 | w={w:.2f} | 覆盖率: {covered}/{num_dancers}")
+
+    return alpha
     
     # Case 2: 有上一周数据，构造信息性先验
     # 提取当前幸存者在上一周的估计值
@@ -267,7 +296,8 @@ def construct_dirichlet_prior(prev_week_estimates, current_active_names, concent
 
 
 def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=None,
-                                concentration=50.0, iterations=100000, use_bayesian=True):
+                                concentration=50.0, iterations=100000, use_bayesian=True,
+                                popularity_data=None):
     """
     基于 Dirichlet 分布的粉丝投票百分比推断（支持所有 34 个赛季）。
     
@@ -301,7 +331,8 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
         use_bayesian: 是否使用贝叶斯时序一致性（默认 True）
     
     返回:
-        (result_df, current_week_estimates): 结果 DataFrame 和当周估计字典
+        (result_df, current_week_estimates, has_elimination): 
+            结果 DataFrame、当周估计字典、本周是否有淘汰
     """
     # ---------------------------------------------------------
     # Step 0: 确定规则模式
@@ -323,7 +354,7 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
     active_df = season_df[season_df['total_judge_score'] > 0].reset_index(drop=True)
     
     if len(active_df) == 0:
-        return None, None
+        return None, None, False
     
     num_dancers = len(active_df)
     
@@ -345,41 +376,34 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
         judge_display_type = 'Judge_Rank_Points'
     
     # ---------------------------------------------------------
-    # Step 3: 确定实际淘汰者
+    # Step 3: 确定实际淘汰者（合并查找名字和索引）
     # ---------------------------------------------------------
-    actual_eliminated_name = None
-    for _, row in active_df.iterrows():
-        elim_week = extract_eliminated_week(row.get('results'))
-        if elim_week == week_num:
+    actual_loser_idx, actual_eliminated_name = None, None
+    for i, (_, row) in enumerate(active_df.iterrows()):
+        if extract_eliminated_week(row.get('results')) == week_num:
             actual_eliminated_name = row['celebrity_name']
+            actual_loser_idx = i
             break
     
-    # 找到淘汰者索引（如果有的话）
-    actual_loser_idx = None
-    if actual_eliminated_name is not None:
-        for i, name in enumerate(names):
-            if name == actual_eliminated_name:
-                actual_loser_idx = i
-                break
-    
-    # 判断本周是否有淘汰
     has_elimination = actual_loser_idx is not None
     
-    mode_display = {
-        'rank_strict': '排名制(严格)',
-        'percentage': '百分比制',
-        'rank_bottom2': '排名制(Bottom2)'
-    }
-    
     if not has_elimination:
-        print(f"Season {season_num} Week {week_num} [{mode_display[mode]}]: 无淘汰记录，所有样本均有效。")
+        print(f"Season {season_num} Week {week_num} [{MODE_DISPLAY[mode]}]: 无淘汰记录，所有样本均有效。")
     else:
-        print(f"--- Processing Season {season_num} Week {week_num} [{mode_display[mode]}] (Target: {actual_eliminated_name}) ---")
+        print(f"--- Processing Season {season_num} Week {week_num} [{MODE_DISPLAY[mode]}] (Target: {actual_eliminated_name}) ---")
     
     # ---------------------------------------------------------
     # Step 4: 构造 Dirichlet 先验参数 α
     # ---------------------------------------------------------
-    alpha = construct_dirichlet_prior(prev_week_estimates, names, concentration, use_bayesian=use_bayesian)
+    alpha = construct_dirichlet_prior(
+        prev_week_estimates,
+        names,
+        concentration,
+        use_bayesian=use_bayesian,
+        popularity_data=popularity_data,
+        season_num=season_num,
+        inertia_weight=INERTIA_WEIGHT,
+    )
     
     # ---------------------------------------------------------
     # Step 5: 蒙特卡罗模拟（向量化）
@@ -444,7 +468,7 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
     if valid_count == 0:
         print(f"    警告：没有找到符合历史结果的有效样本（concentration={concentration}）。")
         print(f"    尝试放宽约束或增加迭代次数。")
-        return None, None
+        return None, None, has_elimination
     
     acceptance_rate = valid_count / iterations * 100.0
     print(f"    Iterations: {iterations:,} | Valid: {valid_count:,} | Acceptance Rate: {acceptance_rate:.2f}%")
@@ -485,7 +509,7 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
         
         results.append(result_row)
     
-    return pd.DataFrame(results), current_week_estimates
+    return pd.DataFrame(results), current_week_estimates, has_elimination
 
 
 # ---------------------------------------------------------
@@ -495,6 +519,14 @@ def run_simulation_percent_mode(season_num, week_num, df, prev_week_estimates=No
 if __name__ == "__main__":
     # 加载数据
     df = pd.read_csv('2026_MCM_Problem_C_Data.csv')
+    
+    # 加载热度系数数据
+    try:
+        popularity_df = pd.read_csv(POPULARITY_FILE)
+        print(f"已加载热度系数数据: {len(popularity_df)} 条记录")
+    except FileNotFoundError:
+        popularity_df = None
+        print(f"警告: 未找到热度系数文件 {POPULARITY_FILE}，将使用均匀先验")
     
     # 数据清洗：将 N/A 转为 0，并将分数转为浮点数
     score_cols = [c for c in df.columns if 'score' in c]
@@ -510,46 +542,63 @@ if __name__ == "__main__":
     print("=" * 70)
     print("蒙特卡罗模拟：Season 1-34 粉丝投票百分比估算")
     print(f"配置：Concentration={CONCENTRATION}, Iterations={ITERATIONS}")
-    print(f"时序先验：{'启用(贝叶斯时序一致性)' if USE_BAYESIAN_TEMPORAL_PRIOR else '关闭(每周均匀先验)'}")
+    print("先验模式：同时运行 Bayesian Temporal 和 Uniform (Independent) 两种模式")
     print("规则模式：")
     print(f"  - Season 1-2: 排名制（严格淘汰最低分者）")
     print(f"  - Season 3-27: 百分比制（评委% + 粉丝%）")
     print(f"  - Season 28-34: 排名制 + 评委拯救（Bottom 2）")
     print("=" * 70)
     
-    # 遍历目标赛季
-    for season in TARGET_SEASONS:
-        print(f"\n{'='*50}")
-        print(f"Season {season}")
-        print(f"{'='*50}")
+    # 定义两种先验模式
+    prior_modes = [
+        ('bayesian', True),   # 贝叶斯时序一致性
+        ('uniform', False),   # 每周均匀先验
+    ]
+    
+    # 遍历两种先验模式
+    for prior_label, use_bayesian in prior_modes:
+        print(f"\n{'#'*70}")
+        print(f"# Prior Mode: {prior_label.upper()}")
+        print(f"{'#'*70}")
         
-        prev_estimates = None  # 每个赛季开始时重置
-        
-        for week in weeks_to_simulate:
-            # 检查当周是否还有足够的选手
-            active_count = count_active_dancers(season, week, df)
-            if active_count <= 1:
-                print(f"Season {season} Week {week}: 活跃选手仅剩 {active_count} 人，停止该赛季模拟。")
-                break
+        # 遍历目标赛季
+        for season in TARGET_SEASONS:
+            print(f"\n{'='*50}")
+            print(f"Season {season} [{prior_label}]")
+            print(f"{'='*50}")
             
-            # 运行模拟
-            result_df, curr_estimates = run_simulation_percent_mode(
-                season_num=season,
-                week_num=week,
-                df=df,
-                prev_week_estimates=prev_estimates,
-                concentration=CONCENTRATION,
-                iterations=ITERATIONS,
-                use_bayesian=USE_BAYESIAN_TEMPORAL_PRIOR
-            )
+            prev_estimates = None  # 每个赛季开始时重置
             
-            if result_df is not None:
-                all_estimates.append(result_df)
-                prev_estimates = curr_estimates
-            else:
-                # 如果当周没有有效结果，保持上一周的估计（或重置）
-                # 这里选择保持，以便连续性
-                pass
+            for week in weeks_to_simulate:
+                # 检查当周是否还有足够的选手
+                active_count = count_active_dancers(season, week, df)
+                if active_count <= 1:
+                    print(f"Season {season} Week {week}: 活跃选手仅剩 {active_count} 人，停止该赛季模拟。")
+                    break
+                
+                # 运行模拟
+                result_df, curr_estimates, had_elimination = run_simulation_percent_mode(
+                    season_num=season,
+                    week_num=week,
+                    df=df,
+                    prev_week_estimates=prev_estimates,
+                    concentration=CONCENTRATION,
+                    iterations=ITERATIONS,
+                    use_bayesian=use_bayesian,
+                    popularity_data=popularity_df
+                )
+                
+                if result_df is not None:
+                    # 添加先验模式标识列
+                    result_df['Prior_Mode'] = prior_label
+                    all_estimates.append(result_df)
+                    # 只有当周有淘汰时才更新先验；无淘汰周的估计无信息量，保持上周先验
+                    if had_elimination:
+                        prev_estimates = curr_estimates
+                else:
+                    # 如果当周没有有效结果，保持上一周的估计（或重置）
+                    # 这里选择保持，以便连续性
+                    pass
     
     # ---------------------------------------------------------
     # 汇总并输出结果
@@ -566,19 +615,85 @@ if __name__ == "__main__":
         pd.set_option('display.width', 1000)
         pd.set_option('display.max_rows', 50)
         
-        # 显示部分结果（包含不同模式的列）
-        display_cols = ['Season', 'Week', 'Name', 'Mode', 
-                       'Est_Fan_Percent_Mean', 'Est_Fan_Percent_Std', 'Actual_Result']
-        print(final_report[display_cols].head(30))
+        # ---------------------------------------------------------
+        # 将长表转换为宽表（扩展列而非行，方便对比两种先验模式）
+        # ---------------------------------------------------------
+        # 定义主键列（每行唯一标识）
+        key_cols = ['Season', 'Week', 'Name']
+        # 定义共享列（两种模式相同的值）
+        shared_cols = ['Mode', 'Judge_Raw_Score', 'Actual_Result']
+        # 添加可能存在的评分列
+        if 'Judge_Percent' in final_report.columns:
+            shared_cols.append('Judge_Percent')
+        if 'Judge_Rank_Points' in final_report.columns:
+            shared_cols.append('Judge_Rank_Points')
         
-        # 导出结果（导出时重命名列名/分类值，使表头更易读）
+        # 分离两种先验模式的数据
+        bayesian_df = final_report[final_report['Prior_Mode'] == 'bayesian'].copy()
+        uniform_df = final_report[final_report['Prior_Mode'] == 'uniform'].copy()
+        
+        # 重命名估计值列，添加后缀
+        bayesian_rename = {
+            'Est_Fan_Percent_Mean': 'Est_Fan_Percent_Mean_Bayesian',
+            'Est_Fan_Percent_Std': 'Est_Fan_Percent_Std_Bayesian',
+            'Acceptance_Rate': 'Acceptance_Rate_Bayesian',
+        }
+        uniform_rename = {
+            'Est_Fan_Percent_Mean': 'Est_Fan_Percent_Mean_Uniform',
+            'Est_Fan_Percent_Std': 'Est_Fan_Percent_Std_Uniform',
+            'Acceptance_Rate': 'Acceptance_Rate_Uniform',
+        }
+        
+        bayesian_df = bayesian_df.rename(columns=bayesian_rename)
+        uniform_df = uniform_df.rename(columns=uniform_rename)
+        
+        # 选择需要的列进行合并
+        bayesian_cols = key_cols + shared_cols + list(bayesian_rename.values())
+        uniform_cols = key_cols + list(uniform_rename.values())
+        
+        # 过滤存在的列
+        bayesian_cols = [c for c in bayesian_cols if c in bayesian_df.columns]
+        uniform_cols = [c for c in uniform_cols if c in uniform_df.columns]
+        
+        bayesian_df = bayesian_df[bayesian_cols]
+        uniform_df = uniform_df[uniform_cols]
+        
+        # 合并两个 DataFrame（按主键）
+        wide_report = pd.merge(bayesian_df, uniform_df, on=key_cols, how='outer')
+        
+        # 显示部分结果
+        display_cols = ['Season', 'Week', 'Name', 'Mode', 
+                       'Est_Fan_Percent_Mean_Bayesian', 'Est_Fan_Percent_Mean_Uniform',
+                       'Actual_Result']
+        display_cols = [c for c in display_cols if c in wide_report.columns]
+        print(wide_report[display_cols].head(30))
+        
+        # 导出宽表结果
         output_csv = "monte_carlo_results_percent_mode.csv"
-        export_report = final_report.copy()
+        export_report = wide_report.copy()
+        
+        # 映射分类值
         if 'Mode' in export_report.columns:
             export_report['Mode'] = export_report['Mode'].map(CSV_VALUE_MAP_MODE).fillna(export_report['Mode'])
-        if 'Actual_Result' in export_report.columns:
-            export_report['Actual_Result'] = export_report['Actual_Result'].map(CSV_VALUE_MAP_RESULT).fillna(export_report['Actual_Result'])
-        export_report = export_report.rename(columns=CSV_COLUMN_RENAME_MAP)
+        
+        # 重命名列（宽表专用）
+        wide_column_rename = {
+            'Season': 'Season',
+            'Week': 'Week',
+            'Name': 'Celebrity',
+            'Mode': 'Rule_Mode',
+            'Judge_Raw_Score': 'Judge_Total_Score_Raw',
+            'Judge_Percent': 'Judge_Percent',
+            'Judge_Rank_Points': 'Judge_Rank_Points',
+            'Actual_Result': 'Actual_Result',
+            'Est_Fan_Percent_Mean_Bayesian': 'Est_Fan%_Mean_Bayesian',
+            'Est_Fan_Percent_Std_Bayesian': 'Est_Fan%_Std_Bayesian',
+            'Acceptance_Rate_Bayesian': 'Acceptance_Rate%_Bayesian',
+            'Est_Fan_Percent_Mean_Uniform': 'Est_Fan%_Mean_Uniform',
+            'Est_Fan_Percent_Std_Uniform': 'Est_Fan%_Std_Uniform',
+            'Acceptance_Rate_Uniform': 'Acceptance_Rate%_Uniform',
+        }
+        export_report = export_report.rename(columns=wide_column_rename)
         export_report.to_csv(output_csv, index=False)
         print(f"\n结果已保存到: {output_csv}")
         
@@ -587,29 +702,22 @@ if __name__ == "__main__":
         print("统计摘要")
         print("=" * 70)
         
-        # 按赛季统计平均接受率
-        summary = final_report.groupby(['Season', 'Mode']).agg({
-            'Acceptance_Rate': 'mean',
-            'Week': 'max'
-        }).round(2)
-        summary.columns = ['Avg_Acceptance_Rate', 'Max_Week']
-        print("\n每赛季统计：")
-        print(summary)
-        
-        # 按模式统计
-        mode_summary = final_report.groupby('Mode').agg({
-            'Acceptance_Rate': 'mean',
-            'Season': 'nunique'
-        }).round(2)
-        mode_summary.columns = ['Avg_Acceptance_Rate', 'Num_Seasons']
-        print("\n按模式统计：")
-        print(mode_summary)
+        # 按规则模式统计平均接受率（对比两种先验）
+        if 'Mode' in wide_report.columns:
+            summary = wide_report.groupby('Mode').agg({
+                'Acceptance_Rate_Bayesian': 'mean',
+                'Acceptance_Rate_Uniform': 'mean',
+                'Season': 'nunique'
+            }).round(2)
+            summary.columns = ['Avg_Accept_Rate_Bayesian', 'Avg_Accept_Rate_Uniform', 'Num_Seasons']
+            print("\n按规则模式统计（对比两种先验）：")
+            print(summary)
         
         # 检查被淘汰者的预测准确性
-        eliminated = final_report[final_report['Actual_Result'] == 'Eliminated'].copy()
+        eliminated = wide_report[wide_report['Actual_Result'] == 'Eliminated'].copy()
         if len(eliminated) > 0:
-            # 对于每次淘汰，检查被淘汰者是否有最低的预测粉丝支持
             print(f"\n淘汰事件总数: {len(eliminated)}")
-            print(f"平均淘汰者粉丝百分比估计: {eliminated['Est_Fan_Percent_Mean'].mean():.2f}%")
+            print(f"平均淘汰者粉丝百分比估计 (Bayesian): {eliminated['Est_Fan_Percent_Mean_Bayesian'].mean():.2f}%")
+            print(f"平均淘汰者粉丝百分比估计 (Uniform):  {eliminated['Est_Fan_Percent_Mean_Uniform'].mean():.2f}%")
     else:
         print("没有生成有效数据。")
